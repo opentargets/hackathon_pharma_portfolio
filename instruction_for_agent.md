@@ -90,10 +90,14 @@ Split into two passes — don't conflate scraping with schema-mapping:
 1. **Scrape raw data first**, unmapped. Tooling is already set up in this
    repo (`scrapling[fetchers]` in the uv env, browser binaries installed via
    `uv run scrapling install`, skill at `.claude/skills/scrapling/`) — reuse
-   it, don't reinstall. In practice, click-to-reveal widgets need raw
-   Playwright (a scrapling dependency) rather than scrapling's own quick-path
-   Fetchers, which only handle static/Cloudflare-protected pages. Expect a
-   cookie-consent overlay to block clicks until dismissed first.
+   it, don't reinstall. **Before writing a click-loop script**, do a cheap
+   `curl` of the raw page first and check for an embedded data blob
+   (`__NEXT_DATA__`, `ld+json`, inline `<script>` JSON) or an API endpoint the
+   widget calls — if the data's already there, skip the browser entirely. Only
+   drop to raw Playwright (a scrapling dependency) once that's ruled out —
+   scrapling's own quick-path Fetchers only handle static/Cloudflare-protected
+   pages, not click-to-reveal interaction. Expect a cookie-consent overlay to
+   block clicks until dismissed first.
    - Write `src/pharmas/<company>/scrape_pipeline.py`, dump every row's fields as
      scraped (name, area/category, phase, free-text description, whatever the
      source exposes) to `raw_pipeline.json`/`.csv` — no schema mapping yet.
