@@ -4,7 +4,7 @@ Distilled from three completed extractions: Roche (Tier 1, clean CSV), GSK
 (Tier 2, xlsx), Novo Nordisk (Tier 3, JS widget, scraped). Follow this workflow
 for every remaining company in `docs/sources.md`.
 
-## Ground rules (from `context.md`)
+## Ground rules
 
 - **One pharma at a time.** Don't start the next company until the current one
   has a parquet output, a log.md, and (if scraped) a closed-out GitHub issue.
