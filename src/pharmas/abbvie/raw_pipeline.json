@@ -1,0 +1,1382 @@
+[
+  {
+    "asset_id": "abbv-142",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-142",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "LPAR1",
+    "data_asset_tags": "Biologic,Immunology,Pharmaceutical,LPAR1",
+    "data_asset_indication": "Idiopathic Pulmonary Fibrosis",
+    "data_asset_description": "ABBV-142 is a lysophosphatidic acid receptor 1 (LPAR1) antagonist antibody being investigated for the treatment of idiopathic pulmonary fibrosis (IPF). LPAR1 contributes to the underlying pathology of fibrotic diseases and amplifies inflammation and fibrosis in the lungs, among other tissues. Inhibition of LPAR1 may address systemic sclerosis (SSc) and IPF pathogenesis.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Idiopathic Pulmonary Fibrosis",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-166_(skyrizi_+_lutikizumab)",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-166 (SKYRIZI + Lutikizumab)",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "IL-23 + IL-1a / 1b",
+    "data_asset_tags": "Biologic,Immunology,Pharmaceutical,IL-23 + IL-1a / 1b",
+    "data_asset_indication": "Psoriatic Arthritis",
+    "data_asset_description": "Skyrizi (risankizumab) (ABBV-066) is an anti-IL-23 antibody. Lutikizumab (ABT-981) is an IL-1a/1b antagonist. Risankizumab + lutikizumab (ABBV-166) are being investigated as a combination therapy for the treatment of Crohn's disease and psoriatic arthritis.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Psoriatic Arthritis",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-243",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-243",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "Integrin β7 (α4β7 and αEβ7)",
+    "data_asset_tags": "Integrin β7 (α4β7 and αEβ7),Biologic,Immunology,Pharmaceutical",
+    "data_asset_indication": "Inflammatory Bowel Disease (IBD)",
+    "data_asset_description": "ABBV-243 is an integrin β7 antibody,targeting both integrins α4β7 and αEβ7. It is being investigated for the treatment of inflammatory bowel diseases.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Inflammatory Bowel Disease (IBD)",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-319",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-319",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "CD19",
+    "data_asset_tags": "Biologic,Immunology,Pharmaceutical,CD19",
+    "data_asset_indication": "Systemic Lupus Erythematosus (SLE),Sjogren's disease",
+    "data_asset_description": "ABBV-319 is a steroid-based ADC targeting CD19 being investigated for treatment of systemic lupus erythematosus (SLE) and Sjogren's disease (SjD).",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Sjogren's disease",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      },
+      {
+        "indication": "Systemic Lupus Erythematosus (SLE)",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-466_(skyrizi_+_abbv-382)",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-466 (SKYRIZI + ABBV-382)",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "IL-23 + anti-a4b7 mAb",
+    "data_asset_tags": "Biologic,Immunology,IL-23 + anti-a4b7 mAb,Pharmaceutical",
+    "data_asset_indication": "Crohn's Disease",
+    "data_asset_description": "Skyrizi (risankizumab) (ABBV-066) is an anti-IL-23 antibody. ABBV-382 is an anti-a4B7 mAb. Risankizumab + ABBV-382 (ABBV-466) are being investigated as a combination therapy for the treatment of Crohn's disease.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Crohn's Disease",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-547",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-547",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "IL-23",
+    "data_asset_tags": "Biologic,Immunology,IL-23,Pharmaceutical",
+    "data_asset_indication": "Psoriasis (PsO)",
+    "data_asset_description": "ABBV-547 is a next generation anti-IL-23 antibody. ABBV-547 is being investigated as a potential therapy for the treatment of psoriasis.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Psoriasis (PsO)",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-619",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-619",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "CD19",
+    "data_asset_tags": "Biologic,Immunology,Pharmaceutical,CD19",
+    "data_asset_indication": "Autoimmune diseases",
+    "data_asset_description": "ABBV-619 is a potential first-in-class in vivo targeted lipid nanoparticle (tLNP) anti-CD19 CAR-T therapy candidate in development for the treatment of B cell-mediated autoimmune diseases.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Autoimmune diseases",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-701",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-701",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "TL1A",
+    "data_asset_tags": "Biologic,Immunology,TL1A,Pharmaceutical",
+    "data_asset_indication": "Inflammatory Bowel Disease",
+    "data_asset_description": "ABBV-701 is an anti-TL1a antibody that is being investigated for the treatment of inflammatory bowel disease.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Inflammatory Bowel Disease",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-722",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-722",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "LPAR1",
+    "data_asset_tags": "Immunology,Small Molecule,Pharmaceutical,LPAR1",
+    "data_asset_indication": "Idiopathic Pulmonary Fibrosis,Systemic Sclerosis",
+    "data_asset_description": "ABBV-722 is a lysophosphatidic acid receptor 1 (LPAR1) small molecule antagonist being investigated for the treatment of systemic sclerosis (SSc) and idiopathic pulmonary fibrosis (IPF). LPAR1 contributes to the underlying pathology of fibrotic diseases and amplifies inflammation and fibrosis in the lungs, among other tissues. Inhibition of LPAR1 may address SSc and IPF pathogenesis.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Idiopathic Pulmonary Fibrosis",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      },
+      {
+        "indication": "Systemic Sclerosis",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-848",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-848",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "IRAK4",
+    "data_asset_tags": "Immunology,Small Molecule,Pharmaceutical,IRAK4",
+    "data_asset_indication": "Rheumatoid Arthritis (RA)",
+    "data_asset_description": "ABBV-848 is a small molecule inhibitor of IRAK4 (Interleukin-1 receptor-associated kinase 4) being investigated for the treatment of rheumatoid arthritis (RA). AbbVie holds exclusive rights from Createrna to develop, manufacture, and commercialize ABBV-848 outside of China.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Rheumatoid Arthritis (RA)",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-8736",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-8736",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "TREM1",
+    "data_asset_tags": "Biologic,Immunology,Pharmaceutical,TREM1",
+    "data_asset_indication": "Crohn's Disease (CD)",
+    "data_asset_description": "ABBV-8736 is an anti-Triggering Receptor Expressed on Myeloid Cells 1 (TREM1) antibody being investigated for treatment of inflammatory bowel disease (IBD). TREM1 has been identified as a key disease driver gene in IBD, upstream of known inflammatory pathways.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Crohn's Disease (CD)",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-9832_(lutikizumab_+_ravagalimab)",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-9832 (Lutikizumab + Ravagalimab)",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "IL-1a / 1b + CD40 antagonist",
+    "data_asset_tags": "Biologic,Immunology,IL-1a / 1b + CD40 antagonist,Pharmaceutical",
+    "data_asset_indication": "Rheumatoid Arthritis (RA)",
+    "data_asset_description": "Lutikizumab (ABT-981) is an IL-1a/1b antagonist. Ravagalimab is a CD40 antagonist. Lutikizumab + ravagalimab (ABBV-9832) are being investigated as a combination therapy for the treatment of rheumatoid arthritis.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Rheumatoid Arthritis (RA)",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "lutikizumab",
+    "asset_type": "pharmaceutical",
+    "data_title": "Lutikizumab",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "IL-1a / 1b",
+    "data_asset_tags": "Biologic,Immunology,Pharmaceutical,IL-1a / 1b",
+    "data_asset_indication": "Hidradenitis Suppurativa",
+    "data_asset_description": "Lutikizumab (ABT-981) is an IL-1a/1b antagonist being investigated for the treatment of hidradenitis suppurativa (HS), ulcerative colitis (UC), and atopic dermatitis (AD).",
+    "data_asset_phases": "Phase 3",
+    "indication_rows": [
+      {
+        "indication": "Hidradenitis Suppurativa",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      }
+    ]
+  },
+  {
+    "asset_id": "rinvoq",
+    "asset_type": "pharmaceutical",
+    "data_title": "RINVOQ",
+    "data_asset_focus_area": "Immunology",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "JAK1",
+    "data_asset_tags": "Immunology,Small Molecule,JAK1,Pharmaceutical",
+    "data_asset_indication": "Axial SpA,Hidradenitis Suppurativa,Atopic Dermatitis,Alopecia Areata,Rheumatoid Arthritis,Takayasu Arteritis,Ankylosing Spondylitis,Crohn's Disease,Vitiligo,Giant Cell Arteritis,Systemic Lupus Erythematosus (SLE),Ulcerative Colitis,Psoriatic Arthritis",
+    "data_asset_description": "Upadacitinib (ABT-494) is a JAK1 selective inhibitor approved to treat ankylosing spondylitis, atopic dermatitis, axial SpA, Crohn's disease, giant cell arteritis, psoriatic arthritis, rheumatoid arthritis and ulcerative colitis. It is being investigated to treat alopecia areata, hidradenitis suppurativa (HS), systemic lupus erthematosus (SLE), Takayasu arteritis and vitiligo.",
+    "data_asset_phases": "Submitted,Approved,Phase 3",
+    "indication_rows": [
+      {
+        "indication": "Alopecia Areata",
+        "region": "US , EU",
+        "phase_status_class": "submitted",
+        "phase_status_label": "submitted"
+      },
+      {
+        "indication": "Ankylosing Spondylitis",
+        "region": "US , EU",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Atopic Dermatitis",
+        "region": "US , EU",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Axial SpA",
+        "region": "US , EU",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Crohn's Disease",
+        "region": "US , EU",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Giant Cell Arteritis",
+        "region": "US , EU",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Hidradenitis Suppurativa",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      },
+      {
+        "indication": "Psoriatic Arthritis",
+        "region": "US , EU",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Rheumatoid Arthritis",
+        "region": "US , EU",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Systemic Lupus Erythematosus (SLE)",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      },
+      {
+        "indication": "Takayasu Arteritis",
+        "region": "JA",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      },
+      {
+        "indication": "Ulcerative Colitis",
+        "region": "US , EU",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Vitiligo",
+        "region": "US , EU",
+        "phase_status_class": "submitted",
+        "phase_status_label": "submitted"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-1042",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-1042",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "M4 Receptor",
+    "data_asset_tags": "Small Molecule,Pharmaceutical,Neuroscience,M4 Receptor",
+    "data_asset_indication": "Bipolar Mania",
+    "data_asset_description": "ABBV-1042 is an M4 receptor agonist being investigated for bipolar mania.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Bipolar Mania",
+        "region": "",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-1758",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-1758",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "Pyroglutamate (3pE) Aβ",
+    "data_asset_tags": "Biologic,Pyroglutamate (3pE) Aβ,Pharmaceutical,Neuroscience",
+    "data_asset_indication": "Alzheimer's Disease",
+    "data_asset_description": "ABBV-1758 is an amyloid beta (3pE-Aβ) antibody with anti-TfR delivery module in development for the treatment of Alzheimer's disease.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Alzheimer's Disease",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-2002",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-2002",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "PAR-2",
+    "data_asset_tags": "Biologic,Pharmaceutical,Neuroscience,PAR-2",
+    "data_asset_indication": "Migraine",
+    "data_asset_description": "ABBV-2002 is a monoclonal antibody targeting protease-activated receptor 2 (PAR-2) in development as a potential treatment to prevent migraine.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Migraine",
+        "region": "",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-932",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-932",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "DRD2 / DRD3 Modulator",
+    "data_asset_tags": "Small Molecule,Pharmaceutical,DRD2 / DRD3 Modulator,Neuroscience",
+    "data_asset_indication": "Bipolar Depression,Generalized Anxiety Disorder",
+    "data_asset_description": "ABBV 932 is a selective D3 dopamine receptor modulator being investigated as a monotherapy for the treatment of bipolar depression and as an adjunctive therapy for generalized anxiety disorder. Developed in partnership with Gedeon Richter.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Bipolar Depression",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Generalized Anxiety Disorder",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "bretisilocin",
+    "asset_type": "pharmaceutical",
+    "data_title": "Bretisilocin",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "Serotonin 5-HT2A receptor",
+    "data_asset_tags": "Small Molecule,Pharmaceutical,Neuroscience,Serotonin 5-HT2A receptor",
+    "data_asset_indication": "Major Depressive Disorder",
+    "data_asset_description": "Bretisilocin is a novel, short-acting serotonin, 5-HT2A receptor agonist in development for major depressive disorder.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Major Depressive Disorder",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "emraclidine",
+    "asset_type": "pharmaceutical",
+    "data_title": "Emraclidine",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "M4 PAM",
+    "data_asset_tags": "M4 PAM,Small Molecule,Pharmaceutical,Neuroscience",
+    "data_asset_indication": "Psychosis,Schizophrenia",
+    "data_asset_description": "Emraclidine is an orally available muscarinic M4 Receptor (PAM) being investigated for the treatment of schizophrenia and other forms of psychosis.",
+    "data_asset_phases": "Phase 2,Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Schizophrenia",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Psychosis",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "gemibotulinumtoxina",
+    "asset_type": "pharmaceutical",
+    "data_title": "GemibotulinumtoxinA",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "SNAP-25",
+    "data_asset_tags": "SNAP-25,Biologic,Neuroscience",
+    "data_asset_indication": "Ventral Hernia Repair (VHR)",
+    "data_asset_description": "GemibotulinumtoxinA (GemibotA) is a next-generation toxin in development for ventral hernia repair.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Ventral Hernia Repair (VHR)",
+        "region": "",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "icalcaprant_(abbv-1354)",
+    "asset_type": "pharmaceutical",
+    "data_title": "Icalcaprant (ABBV-1354)",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "KOR antagonist",
+    "data_asset_tags": "Small Molecule,Pharmaceutical,Neuroscience,KOR antagonist",
+    "data_asset_indication": "Major Depressive Disorder (MDD),Bipolar Depression",
+    "data_asset_description": "Icalcaprant (ABBV-1354) is a kappa opioid receptor (KOR) antagonist being investigated for treatment of depression.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Bipolar Depression",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Major Depressive Disorder (MDD)",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "qulipta",
+    "asset_type": "pharmaceutical",
+    "data_title": "QULIPTA",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "CGRP receptor",
+    "data_asset_tags": "CGRP receptor,Small Molecule,Pharmaceutical,Neuroscience",
+    "data_asset_indication": "Acute Migraine,Menstrual Migraine",
+    "data_asset_description": "QULIPTA (atogepant) is a calcitonin gene-related peptide (CGRP) receptor antagonist being investigated (outside the U.S.) for the treatment of acute migraine and preventive treatment of menstrual migraine.",
+    "data_asset_phases": "Submitted,Phase 3",
+    "indication_rows": [
+      {
+        "indication": "Acute Migraine",
+        "region": "OUS",
+        "phase_status_class": "submitted",
+        "phase_status_label": "submitted"
+      },
+      {
+        "indication": "Menstrual Migraine",
+        "region": "OUS",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      }
+    ]
+  },
+  {
+    "asset_id": "tavapadon",
+    "asset_type": "pharmaceutical",
+    "data_title": "Tavapadon",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "D1 / D5 Partial Agonist",
+    "data_asset_tags": "Small Molecule,D1 / D5 Partial Agonist,Pharmaceutical,Neuroscience",
+    "data_asset_indication": "Parkinson's Disease",
+    "data_asset_description": "Tavapadon is an orally active dopamine D1/D5 receptor selective partial agonist being investigated for the treatment of Parkinson's disease (both monotherapy and adjunctive).",
+    "data_asset_phases": "Submitted",
+    "indication_rows": [
+      {
+        "indication": "Parkinson's Disease",
+        "region": "N / A",
+        "phase_status_class": "submitted",
+        "phase_status_label": "submitted"
+      }
+    ]
+  },
+  {
+    "asset_id": "ubrelvy",
+    "asset_type": "pharmaceutical",
+    "data_title": "UBRELVY",
+    "data_asset_focus_area": "Neuroscience",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "CGRP receptor",
+    "data_asset_tags": "CGRP receptor,Small Molecule,Pharmaceutical,Neuroscience",
+    "data_asset_indication": "Menstrual Migraine",
+    "data_asset_description": "UBRELVY (ubrogepant) is a calcitonin gene-related peptide (CGRP) receptor antagonist being investigated for the preventive treatment of menstrual migraine.",
+    "data_asset_phases": "Phase 3",
+    "indication_rows": [
+      {
+        "indication": "Menstrual Migraine",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-1480",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-1480",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "PD-1, VEGF",
+    "data_asset_tags": "Biologic,PD-1, VEGF,Oncology",
+    "data_asset_indication": "Solid Tumors",
+    "data_asset_description": "ABBV-1480 (RC148) is an investigational Programmed Cell Death-1 (PD-1)/Vascular Endothelial Growth Factor (VEGF)-targeted bispecific antibody being investigated in multiple advanced solid tumors including non-small cell lung cancer (NSCLC) and colorectal cancer (CRC). AbbVie holds exclusive rights from RemeGen to develop, manufacture, and commercialize ABBV-1480 outside of the Greater China territory.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Solid Tumors",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-181_(budigalimab)",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-181 (budigalimab)",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "PD1",
+    "data_asset_tags": "Biologic,Pharmaceutical,Oncology,PD1",
+    "data_asset_indication": "Solid and Hematologic Tumors",
+    "data_asset_description": "ABBV-181 (budigalimab) is an anti-PD1 monoclonal humanized antibody that is being developed for combinations with other AbbVie molecules for solid tumors and hematologic malignancies.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Solid and Hematologic Tumors",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-2001",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-2001",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "BCMA, CD38, CD3",
+    "data_asset_tags": "BCMA, CD38, CD3,Biologic,Pharmaceutical,Oncology",
+    "data_asset_indication": "Relapsed / Refractory Multiple Myeloma",
+    "data_asset_description": "ABBV-2001 (ISB 2001) is a first-in-class trispecific T-cell engager that targets CD38 and BCMA on myeloma cells and CD3 on T cells. It is currently being investigated for relapsed/refractory multiple myeloma. ABBV-2001 was developed using IGI's proprietary BEAT® platform. AbbVie holds exclusive rights to develop, manufacture, and commercialize ABBV-2001 across North America, Europe, Japan and Greater China.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Relapsed / Refractory Multiple Myeloma",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-324",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-324",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "N / A",
+    "data_asset_tags": "Biologic,Pharmaceutical,Oncology,N / A",
+    "data_asset_indication": "Solid Tumors",
+    "data_asset_description": "ABBV-324 is an antibody-drug conjugate (ADC) being investigated in advanced solid tumors, including squamous-cell non-small cell lung cancer and hepatocellular carcinoma (HCC).",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Solid Tumors",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-514",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-514",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "CCR8",
+    "data_asset_tags": "Biologic,Pharmaceutical,Oncology,CCR8",
+    "data_asset_indication": "Solid Tumors",
+    "data_asset_description": "ABBV-514 is an anti-chemokine C-C motif receptor 8 (CCR8) antibody that is being investigated for the treatment of relapsed non-small cell lung cancer (NSCLC) and head and neck squamous cell carcinoma (HNSCC) as a single agent and in combination with a PD-1 inhibitor.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Solid Tumors",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-525",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-525",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "MALT1",
+    "data_asset_tags": "Small Molecule,Pharmaceutical,MALT1,Oncology",
+    "data_asset_indication": "Hematologic Tumors",
+    "data_asset_description": "ABBV-525 is an oral small-molecule inhibitor of Mucosa-Associated Lymphoid Tissue Lymphoma Translocation Protein 1 (MALT1), being investigated in B-cell malignancies.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Hematologic Tumors",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-706",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-706",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "SEZ6",
+    "data_asset_tags": "Biologic,Pharmaceutical,Oncology,SEZ6",
+    "data_asset_indication": "Relapsed / Refractory Small Cell Lung Cancer,Neuroendocrine Neoplasms,First Line Small Cell Lung Cancer",
+    "data_asset_description": "ABBV-706 is a seizure protein 6 homolog (SEZ6) targeted antibody-drug conjugate with a topoisomerase 1 inhibitor (Top1i) payload being investigated for the treatment of certain solid tumors.",
+    "data_asset_phases": "Phase 3,Phase 2,Phase 1",
+    "indication_rows": [
+      {
+        "indication": "First Line Small Cell Lung Cancer",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Relapsed / Refractory Small Cell Lung Cancer",
+        "region": "",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      },
+      {
+        "indication": "Neuroendocrine Neoplasms",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-711",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-711",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "N / A",
+    "data_asset_tags": "Small Molecule,Pharmaceutical,Oncology,N / A",
+    "data_asset_indication": "Solid Tumors",
+    "data_asset_description": "ABBV-711 is being investigated in advanced squamous solid tumors including squamous non-small cell lung cancer (NSCLC) and head and neck squamous cell carcinoma (HNSCC).",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Solid Tumors",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-901",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-901",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "N / A",
+    "data_asset_tags": "Biologic,Pharmaceutical,Oncology,N / A",
+    "data_asset_indication": "Ovarian Cancer",
+    "data_asset_description": "ABBV-901 is an antibody-drug conjugate (ADC) being investigated in ovarian cancer.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Ovarian Cancer",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-969",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-969",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "PSMA,STEAP1",
+    "data_asset_tags": "Biologic,Pharmaceutical,Oncology,PSMA,STEAP1",
+    "data_asset_indication": "mCRPC",
+    "data_asset_description": "ABBV-969 is an antibody-drug conjugate (ADC) targeting Prostate-Specific Membrane Antigen (PSMA) and six transmembrane epithelial antigen of the prostate 1 (STEAP1), with a topoisomerase 1 inhibitor (Top1i) payload being investigated to treat metastatic castration-resistant prostate cancer (mCRPC).",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "mCRPC",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "elahere",
+    "asset_type": "pharmaceutical",
+    "data_title": "ELAHERE",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "FR-alpha",
+    "data_asset_tags": "Biologic,FR-alpha,Pharmaceutical,Oncology",
+    "data_asset_indication": "Platinum-Resistant Ovarian Cancer,Platinum-Sensitive Ovarian Cancer",
+    "data_asset_description": "Elahere (mirvetuximab soravtansine) is a folate receptor alpha-targeting antibody drug conjugate (ADC) with a maytansinoid payload DM4 in platinum resistant and sensitive ovarian cancer.",
+    "data_asset_phases": "Approved,Phase 3",
+    "indication_rows": [
+      {
+        "indication": "Platinum-Resistant Ovarian Cancer",
+        "region": "N / A",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Platinum-Sensitive Ovarian Cancer",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      }
+    ]
+  },
+  {
+    "asset_id": "emrelis",
+    "asset_type": "pharmaceutical",
+    "data_title": "EMRELIS",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "c-Met",
+    "data_asset_tags": "Biologic,c-Met,Pharmaceutical,Oncology",
+    "data_asset_indication": "Non-Small Cell Lung Cancer",
+    "data_asset_description": "Emrelis (Teliso-V (telisotuzumab vedotin)) (ABBV-399) is an antibody drug conjugate (ADC) targeting cMet with a monomethyl auristatin E (MMAE) payload that is approved to treat non-small cell lung cancer (NSCLC).",
+    "data_asset_phases": "Approved",
+    "indication_rows": [
+      {
+        "indication": "Non-Small Cell Lung Cancer",
+        "region": "US",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      }
+    ]
+  },
+  {
+    "asset_id": "epkinly",
+    "asset_type": "pharmaceutical",
+    "data_title": "EPKINLY",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "CD3, CD20",
+    "data_asset_tags": "Biologic,Pharmaceutical,Oncology,CD3, CD20",
+    "data_asset_indication": "Richter's Syndrome,Relapsed / Refractory Diffuse Large B-cell Lymphoma,B-cell Non-Hodgkin lymphoma,Relapsed / Refractory Follicular Lymphoma,Relapsed / Refractory Chronic Lymphocytic Leukemia,First Line Follicular Lymphoma,First Line Diffuse Large B-cell Lymphoma",
+    "data_asset_description": "Epkinly (US), Tepkinly (EU) (epcoritamab) (Gen3013; DuoBody®-CD3xCD20) is a bispecific antibody created using Genmab's proprietary DuoBody® technology. It is designed to target CD3, which is expressed on T cells, and CD20 which is expressed on a majority of B cell malignancies. AbbVie and Genmab participate in the joint development and commercialization of Epcoritamab.",
+    "data_asset_phases": "Approved,Phase 3,Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Relapsed / Refractory Diffuse Large B-cell Lymphoma",
+        "region": "US , EU",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Relapsed / Refractory Follicular Lymphoma",
+        "region": "N / A",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Relapsed / Refractory Chronic Lymphocytic Leukemia",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "First Line Follicular Lymphoma",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      },
+      {
+        "indication": "First Line Diffuse Large B-cell Lymphoma",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      },
+      {
+        "indication": "B-cell Non-Hodgkin lymphoma",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Richter's Syndrome",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "etentamig_(abbv-383)",
+    "asset_type": "pharmaceutical",
+    "data_title": "Etentamig (ABBV-383)",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "CD3, BCMA",
+    "data_asset_tags": "CD3, BCMA,Biologic,Pharmaceutical,Oncology",
+    "data_asset_indication": "Immunoglobulin Light Chain (AL) Amyloidosis,Relapsed / Refractory Multiple Myeloma (MM)",
+    "data_asset_description": "Etentamig (ABBV-383) is a BCMA x CD3 T-cell engaging bispecific antibody being studied in relapsed or refractory multiple myeloma and amyloidosis.",
+    "data_asset_phases": "Phase 3,Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Relapsed / Refractory Multiple Myeloma (MM)",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      },
+      {
+        "indication": "Immunoglobulin Light Chain (AL) Amyloidosis",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "imgn151",
+    "asset_type": "pharmaceutical",
+    "data_title": "IMGN151",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "FR-alpha",
+    "data_asset_tags": "Biologic,FR-alpha,Pharmaceutical,Oncology",
+    "data_asset_indication": "Gynecologic Cancers",
+    "data_asset_description": "IMGN151 is a folate receptor alpha-targeting biparatropic antibody drug conjugate (ADC) with a maytansinoid derivative DM21 payload being investigated in gynecologic cancers.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Gynecologic Cancers",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "livmoniplimab_(abbv-151)",
+    "asset_type": "pharmaceutical",
+    "data_title": "Livmoniplimab (ABBV-151)",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "GARP-TGF-β1",
+    "data_asset_tags": "Biologic,GARP-TGF-β1,Pharmaceutical,Oncology",
+    "data_asset_indication": "Non-Small Cell Lung Cancer,Solid Tumors,Hepatocellular Carcinoma",
+    "data_asset_description": "Livmoniplimab (ABBV-151) is an anti-GARP-TGF-β1 monoclonal antibody being investigated as an immunotherapy for the treatment of certain solid tumors.",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Hepatocellular Carcinoma",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Solid Tumors",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Non-Small Cell Lung Cancer",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "pivekimab_sunirine_(pvek)",
+    "asset_type": "pharmaceutical",
+    "data_title": "Pivekimab Sunirine (PVEK)",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "CD123",
+    "data_asset_tags": "CD123,Biologic,Pharmaceutical,Oncology",
+    "data_asset_indication": "Acute Myeloid Leukemia,BPDCN",
+    "data_asset_description": "Pivekimab is a CD123-targeting antibody drug conjugate (ADC) with a indolinobenzodiazepine DNA-targeting payload being investigated in BPDCN and AML.",
+    "data_asset_phases": "Submitted,Phase 2",
+    "indication_rows": [
+      {
+        "indication": "BPDCN",
+        "region": "N / A",
+        "phase_status_class": "submitted",
+        "phase_status_label": "submitted"
+      },
+      {
+        "indication": "Acute Myeloid Leukemia",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "surzetoclax_(abbv-453)",
+    "asset_type": "pharmaceutical",
+    "data_title": "Surzetoclax (ABBV-453)",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Small Molecule",
+    "data_asset_target": "BCL-2",
+    "data_asset_tags": "BCL-2,Small Molecule,Pharmaceutical,Oncology",
+    "data_asset_indication": "Relapsed / Refractory Multiple Myeloma",
+    "data_asset_description": "ABBV-453 is an oral B-cell lymphoma 2 (BCL-2) inhibitor being investigated in relapsed or refractory (R/R) multiple myeloma (MM).",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Relapsed / Refractory Multiple Myeloma",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "temab-a_(abbv-400)",
+    "asset_type": "pharmaceutical",
+    "data_title": "Temab-A (ABBV-400)",
+    "data_asset_focus_area": "Oncology",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "c-Met",
+    "data_asset_tags": "Biologic,c-Met,Pharmaceutical,Oncology",
+    "data_asset_indication": "Non-Small Cell Lung Cancer,Colorectal Cancer,Gastroesophageal adenocarcinoma,Solid Tumors",
+    "data_asset_description": "Temab-A (telisotuzumab adizutecan) (ABBV-400) is an antibody drug conjugate (ADC) targeting cMet with a topoisomerase 1 inhibitor (Top1i) payload that is being investigated to treat non-small cell lung cancer (NSCLC), colorectal cancer (CRC) and gastroesophageal adenocarcinoma (GEA).",
+    "data_asset_phases": "Phase 3,Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Colorectal Cancer",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      },
+      {
+        "indication": "Solid Tumors",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Gastroesophageal adenocarcinoma",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Non-Small Cell Lung Cancer",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-6628",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-6628",
+    "data_asset_focus_area": "Eye Care",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "C5",
+    "data_asset_tags": "C5,Biologic,Pharmaceutical,Eye Care",
+    "data_asset_indication": "Geographic Atrophy",
+    "data_asset_description": "ABBV-6628 is an investigational monoclonal antibody fragment being developed for the treatment of geographic atrophy (GA) secondary to (AMD) age-related macular degeneration.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Geographic Atrophy",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "agn-193408",
+    "asset_type": "pharmaceutical",
+    "data_title": "AGN-193408",
+    "data_asset_focus_area": "Eye Care",
+    "data_asset_type": "N / A",
+    "data_asset_target": "PGF2 alpha receptor",
+    "data_asset_tags": "Device,N / A,Eye Care,PGF2 alpha receptor",
+    "data_asset_indication": "Ocular Hypertension,Open Angle Glaucoma",
+    "data_asset_description": "AGN-193408, a novel analogue of prostaglandin that increases the outflow of aqueous fluid from the eye and lowers intraocular pressure (IOP), is being investigated for the treatment of open angle glaucoma (OAG) and occular hypertension (OHT).",
+    "data_asset_phases": "Phase 2",
+    "indication_rows": [
+      {
+        "indication": "Open Angle Glaucoma",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Ocular Hypertension",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "surabgene_lomparvovec_(abbv-rgx-314)",
+    "asset_type": "pharmaceutical",
+    "data_title": "Surabgene Lomparvovec (ABBV-RGX-314)",
+    "data_asset_focus_area": "Eye Care",
+    "data_asset_type": "Gene Therapy",
+    "data_asset_target": "VEGF",
+    "data_asset_tags": "Gene Therapy,Pharmaceutical,Eye Care,VEGF",
+    "data_asset_indication": "wet AMD (suprachoroidal),wet AMD (subretinal),Diabetic Retinopathy (suprachoroidal)",
+    "data_asset_description": "Surabgene Lomparvovec (ABBV-RGX-314) is a potential one-time gene therapy being investigated for the treatment of wet age-related macular degeneration (wet AMD), diabetic retinopathy (DR) and other chronic retinal diseases. ABBV-RGX-314 is being co-developed by REGENEXBIO and AbbVie.",
+    "data_asset_phases": "Phase 3,Phase 2",
+    "indication_rows": [
+      {
+        "indication": "wet AMD (subretinal)",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      },
+      {
+        "indication": "wet AMD (suprachoroidal)",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      },
+      {
+        "indication": "Diabetic Retinopathy (suprachoroidal)",
+        "region": "N / A",
+        "phase_status_class": "phase2",
+        "phase_status_label": "phase2"
+      }
+    ]
+  },
+  {
+    "asset_id": "botox",
+    "asset_type": "pharmaceutical",
+    "data_title": "BOTOX",
+    "data_asset_focus_area": "Aesthetics",
+    "data_asset_type": "Large Molecule",
+    "data_asset_target": "SNARE Proteins",
+    "data_asset_tags": "Large Molecule,Pharmaceutical,SNARE Proteins,Aesthetics",
+    "data_asset_indication": "Masseter Prominence,Platysma Prominence,Forehead Lines",
+    "data_asset_description": "BOTOX® is a neurotoxin being investigated for treatment of multiple conditions.",
+    "data_asset_phases": "Approved,Phase 3",
+    "indication_rows": [
+      {
+        "indication": "Platysma Prominence",
+        "region": "US",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Masseter Prominence",
+        "region": "CN",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Forehead Lines",
+        "region": "CN",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      }
+    ]
+  },
+  {
+    "asset_id": "harmonyca",
+    "asset_type": "device",
+    "data_title": "HArmonyCa",
+    "data_asset_focus_area": "Aesthetics",
+    "data_asset_type": "N / A",
+    "data_asset_target": "Skin Deformities",
+    "data_asset_tags": "N / A,Device,Skin Deformities,Aesthetics",
+    "data_asset_indication": "Mid-Face Volume",
+    "data_asset_description": "HArmonyCa™ is a dual-action hybrid injectable, with Calcium Hydroxyapatite and cross-linked Hyaluronic Acid, being investigated to restore mid facial volume.",
+    "data_asset_phases": "Approved,Confirmation",
+    "indication_rows": [
+      {
+        "indication": "Mid-Face Volume",
+        "region": "N A",
+        "phase_status_class": "confirmation",
+        "phase_status_label": "confirmation"
+      }
+    ]
+  },
+  {
+    "asset_id": "juvederm_volbella_xc",
+    "asset_type": "device",
+    "data_title": "JUVEDERM VOLBELLA XC",
+    "data_asset_focus_area": "Aesthetics",
+    "data_asset_type": "N / A",
+    "data_asset_target": "Infraorbital Hollowing",
+    "data_asset_tags": "N / A,Device,Aesthetics,Infraorbital Hollowing",
+    "data_asset_indication": "Infraorbital Hollowing",
+    "data_asset_description": "JUVEDERM® VOLBELLA® XC is a cross-linked, injectable hyaluronic acid filler being investigated for use in infraorbital hollowing.",
+    "data_asset_phases": "Approved",
+    "indication_rows": [
+      {
+        "indication": "Infraorbital Hollowing",
+        "region": "US",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      }
+    ]
+  },
+  {
+    "asset_id": "juvederm_volite_xc",
+    "asset_type": "device",
+    "data_title": "JUVEDERM VOLITE XC",
+    "data_asset_focus_area": "Aesthetics",
+    "data_asset_type": "N / A",
+    "data_asset_target": "Skin Deformities",
+    "data_asset_tags": "N / A,Device,Skin Deformities,Aesthetics",
+    "data_asset_indication": "Fine Line Reduction,Neck Line Reduction",
+    "data_asset_description": "JUVEDERM® VOLITE® XC is a cross-linked, injectable hyaluronic acid filler being investigated to treat fine lines and skin quality attributes.",
+    "data_asset_phases": "Approved,Confirmation",
+    "indication_rows": [
+      {
+        "indication": "Fine Line Reduction",
+        "region": "US , EU , JA",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      },
+      {
+        "indication": "Neck Line Reduction",
+        "region": "N A",
+        "phase_status_class": "confirmation",
+        "phase_status_label": "confirmation"
+      }
+    ]
+  },
+  {
+    "asset_id": "juvederm_voluma_xc",
+    "asset_type": "device",
+    "data_title": "JUVEDERM VOLUMA XC",
+    "data_asset_focus_area": "Aesthetics",
+    "data_asset_type": "N / A",
+    "data_asset_target": "Age-Related Volume Loss",
+    "data_asset_tags": "N / A,Device,Aesthetics,Age-Related Volume Loss",
+    "data_asset_indication": "Temple Augmentation",
+    "data_asset_description": "JUVEDERM® VOLUMA® XC is a cross-linked, injectable hyaluronic acid filler being investigated for use in temple augmentation.",
+    "data_asset_phases": "Approved",
+    "indication_rows": [
+      {
+        "indication": "Temple Augmentation",
+        "region": "US",
+        "phase_status_class": "approved",
+        "phase_status_label": "approved"
+      }
+    ]
+  },
+  {
+    "asset_id": "next_generation_collagen_filler",
+    "asset_type": "device",
+    "data_title": "Next Generation Collagen Filler",
+    "data_asset_focus_area": "Aesthetics",
+    "data_asset_type": "N / A",
+    "data_asset_target": "Facial Contouring",
+    "data_asset_tags": "N / A,Device,Facial Contouring,Aesthetics",
+    "data_asset_indication": "Facial Volume",
+    "data_asset_description": "Next Generation Collagen Filler is a dermal filler using recombinant human collagen technology under investigation to improve mid-face volume.",
+    "data_asset_phases": "Confirmation",
+    "indication_rows": [
+      {
+        "indication": "Facial Volume",
+        "region": "N A",
+        "phase_status_class": "confirmation",
+        "phase_status_label": "confirmation"
+      }
+    ]
+  },
+  {
+    "asset_id": "trenibote",
+    "asset_type": "pharmaceutical",
+    "data_title": "TrenibotE",
+    "data_asset_focus_area": "Aesthetics",
+    "data_asset_type": "Large Molecule",
+    "data_asset_target": "SNARE Proteins",
+    "data_asset_tags": "Large Molecule,Pharmaceutical,SNARE Proteins,Aesthetics",
+    "data_asset_indication": "Glabellar Lines",
+    "data_asset_description": "TrenibotE (trenibotulinumtoxinE) is being investigated for treatment of glabellar lines.",
+    "data_asset_phases": "Submitted",
+    "indication_rows": [
+      {
+        "indication": "Glabellar Lines",
+        "region": "N / A",
+        "phase_status_class": "submitted",
+        "phase_status_label": "submitted"
+      }
+    ]
+  },
+  {
+    "asset_id": "tropoelastin",
+    "asset_type": "device",
+    "data_title": "Tropoelastin",
+    "data_asset_focus_area": "Aesthetics",
+    "data_asset_type": "Facial Aesthetics",
+    "data_asset_target": "Skin Deformities",
+    "data_asset_tags": "Facial Aesthetics,Device,Skin Deformities,Aesthetics",
+    "data_asset_indication": "Atrophic Scars",
+    "data_asset_description": "Tropoelastin is an injectable gel comprised of a cross-linked tropoelastin matrix under investigation for the correction of atrophic scars.",
+    "data_asset_phases": "Confirmation",
+    "indication_rows": [
+      {
+        "indication": "Atrophic Scars",
+        "region": "N A",
+        "phase_status_class": "confirmation",
+        "phase_status_label": "confirmation"
+      }
+    ]
+  },
+  {
+    "asset_id": "abbv-295",
+    "asset_type": "pharmaceutical",
+    "data_title": "ABBV-295",
+    "data_asset_focus_area": "Other Specialties",
+    "data_asset_type": "Large Molecule",
+    "data_asset_target": "Long-Acting Amylin Analog",
+    "data_asset_tags": "Long-Acting Amylin Analog,Large Molecule,Pharmaceutical,Other Specialties",
+    "data_asset_indication": "Obesity",
+    "data_asset_description": "ABBV-295 is a long-acting amylin analog being investigated for the treatment of obesity.",
+    "data_asset_phases": "Phase 1",
+    "indication_rows": [
+      {
+        "indication": "Obesity",
+        "region": "N / A",
+        "phase_status_class": "phase1",
+        "phase_status_label": "phase1"
+      }
+    ]
+  },
+  {
+    "asset_id": "armour_thyroid",
+    "asset_type": "pharmaceutical",
+    "data_title": "Armour Thyroid",
+    "data_asset_focus_area": "Other Specialties",
+    "data_asset_type": "Biologic",
+    "data_asset_target": "T3T4",
+    "data_asset_tags": "Biologic,Pharmaceutical,T3T4,Other Specialties",
+    "data_asset_indication": "Hypothyroidism",
+    "data_asset_description": "Armour Thyroid being investigated for treatment of hypothyroidism.",
+    "data_asset_phases": "Phase 3",
+    "indication_rows": [
+      {
+        "indication": "Hypothyroidism",
+        "region": "N / A",
+        "phase_status_class": "phase3",
+        "phase_status_label": "phase3"
+      }
+    ]
+  }
+]

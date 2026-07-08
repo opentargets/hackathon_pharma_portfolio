@@ -45,6 +45,7 @@ The pipeline is rendered dynamically. Data must be extracted from the network ta
 | Teva | `https://tevapharm.com/science/pipeline/` | Interactive filterable tracker. Mix of innovative + biosimilars. | TODO |
 | CSL | `https://www.csl.com/research-and-development/product-pipeline` | You have to interact to extract the indication. | TODO |
 | Merck KGaA | `https://www.merckgroup.com/en/research/healthcare-pipeline.html` | Interactive filterable tracker. | TODO |
+| AbbVie | `https://www.abbvie.com/science/pipeline.html` | Cloudflare-gated (plain `curl` gets 403), but once fetched via browser the data is fully static HTML — 57 assets / 97 asset-indication rows embedded as `data-*` attributes, no click-to-reveal needed. No PDF/CSV exists. Devices (6 aesthetics assets) use a distinct phase scale (Concept/Feasibility/Development/Confirmation/Approved/Launched) mapped onto the shared Phase enum. | Done — see [`src/pharmas/abbvie/log.md`](../src/pharmas/abbvie/log.md) |
 
 ### Tier 4 — Narrative Text, No Structured Table
 
@@ -52,7 +53,7 @@ No tabular or JSON-serialised pipeline exists. Information is embedded in prose,
 
 | Company | Pipeline Source | Notes | Status |
 |---|---|---|---|
-| AbbVie | `https://www.abbviescience.com/en/pipeline.html` | Narrative text per therapeutic area. Individual trials link out to ClinicalTrials.gov. No single structured source. | TODO |
+| ~~AbbVie~~ | ~~`https://www.abbvie.com/science/pipeline.html`~~ | **Reclassified — see Tier 3.** Not narrative: Cloudflare blocks plain `curl` (403), but once fetched with a real browser the page is a filterable tool with per-asset data embedded as static HTML `data-*` attributes (name, focus area, modality, target, description, indication, phase) plus a nested per-indication phase/region table. No PDF/CSV exists. | Moved |
 
 ## Strategy (High-Level)
 
