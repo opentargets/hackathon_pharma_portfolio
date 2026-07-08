@@ -39,7 +39,7 @@ The pipeline is rendered dynamically. Data must be extracted from the network ta
 |---|---|---|---|
 | J&J | `https://investor.jnj.com/pipeline/development-pipeline/` | Fully JS-rendered widget with drug-name search. Check network tab for underlying API call. PDF available as well | TODO |
 | Eli Lilly | `https://lilly.com/science/research-development/pipeline` | Interactive — click each molecule box to expand. Check network tab for JSON. | TODO |
-| Sanofi | `https://sanofi.com/en/our-science/our-pipeline` | Interactive filterable tracker. 77 clinical-stage projects (2026). | TODO |
+| Sanofi | `https://sanofi.com/en/our-science/our-pipeline` | Interactive filterable tracker. 77 clinical-stage projects (2026). | Done — see [`src/pharmas/sanofi/log.md`](../src/pharmas/sanofi/log.md) |
 | Novo Nordisk | `https://novonordisk.com/science-and-technology/r-d-pipeline.html` | Interactive, filterable by phase and therapeutic area. Small pipeline, diabetes/obesity-heavy. | Done — see [`src/pharmas/novonordisk/log.md`](../src/pharmas/novonordisk/log.md) |
 | Gilead | `https://gilead.com/science-and-medicine/pipeline` | ~58 clinical-stage programs. DOM may be parseable without full Playwright. | TODO |
 | Teva | `https://tevapharm.com/science/pipeline/` | Interactive filterable tracker. Mix of innovative + biosimilars. | TODO |

@@ -1,0 +1,78 @@
+name,phase_badges,description,therapeutic_area,indication,collaboration,notes,expected_submission_timeline,aria_label_name,aria_label_indication
+SAR446422,1,CD28xOX40 bispecific Ab,Immunology,Inflammatory indication,,,Not available yet,SAR446422,Inflammatory indication
+SAR446959,1,MMP13xADAMTS5xCAP Nanobody® VHH,Immunology,Knee osteoarthritis,,,Not available yet,SAR446959,Knee osteoarthritis 
+SAR448501,1,CD20 bispecific mAb,Immunology,Inflammatory indication,,Also known as DR-0201,Not available yet,SAR448501,Inflammatory indication
+balinatunfib,2,Oral TNFR1 signaling inhibitor,Immunology,Ulcerative colitis,,Also known as SAR441566,Not available yet,balinatunfib,Ulcerative colitis
+balinatunfib,2,Oral TNFR1 signaling inhibitor,Immunology,Crohn’s disease,,Also known as SAR441566,Not available yet,balinatunfib,Crohn’s disease
+brivekimig,2,TNFaxOX40L Nanobody® VHH,Immunology,"Type 1 diabetes, stage 3",,,Not available yet,brivekimig,"Type 1 diabetes, stage 3"
+brivekimig,2,TNFaxOX40L Nanobody® VHH,Immunology,Crohn’s disease,,,Not available yet,brivekimig,Crohn’s disease
+brivekimig,2,TNFaxOX40L Nanobody® VHH,Immunology,Ulcerative colitis,,,Not available yet,brivekimig,Ulcerative colitis
+brivekimig,2,TNFaxOX40L Nanobody® VHH,Immunology,Hidradenitis suppurativa,,,Not available yet,brivekimig,Hidradenitis suppurativa
+frexalimab,2,CD40L mAb,Immunology,Type 1 diabetes,Developed in collaboration with ImmuNext,Also known as SAR441344,Not available yet,frexalimab,Type 1 diabetes
+itepekimab,2,IL33 mAb,Immunology,Chronic rhinosinusitis without nasal polyps,Developed in collaboration with Regeneron,,Not available yet,itepekimab,Chronic rhinosinusitis without nasal polyps
+lunsekimig,2,IL13xTSLP Nanobody® VHH,Immunology,"Asthma, high-risk",,Also known as SAR443765,Not available yet,lunsekimig,"Asthma, high-risk"
+lunsekimig,2,IL13xTSLP Nanobody® VHH,Immunology,Chronic rhinosinusitis with nasal polyps,,Also known as SAR443765,Not available yet,lunsekimig,Chronic rhinosinusitis with nasal polyps
+lunsekimig,2,IL13xTSLP Nanobody® VHH,Immunology,Asthma,,Also known as SAR443765,Not available yet,lunsekimig,Asthma
+riliprubart,2,C1s mAb,Immunology,Antibody-mediated rejection,,Also known as SAR445088,Not available yet,riliprubart,Antibody-mediated rejection
+rilzabrutinib,2,BTK inhibitor,Immunology,Chronic spontaneous urticaria,,,Not available yet,rilzabrutinib,Chronic spontaneous urticaria
+rilzabrutinib,2,BTK inhibitor,Immunology,Asthma,,,Not available yet,rilzabrutinib,Asthma
+rovadicitinib,2,JAK/ROCK inhibitor,Immunology,"Chronic graft-versus-host disease, 2L",Developed in collaboration with Sino Biopharma,,Not available yet,rovadicitinib,"Chronic graft-versus-host disease, 2L"
+SAR444336,2,Non-beta IL2 Synthorin™,Immunology,Microscopic colitis,,,Not available yet,SAR444336,Microscopic colitis
+SAR445399,2,IL1R3 mAb,Immunology,Hidradenitis suppurativa,,"Also known as MAB212, in-licensed from MAB Discovery",Not available yet,SAR445399,Hidradenitis suppurativa
+SAR449028,2,Wild-type KIT inhibitor,Immunology,Chronic induced/spontaneous urticaria,,Also known as BLU-808,Not available yet,SAR449028,Chronic induced/spontaneous urticaria
+amlitelimab,3,OX40L mAb,Immunology,Atopic dermatitis,,,2026,amlitelimab,Atopic dermatitis
+Dupixent,3,IL4R mAb,Immunology,Lichen simplex chronicus,Developed in collaboration with Regeneron,,2026,Dupixent,Lichen simplex chronicus
+Dupixent,3,IL4R mAb,Immunology,Chronic pruritis of unknown origin,Developed in collaboration with Regeneron,,Not available yet,Dupixent,Chronic pruritis of unknown origin
+duvakitug,3,TL1A mAb,Immunology,Crohn's disease,Developed in collaboration with Teva Pharmaceuticals,,Not available yet,duvakitug,Crohn's disease
+duvakitug,3,TL1A mAb,Immunology,Ulcerative colitis,Developed in collaboration with Teva Pharmaceuticals,,Not available yet,duvakitug,Ulcerative colitis
+frexalimab,3,CD40L mAb,Immunology,Kidney transplant rejection,Developed in collaboration with ImmuNext,Also known as SAR441344,Not available yet,frexalimab,Kidney transplant rejection
+itepekimab,3,IL33 mAb,Immunology,Chronic rhinosinusitis with nasal polyps,Developed in collaboration with Regeneron,,Not available yet,itepekimab,Chronic rhinosinusitis with nasal polyps
+itepekimab,3,IL33 mAb,Immunology,Chronic obstructive pulmonary disease,Developed in collaboration with Regeneron,,subject to further analysis and decision,itepekimab,Chronic obstructive pulmonary disease
+lunsekimig,3,IL13xTSLP Nanobody® VHH,Immunology,Chronic obstructive pulmonary disease,,Also known as SAR443765,Not available yet,lunsekimig,Chronic obstructive pulmonary disease
+Rezurock,3,ROCK2 inhibitor,Immunology,Chronic lung allograft dysfunction,,,Not available yet,Rezurock,Chronic lung allograft dysfunction 
+Dupixent,R,IL4R mAb,Immunology,Bullous pemphigoid (EU),Developed in collaboration with Regeneron,,In review,Dupixent,Bullous pemphigoid (EU)
+Tzield,R,CD3 mAb,Immunology,"Type 1 diabetes, stage 3 (US)",,,In review,Tzield,"Type 1 diabetes, stage 3 (US)"
+SAR446597,1,BbxC1s AAV gene therapy,Neurology,Geographic atrophy in dry age-related macular degeneration,,,Not available yet,SAR446597 in Geographic atrophy,dry age-related macular degeneration
+SAR448851,1,TREM2 agonist,Neurology,Alzheimer’s disease,,Also known as VG-3927,Not available yet,SAR448851,Alzheimer’s disease
+SAR402663,2,sFLT01 AAV gene therapy,Neurology,Wet age-related macular degeneration,,,Not available yet,SAR402663,Wet age-related macular degeneration
+frexalimab,3,CD40L mAb,Neurology,Non-relapsing secondary progressive MS,Developed in collaboration with ImmuNext,Also known as SAR441344,Not available yet,frexalimab,Non-relapsing secondary progressive MS
+frexalimab,3,CD40L mAb,Neurology,Relapsing multiple sclerosis,Developed in collaboration with ImmuNext,Also known as SAR441344,2027,frexalimab,Relapsing multiple sclerosis
+riliprubart,3,C1s mAb,Neurology,IVIg-treated CIDP,,Also known as SAR445088,2027,riliprubart,IVIg-treated CIDP
+riliprubart,3,C1s mAb,Neurology,SOC-refractory CIDP,,Also known as SAR445088,2027,riliprubart,SOC-refractory CIDP
+tolebrutinib,R,BTK inhibitor,Neurology,"Secondary progressive MS (US, EU)",,,In review,tolebrutinib,"Secondary progressive MS (US, EU)"
+SAR445953,1,CEACAM5-Topo1 ADC,Oncology,Colorectal cancer,Developed in collaboration with Pfizer,,Not available yet,SAR445953,Colorectal cancer
+SAR446523,1,GPRC5D mAb,Oncology,Relapsed/refractory multiple myeloma,,,Not available yet,SAR446523,Relapsed/refractory multiple myeloma
+SAR445877,2,PD1xIL15 fusion protein,Oncology,Solid tumors,,Also known as KD050,Not available yet,SAR445877,Solid tumors
+Sarclisa,2,CD38 mAb,Oncology,Relapsed/refractory multiple myeloma in combination,,,Not available yet,Sarclisa in Relapsed/refractory multiple myeloma,combination
+Sarclisa,3,CD38 mAb,Oncology,"NDMM, TE (IsKia)",,,Not available yet,Sarclisa,"NDMM, TE (IsKia)"
+Sarclisa,3,CD38 mAb,Oncology,Smoldering multiple myeloma (ITHACA),,,Not available yet,Sarclisa,Smoldering multiple myeloma (ITHACA)
+Sarclisa,3,CD38 mAb,Oncology,"NDMM, TE (HD7)",,Approved in EU,Not available yet,Sarclisa,"NDMM, TE (HD7)"
+Sarclisa,R,CD38 mAb subcutaneous,Oncology,Multiple myeloma,,,In review,Sarclisa,Multiple myeloma
+SAR446268,1,DMPK AAV gene therapy,Rare Diseases,Myotonic dystrophy type 1,,,Not available yet,SAR446268,Myotonic dystrophy type 1
+efdoralprin alfa,2,AAT fusion protein,Rare Diseases,Alpha-1 antitrypsin deficiency emphysema,,Also known as SAR447537 and formerly known as INBRX-101,2026,efdoralprin alfa,Alpha-1 antitrypsin deficiency emphysema
+"frexalimab, rilzabrutinib, brivekimig",2,"CD40L mAb, BTK inhibitor, TNFaxOX40L Nanobody® VHH",Rare Diseases,Focal segmental glomerulosclerosis / minimal change disease,,,Not available yet,"frexalimab, rilzabrutinib, brivekimig",Focal segmental glomerulosclerosis / minimal change disease
+Wayrilz,2,BTK inhibitor,Rare Diseases,Graves' disease,,,Not available yet,Wayrilz,Graves' disease
+elenestinib,3,D816V-mutated KIT inhibitor,Rare Diseases,Indolent/smoldering systemic mastocytosis,,,Not available yet,elenestinib,Indolent/smoldering systemic mastocytosis
+fitusiran,3,RNAi targeting antithrombin,Rare Diseases,"Hemophilia A and B (EU, JP)",,,2027,fitusiran,"Hemophilia A and B (EU, JP)"
+Nexviazyme,3,Enzyme replacement therapy,Rare Diseases,Infantile-onset Pompe disease,,,2026,Nexviazyme,Infantile-onset Pompe disease
+venglustat,3,Oral GCS inhibitor,Rare Diseases,Fabry disease,,,Not available yet,venglustat,Fabry disease
+venglustat,3,Oral GCS inhibitor,Rare Diseases,Gaucher disease type 3,,,2026,venglustat,Gaucher disease type 3
+Wayrilz,3,BTK inhibitor,Rare Diseases,IgG4-related disease,,,Not available yet,Wayrilz,IgG4-related disease
+Wayrilz,3,BTK inhibitor,Rare Diseases,Sickle cell disease,,,Not available yet,Wayrilz,Sickle cell disease
+Wayrilz,3,BTK inhibitor,Rare Diseases,Warm autoimmune hemolytic anemia,,,Not available yet,Wayrilz,Warm autoimmune hemolytic anemia 
+Wayrilz,R,BTK inhibitor,Rare Diseases,Immune thrombocytopenia (JP),,,In review,Wayrilz,Immune thrombocytopenia (JP)
+SP0269,1,mRNA vaccine,Vaccines,Chlamydia,,,Not available yet,SP0269,Chlamydia
+SP0287,1,Flublok+Nuvaxovid,Vaccines,Flu+COVID-19,,,Not available yet,SP0287,Flu+COVID-19
+SP0287,1,Fluzone HD+Nuvaxovid,Vaccines,Flu+COVID-19,,,Not available yet,SP0287,Flu+COVID-19
+SP0291,1,mRNA vaccine,Vaccines,RSV+hMPV+PIV3 (older adults),,,Not available yet,SP0291,RSV+hMPV+PIV3 (older adults)
+SP0340,1,Subunit vaccine,Vaccines,RSV+hMPV (older adults),,Also known as VXB-251,Not available yet,SP0340,RSV+hMPV (older adults)
+SP0341,1,Subunit vaccine,Vaccines,RSV+hMPV+PIV3 (older adults),,Also known as VXB-351,Not available yet,SP0341,RSV+hMPV+PIV3 (older adults)
+SP0342,1,Subunit adjuvanted vaccine,Vaccines,Shingles,,Also known as Z-1018,Not available yet,SP0342,Shingles
+SP0256,2,mRNA vaccine,Vaccines,RSV+hMPV (older adults),,,Not available yet,SP0256,RSV+hMPV (older adults)
+SP0268,2,mRNA vaccine,Vaccines,Acne,,,Not available yet,SP0268, Acne
+SP0289,2,mRNA vaccine,Vaccines,Flu H5 pandemic,,,Not available yet,SP0289,Flu H5 pandemic
+SP0335,2,Inactivated adjuvanted vaccine,Vaccines,Flu H5 pandemic,,,Not available yet,SP0335,Flu H5 pandemic 
+SP0087,3,Vero cell vaccine,Vaccines,Rabies,,,In review in EU,SP0087,Rabies
+SP0202,3,21-valent conjugate vaccine,Vaccines,Pneumococcal disease (children),Developed in collaboration with SK Bioscience,,Not available yet,SP0202,Pneumococcal disease (children)
+SP0218,3,Vero cell vaccine,Vaccines,Yellow fever,,,2027,SP0218,Yellow fever
+Fluzone HD,R,Multivalent inactivated vaccine,Vaccines,"Flu (50 years+) (US, EU)",,Also known as SP0178,In review,Fluzone HD,"Flu (50 years+) (US, EU)"

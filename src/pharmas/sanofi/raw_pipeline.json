@@ -1,0 +1,1080 @@
+[
+  {
+    "name": "SAR446422",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "CD28xOX40 bispecific Ab",
+    "therapeutic_area": "Immunology",
+    "indication": "Inflammatory indication",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR446422",
+    "aria_label_indication": "Inflammatory indication"
+  },
+  {
+    "name": "SAR446959",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "MMP13xADAMTS5xCAP Nanobody® VHH",
+    "therapeutic_area": "Immunology",
+    "indication": "Knee osteoarthritis",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR446959",
+    "aria_label_indication": "Knee osteoarthritis "
+  },
+  {
+    "name": "SAR448501",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "CD20 bispecific mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Inflammatory indication",
+    "collaboration": "",
+    "notes": "Also known as DR-0201",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR448501",
+    "aria_label_indication": "Inflammatory indication"
+  },
+  {
+    "name": "balinatunfib",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "Oral TNFR1 signaling inhibitor",
+    "therapeutic_area": "Immunology",
+    "indication": "Ulcerative colitis",
+    "collaboration": "",
+    "notes": "Also known as SAR441566",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "balinatunfib",
+    "aria_label_indication": "Ulcerative colitis"
+  },
+  {
+    "name": "balinatunfib",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "Oral TNFR1 signaling inhibitor",
+    "therapeutic_area": "Immunology",
+    "indication": "Crohn’s disease",
+    "collaboration": "",
+    "notes": "Also known as SAR441566",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "balinatunfib",
+    "aria_label_indication": "Crohn’s disease"
+  },
+  {
+    "name": "brivekimig",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "TNFaxOX40L Nanobody® VHH",
+    "therapeutic_area": "Immunology",
+    "indication": "Type 1 diabetes, stage 3",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "brivekimig",
+    "aria_label_indication": "Type 1 diabetes, stage 3"
+  },
+  {
+    "name": "brivekimig",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "TNFaxOX40L Nanobody® VHH",
+    "therapeutic_area": "Immunology",
+    "indication": "Crohn’s disease",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "brivekimig",
+    "aria_label_indication": "Crohn’s disease"
+  },
+  {
+    "name": "brivekimig",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "TNFaxOX40L Nanobody® VHH",
+    "therapeutic_area": "Immunology",
+    "indication": "Ulcerative colitis",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "brivekimig",
+    "aria_label_indication": "Ulcerative colitis"
+  },
+  {
+    "name": "brivekimig",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "TNFaxOX40L Nanobody® VHH",
+    "therapeutic_area": "Immunology",
+    "indication": "Hidradenitis suppurativa",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "brivekimig",
+    "aria_label_indication": "Hidradenitis suppurativa"
+  },
+  {
+    "name": "frexalimab",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "CD40L mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Type 1 diabetes",
+    "collaboration": "Developed in collaboration with ImmuNext",
+    "notes": "Also known as SAR441344",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "frexalimab",
+    "aria_label_indication": "Type 1 diabetes"
+  },
+  {
+    "name": "itepekimab",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "IL33 mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Chronic rhinosinusitis without nasal polyps",
+    "collaboration": "Developed in collaboration with Regeneron",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "itepekimab",
+    "aria_label_indication": "Chronic rhinosinusitis without nasal polyps"
+  },
+  {
+    "name": "lunsekimig",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "IL13xTSLP Nanobody® VHH",
+    "therapeutic_area": "Immunology",
+    "indication": "Asthma, high-risk",
+    "collaboration": "",
+    "notes": "Also known as SAR443765",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "lunsekimig",
+    "aria_label_indication": "Asthma, high-risk"
+  },
+  {
+    "name": "lunsekimig",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "IL13xTSLP Nanobody® VHH",
+    "therapeutic_area": "Immunology",
+    "indication": "Chronic rhinosinusitis with nasal polyps",
+    "collaboration": "",
+    "notes": "Also known as SAR443765",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "lunsekimig",
+    "aria_label_indication": "Chronic rhinosinusitis with nasal polyps"
+  },
+  {
+    "name": "lunsekimig",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "IL13xTSLP Nanobody® VHH",
+    "therapeutic_area": "Immunology",
+    "indication": "Asthma",
+    "collaboration": "",
+    "notes": "Also known as SAR443765",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "lunsekimig",
+    "aria_label_indication": "Asthma"
+  },
+  {
+    "name": "riliprubart",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "C1s mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Antibody-mediated rejection",
+    "collaboration": "",
+    "notes": "Also known as SAR445088",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "riliprubart",
+    "aria_label_indication": "Antibody-mediated rejection"
+  },
+  {
+    "name": "rilzabrutinib",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "BTK inhibitor",
+    "therapeutic_area": "Immunology",
+    "indication": "Chronic spontaneous urticaria",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "rilzabrutinib",
+    "aria_label_indication": "Chronic spontaneous urticaria"
+  },
+  {
+    "name": "rilzabrutinib",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "BTK inhibitor",
+    "therapeutic_area": "Immunology",
+    "indication": "Asthma",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "rilzabrutinib",
+    "aria_label_indication": "Asthma"
+  },
+  {
+    "name": "rovadicitinib",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "JAK/ROCK inhibitor",
+    "therapeutic_area": "Immunology",
+    "indication": "Chronic graft-versus-host disease, 2L",
+    "collaboration": "Developed in collaboration with Sino Biopharma",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "rovadicitinib",
+    "aria_label_indication": "Chronic graft-versus-host disease, 2L"
+  },
+  {
+    "name": "SAR444336",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "Non-beta IL2 Synthorin™",
+    "therapeutic_area": "Immunology",
+    "indication": "Microscopic colitis",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR444336",
+    "aria_label_indication": "Microscopic colitis"
+  },
+  {
+    "name": "SAR445399",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "IL1R3 mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Hidradenitis suppurativa",
+    "collaboration": "",
+    "notes": "Also known as MAB212, in-licensed from MAB Discovery",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR445399",
+    "aria_label_indication": "Hidradenitis suppurativa"
+  },
+  {
+    "name": "SAR449028",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "Wild-type KIT inhibitor",
+    "therapeutic_area": "Immunology",
+    "indication": "Chronic induced/spontaneous urticaria",
+    "collaboration": "",
+    "notes": "Also known as BLU-808",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR449028",
+    "aria_label_indication": "Chronic induced/spontaneous urticaria"
+  },
+  {
+    "name": "amlitelimab",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "OX40L mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Atopic dermatitis",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "2026",
+    "aria_label_name": "amlitelimab",
+    "aria_label_indication": "Atopic dermatitis"
+  },
+  {
+    "name": "Dupixent",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "IL4R mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Lichen simplex chronicus",
+    "collaboration": "Developed in collaboration with Regeneron",
+    "notes": "",
+    "expected_submission_timeline": "2026",
+    "aria_label_name": "Dupixent",
+    "aria_label_indication": "Lichen simplex chronicus"
+  },
+  {
+    "name": "Dupixent",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "IL4R mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Chronic pruritis of unknown origin",
+    "collaboration": "Developed in collaboration with Regeneron",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "Dupixent",
+    "aria_label_indication": "Chronic pruritis of unknown origin"
+  },
+  {
+    "name": "duvakitug",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "TL1A mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Crohn's disease",
+    "collaboration": "Developed in collaboration with Teva Pharmaceuticals",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "duvakitug",
+    "aria_label_indication": "Crohn's disease"
+  },
+  {
+    "name": "duvakitug",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "TL1A mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Ulcerative colitis",
+    "collaboration": "Developed in collaboration with Teva Pharmaceuticals",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "duvakitug",
+    "aria_label_indication": "Ulcerative colitis"
+  },
+  {
+    "name": "frexalimab",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "CD40L mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Kidney transplant rejection",
+    "collaboration": "Developed in collaboration with ImmuNext",
+    "notes": "Also known as SAR441344",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "frexalimab",
+    "aria_label_indication": "Kidney transplant rejection"
+  },
+  {
+    "name": "itepekimab",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "IL33 mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Chronic rhinosinusitis with nasal polyps",
+    "collaboration": "Developed in collaboration with Regeneron",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "itepekimab",
+    "aria_label_indication": "Chronic rhinosinusitis with nasal polyps"
+  },
+  {
+    "name": "itepekimab",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "IL33 mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Chronic obstructive pulmonary disease",
+    "collaboration": "Developed in collaboration with Regeneron",
+    "notes": "",
+    "expected_submission_timeline": "subject to further analysis and decision",
+    "aria_label_name": "itepekimab",
+    "aria_label_indication": "Chronic obstructive pulmonary disease"
+  },
+  {
+    "name": "lunsekimig",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "IL13xTSLP Nanobody® VHH",
+    "therapeutic_area": "Immunology",
+    "indication": "Chronic obstructive pulmonary disease",
+    "collaboration": "",
+    "notes": "Also known as SAR443765",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "lunsekimig",
+    "aria_label_indication": "Chronic obstructive pulmonary disease"
+  },
+  {
+    "name": "Rezurock",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "ROCK2 inhibitor",
+    "therapeutic_area": "Immunology",
+    "indication": "Chronic lung allograft dysfunction",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "Rezurock",
+    "aria_label_indication": "Chronic lung allograft dysfunction "
+  },
+  {
+    "name": "Dupixent",
+    "phase_badges": [
+      "R"
+    ],
+    "description": "IL4R mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Bullous pemphigoid (EU)",
+    "collaboration": "Developed in collaboration with Regeneron",
+    "notes": "",
+    "expected_submission_timeline": "In review",
+    "aria_label_name": "Dupixent",
+    "aria_label_indication": "Bullous pemphigoid (EU)"
+  },
+  {
+    "name": "Tzield",
+    "phase_badges": [
+      "R"
+    ],
+    "description": "CD3 mAb",
+    "therapeutic_area": "Immunology",
+    "indication": "Type 1 diabetes, stage 3 (US)",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "In review",
+    "aria_label_name": "Tzield",
+    "aria_label_indication": "Type 1 diabetes, stage 3 (US)"
+  },
+  {
+    "name": "SAR446597",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "BbxC1s AAV gene therapy",
+    "therapeutic_area": "Neurology",
+    "indication": "Geographic atrophy in dry age-related macular degeneration",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR446597 in Geographic atrophy",
+    "aria_label_indication": "dry age-related macular degeneration"
+  },
+  {
+    "name": "SAR448851",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "TREM2 agonist",
+    "therapeutic_area": "Neurology",
+    "indication": "Alzheimer’s disease",
+    "collaboration": "",
+    "notes": "Also known as VG-3927",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR448851",
+    "aria_label_indication": "Alzheimer’s disease"
+  },
+  {
+    "name": "SAR402663",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "sFLT01 AAV gene therapy",
+    "therapeutic_area": "Neurology",
+    "indication": "Wet age-related macular degeneration",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR402663",
+    "aria_label_indication": "Wet age-related macular degeneration"
+  },
+  {
+    "name": "frexalimab",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "CD40L mAb",
+    "therapeutic_area": "Neurology",
+    "indication": "Non-relapsing secondary progressive MS",
+    "collaboration": "Developed in collaboration with ImmuNext",
+    "notes": "Also known as SAR441344",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "frexalimab",
+    "aria_label_indication": "Non-relapsing secondary progressive MS"
+  },
+  {
+    "name": "frexalimab",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "CD40L mAb",
+    "therapeutic_area": "Neurology",
+    "indication": "Relapsing multiple sclerosis",
+    "collaboration": "Developed in collaboration with ImmuNext",
+    "notes": "Also known as SAR441344",
+    "expected_submission_timeline": "2027",
+    "aria_label_name": "frexalimab",
+    "aria_label_indication": "Relapsing multiple sclerosis"
+  },
+  {
+    "name": "riliprubart",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "C1s mAb",
+    "therapeutic_area": "Neurology",
+    "indication": "IVIg-treated CIDP",
+    "collaboration": "",
+    "notes": "Also known as SAR445088",
+    "expected_submission_timeline": "2027",
+    "aria_label_name": "riliprubart",
+    "aria_label_indication": "IVIg-treated CIDP"
+  },
+  {
+    "name": "riliprubart",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "C1s mAb",
+    "therapeutic_area": "Neurology",
+    "indication": "SOC-refractory CIDP",
+    "collaboration": "",
+    "notes": "Also known as SAR445088",
+    "expected_submission_timeline": "2027",
+    "aria_label_name": "riliprubart",
+    "aria_label_indication": "SOC-refractory CIDP"
+  },
+  {
+    "name": "tolebrutinib",
+    "phase_badges": [
+      "R"
+    ],
+    "description": "BTK inhibitor",
+    "therapeutic_area": "Neurology",
+    "indication": "Secondary progressive MS (US, EU)",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "In review",
+    "aria_label_name": "tolebrutinib",
+    "aria_label_indication": "Secondary progressive MS (US, EU)"
+  },
+  {
+    "name": "SAR445953",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "CEACAM5-Topo1 ADC",
+    "therapeutic_area": "Oncology",
+    "indication": "Colorectal cancer",
+    "collaboration": "Developed in collaboration with Pfizer",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR445953",
+    "aria_label_indication": "Colorectal cancer"
+  },
+  {
+    "name": "SAR446523",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "GPRC5D mAb",
+    "therapeutic_area": "Oncology",
+    "indication": "Relapsed/refractory multiple myeloma",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR446523",
+    "aria_label_indication": "Relapsed/refractory multiple myeloma"
+  },
+  {
+    "name": "SAR445877",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "PD1xIL15 fusion protein",
+    "therapeutic_area": "Oncology",
+    "indication": "Solid tumors",
+    "collaboration": "",
+    "notes": "Also known as KD050",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR445877",
+    "aria_label_indication": "Solid tumors"
+  },
+  {
+    "name": "Sarclisa",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "CD38 mAb",
+    "therapeutic_area": "Oncology",
+    "indication": "Relapsed/refractory multiple myeloma in combination",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "Sarclisa in Relapsed/refractory multiple myeloma",
+    "aria_label_indication": "combination"
+  },
+  {
+    "name": "Sarclisa",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "CD38 mAb",
+    "therapeutic_area": "Oncology",
+    "indication": "NDMM, TE (IsKia)",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "Sarclisa",
+    "aria_label_indication": "NDMM, TE (IsKia)"
+  },
+  {
+    "name": "Sarclisa",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "CD38 mAb",
+    "therapeutic_area": "Oncology",
+    "indication": "Smoldering multiple myeloma (ITHACA)",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "Sarclisa",
+    "aria_label_indication": "Smoldering multiple myeloma (ITHACA)"
+  },
+  {
+    "name": "Sarclisa",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "CD38 mAb",
+    "therapeutic_area": "Oncology",
+    "indication": "NDMM, TE (HD7)",
+    "collaboration": "",
+    "notes": "Approved in EU",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "Sarclisa",
+    "aria_label_indication": "NDMM, TE (HD7)"
+  },
+  {
+    "name": "Sarclisa",
+    "phase_badges": [
+      "R"
+    ],
+    "description": "CD38 mAb subcutaneous",
+    "therapeutic_area": "Oncology",
+    "indication": "Multiple myeloma",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "In review",
+    "aria_label_name": "Sarclisa",
+    "aria_label_indication": "Multiple myeloma"
+  },
+  {
+    "name": "SAR446268",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "DMPK AAV gene therapy",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Myotonic dystrophy type 1",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SAR446268",
+    "aria_label_indication": "Myotonic dystrophy type 1"
+  },
+  {
+    "name": "efdoralprin alfa",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "AAT fusion protein",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Alpha-1 antitrypsin deficiency emphysema",
+    "collaboration": "",
+    "notes": "Also known as SAR447537 and formerly known as INBRX-101",
+    "expected_submission_timeline": "2026",
+    "aria_label_name": "efdoralprin alfa",
+    "aria_label_indication": "Alpha-1 antitrypsin deficiency emphysema"
+  },
+  {
+    "name": "frexalimab, rilzabrutinib, brivekimig",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "CD40L mAb, BTK inhibitor, TNFaxOX40L Nanobody® VHH",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Focal segmental glomerulosclerosis / minimal change disease",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "frexalimab, rilzabrutinib, brivekimig",
+    "aria_label_indication": "Focal segmental glomerulosclerosis / minimal change disease"
+  },
+  {
+    "name": "Wayrilz",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "BTK inhibitor",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Graves' disease",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "Wayrilz",
+    "aria_label_indication": "Graves' disease"
+  },
+  {
+    "name": "elenestinib",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "D816V-mutated KIT inhibitor",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Indolent/smoldering systemic mastocytosis",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "elenestinib",
+    "aria_label_indication": "Indolent/smoldering systemic mastocytosis"
+  },
+  {
+    "name": "fitusiran",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "RNAi targeting antithrombin",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Hemophilia A and B (EU, JP)",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "2027",
+    "aria_label_name": "fitusiran",
+    "aria_label_indication": "Hemophilia A and B (EU, JP)"
+  },
+  {
+    "name": "Nexviazyme",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "Enzyme replacement therapy",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Infantile-onset Pompe disease",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "2026",
+    "aria_label_name": "Nexviazyme",
+    "aria_label_indication": "Infantile-onset Pompe disease"
+  },
+  {
+    "name": "venglustat",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "Oral GCS inhibitor",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Fabry disease",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "venglustat",
+    "aria_label_indication": "Fabry disease"
+  },
+  {
+    "name": "venglustat",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "Oral GCS inhibitor",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Gaucher disease type 3",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "2026",
+    "aria_label_name": "venglustat",
+    "aria_label_indication": "Gaucher disease type 3"
+  },
+  {
+    "name": "Wayrilz",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "BTK inhibitor",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "IgG4-related disease",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "Wayrilz",
+    "aria_label_indication": "IgG4-related disease"
+  },
+  {
+    "name": "Wayrilz",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "BTK inhibitor",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Sickle cell disease",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "Wayrilz",
+    "aria_label_indication": "Sickle cell disease"
+  },
+  {
+    "name": "Wayrilz",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "BTK inhibitor",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Warm autoimmune hemolytic anemia",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "Wayrilz",
+    "aria_label_indication": "Warm autoimmune hemolytic anemia "
+  },
+  {
+    "name": "Wayrilz",
+    "phase_badges": [
+      "R"
+    ],
+    "description": "BTK inhibitor",
+    "therapeutic_area": "Rare Diseases",
+    "indication": "Immune thrombocytopenia (JP)",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "In review",
+    "aria_label_name": "Wayrilz",
+    "aria_label_indication": "Immune thrombocytopenia (JP)"
+  },
+  {
+    "name": "SP0269",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "mRNA vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "Chlamydia",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0269",
+    "aria_label_indication": "Chlamydia"
+  },
+  {
+    "name": "SP0287",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "Flublok+Nuvaxovid",
+    "therapeutic_area": "Vaccines",
+    "indication": "Flu+COVID-19",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0287",
+    "aria_label_indication": "Flu+COVID-19"
+  },
+  {
+    "name": "SP0287",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "Fluzone HD+Nuvaxovid",
+    "therapeutic_area": "Vaccines",
+    "indication": "Flu+COVID-19",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0287",
+    "aria_label_indication": "Flu+COVID-19"
+  },
+  {
+    "name": "SP0291",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "mRNA vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "RSV+hMPV+PIV3 (older adults)",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0291",
+    "aria_label_indication": "RSV+hMPV+PIV3 (older adults)"
+  },
+  {
+    "name": "SP0340",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "Subunit vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "RSV+hMPV (older adults)",
+    "collaboration": "",
+    "notes": "Also known as VXB-251",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0340",
+    "aria_label_indication": "RSV+hMPV (older adults)"
+  },
+  {
+    "name": "SP0341",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "Subunit vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "RSV+hMPV+PIV3 (older adults)",
+    "collaboration": "",
+    "notes": "Also known as VXB-351",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0341",
+    "aria_label_indication": "RSV+hMPV+PIV3 (older adults)"
+  },
+  {
+    "name": "SP0342",
+    "phase_badges": [
+      "1"
+    ],
+    "description": "Subunit adjuvanted vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "Shingles",
+    "collaboration": "",
+    "notes": "Also known as Z-1018",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0342",
+    "aria_label_indication": "Shingles"
+  },
+  {
+    "name": "SP0256",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "mRNA vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "RSV+hMPV (older adults)",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0256",
+    "aria_label_indication": "RSV+hMPV (older adults)"
+  },
+  {
+    "name": "SP0268",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "mRNA vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "Acne",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0268",
+    "aria_label_indication": " Acne"
+  },
+  {
+    "name": "SP0289",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "mRNA vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "Flu H5 pandemic",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0289",
+    "aria_label_indication": "Flu H5 pandemic"
+  },
+  {
+    "name": "SP0335",
+    "phase_badges": [
+      "2"
+    ],
+    "description": "Inactivated adjuvanted vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "Flu H5 pandemic",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0335",
+    "aria_label_indication": "Flu H5 pandemic "
+  },
+  {
+    "name": "SP0087",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "Vero cell vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "Rabies",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "In review in EU",
+    "aria_label_name": "SP0087",
+    "aria_label_indication": "Rabies"
+  },
+  {
+    "name": "SP0202",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "21-valent conjugate vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "Pneumococcal disease (children)",
+    "collaboration": "Developed in collaboration with SK Bioscience",
+    "notes": "",
+    "expected_submission_timeline": "Not available yet",
+    "aria_label_name": "SP0202",
+    "aria_label_indication": "Pneumococcal disease (children)"
+  },
+  {
+    "name": "SP0218",
+    "phase_badges": [
+      "3"
+    ],
+    "description": "Vero cell vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "Yellow fever",
+    "collaboration": "",
+    "notes": "",
+    "expected_submission_timeline": "2027",
+    "aria_label_name": "SP0218",
+    "aria_label_indication": "Yellow fever"
+  },
+  {
+    "name": "Fluzone HD",
+    "phase_badges": [
+      "R"
+    ],
+    "description": "Multivalent inactivated vaccine",
+    "therapeutic_area": "Vaccines",
+    "indication": "Flu (50 years+) (US, EU)",
+    "collaboration": "",
+    "notes": "Also known as SP0178",
+    "expected_submission_timeline": "In review",
+    "aria_label_name": "Fluzone HD",
+    "aria_label_indication": "Flu (50 years+) (US, EU)"
+  }
+]
