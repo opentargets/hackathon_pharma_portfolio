@@ -74,9 +74,14 @@ was fixed by adding `[build-system]`).
 3. **Before writing the converter**, confirm field-mapping decisions with the
    user via targeted questions (batch up to 4 at once), informed by the actual
    data — never guess silently. Ambiguities that come up every time:
-   - `asset_name`: which column is the real identifier (internal compound
-     code vs. generic/trade name)? Collisions across rows are possible — ask
-     whether to accept them or need a fallback.
+    - `asset_name`: which column is the real identifier (internal compound
+      code vs. generic/trade name)? Collisions across rows are possible — ask
+      whether to accept them or need a fallback.
+      **Preference (confirmed 2026-07-08 for AstraZeneca, apply going forward):**
+      use the compound code (e.g. AZD-prefix) or INN/generic name as `asset_name`.
+      Put trade/brand names in `synonyms`.
+      Strip trial/protocol name suffixes (e.g. "SERENA-6", "DESTINY-Breast05")
+      from the asset name — they are not part of the compound identity.
    - `mechanism_of_action`: if there's no dedicated column, extract
      deterministically from free text (e.g. regex for "is a/an ..." or
      whatever pattern the source's prose actually uses — check first, don't
