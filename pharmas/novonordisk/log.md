@@ -53,16 +53,34 @@ Raw row-level data only, per instructions — no schema mapping yet:
 5 in diabetes/phase-3, 3 in obesity/phase-3, 1 in rare-blood-disorders/phase-3,
 2 in diabetes/filed, 2 in obesity/filed, 1 in rare-blood-disorders/filed.
 
-## Next steps (not yet done)
+## 5. Schema mapping (`novonordisk_to_parquet.py`)
 
-- Map `area`/`phase`/`description_text` onto the shared `PipelineRecord` schema
-  (`docs/data-model.md`) the same way as Roche/GSK — needs interactive field-mapping
-  confirmation per [[feedback-ask-field-mapping]] pattern, e.g.:
-  - `phase` mapping: `filed` -> `Preregistration` or `Registered`? (ask, per GSK
-    precedent of not assuming across companies)
-  - `mechanism_of_action` extraction from free-text `description_text` (regex, per
-    Roche precedent) vs asking for a different rule
-  - `indication` = the bold first line of `description_text`
-  - `therapeutic_area` = `area` verbatim
-  - `asset_name` = `name` (no internal compound code exposed on this page, unlike
-    Roche's RG-codes)
+Confirmed interactively, decisions:
+
+- `phase`: `phase-1/2/3` -> `Phase 1/2/3` directly; `filed` -> `Preregistration`
+  (submitted, not yet approved — same resolution as GSK's `Registration`).
+- `therapeutic_area`: source's CSS slug (`diabetes`/`obesity`/`rare-blood-disorders`)
+  title-cased to match the page's own visible label (`Diabetes`/`Obesity`/
+  `Rare Blood Disorders`), not stored as the raw slug.
+- `indication` / `mechanism_of_action` split from `description_text`, which has no
+  dedicated column (unlike GSK's MoA column, unlike Roche's separate Indication
+  column): most rows are `"Indication heading\nMoA/detail sentence"` -> first line
+  is indication, rest is MoA. 3 rows (UBT251, Triple/obesity, Cagrilintide) are a
+  single sentence with no heading — indication is pulled from a `"for (the)
+  treatment of X"` clause via regex if present (works for 2 of 3), else falls back
+  to the therapeutic area label (Cagrilintide, which has no such clause at all).
+- **Data-quality anomaly found and flagged** (same category as Roche/GSK's
+  transposed-column issues): 2 rows have the dialog's heading line equal to the
+  *asset name itself* rather than a disease (`siRNA GalXC-GYS2`, `Subcutaneous
+  Zenagamtide`/diabetes) — apparently no indication text was authored for these on
+  the source page. Resolved (user confirmed): fall back to the therapeutic area
+  label for these 2, same rule as the no-heading single-sentence rows, rather than
+  parsing the disease name out of the MoA sentence.
+- `asset_name` = `name` verbatim (no internal compound code on this page, unlike
+  Roche's RG-codes).
+- `others` = `["Raw description: <full description_text>"]` on every row, so the
+  original unsplit text is preserved for audit even though indication/MoA were
+  heuristically split.
+- `synonyms`, `trial_id`, `notes` = null (not exposed by this source).
+
+Output: `pharmas/novonordisk/novonordisk_pipeline.parquet` (37 rows).
