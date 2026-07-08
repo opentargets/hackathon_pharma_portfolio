@@ -5,6 +5,14 @@ Mine the investigational portfolios of the top 20 pharmas to extract drug/diseas
 - **Documentation**: [GitHub Pages](https://opentargets.github.io/hackathon_pharma_portfolio/)
 - **Project board**: [Issue tracker](https://github.com/orgs/opentargets/projects/54)
 
+## Scraping (Tier 3 sources)
+
+For pharmas with no static CSV/PDF (Tier 3, see `docs/sources.md`), this repo
+ships a `scrapling` Claude Code skill at `.claude/skills/scrapling/` (tracked
+in git, so everyone gets the same version — no per-person install needed).
+See [`SCRAPLING.md`](SCRAPLING.md) for what it is, how it was set up, and a
+verdict on it plus alternative scraping skills considered.
+
 ## Extracting a new pharma
 
 See [`instruction_for_agent.md`](instruction_for_agent.md) for the full workflow.
