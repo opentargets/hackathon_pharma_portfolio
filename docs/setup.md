@@ -13,30 +13,19 @@ Already configured for team members who have access. No additional setup needed.
 
 OpenCode is the open-source AI coding agent we'll use for the agentic extraction approach.
 
-### Installation
+### Quick Start (Minimal)
 
 ```bash
-# macOS (Homebrew)
+# 1. Install
 brew install anomalyco/tap/opencode
 
-# Or via install script (any platform)
-curl -fsSL https://opencode.ai/install | bash
+# 2. Add an API key (run in the TUI, paste your key)
+#    Uses the free DeepSeek V4 Flash Free model via OpenCode Zen
+opencode
+# then type: /connect → select "OpenCode Zen" → follow browser auth
 
-# Or via npm
-npm install -g opencode-ai
+# 3. Set the model in ~/.config/opencode/opencode.json
 ```
-
-### Configure a Model (OpenCode Zen)
-
-OpenCode Zen provides curated, tested models. We recommend starting with the **free** model.
-
-1. Run the `/connect` command in the OpenCode TUI, select **OpenCode Zen**:
-   ```
-   /connect
-   ```
-2. Your browser will open to `opencode.ai/auth` — sign in, add billing details (not required for free models), and copy your API key.
-3. Paste the key in the terminal.
-4. Set the free model in your project's `opencode.json`:
 
 ```json
 {
@@ -45,30 +34,82 @@ OpenCode Zen provides curated, tested models. We recommend starting with the **f
 }
 ```
 
-> **DeepSeek V4 Flash Free** is available at no cost through OpenCode Zen. Input, output, and cached reads are all free. Data collected during the free period may be used to improve the model — avoid submitting confidential information.
+> **DeepSeek V4 Flash Free** is free through OpenCode Zen. Data during the free period may be used to improve the model — avoid submitting confidential info.
 
-You can switch to a paid model anytime by running `/models` in the TUI.
+You're done. OpenCode will now pick up the [`AGENTS.md`](../AGENTS.md) in this repo automatically for project-specific context.
 
-### Verify Installation
+### Full Configuration Example
 
-```bash
-opencode --version
+Here is the actual global config used on this project. It shows the model setup, MCP servers (OpenTargets, Context7), agents, and commands:
+
+<details>
+<summary><code>~/.config/opencode/opencode.json</code></summary>
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "opencode/deepseek-v4-flash-free",
+  "agent": {
+    "build": {
+      "description": "Primary coding and writing agent",
+      "mode": "primary",
+      "model": "opencode/deepseek-v4-flash-free",
+      "tools": {
+        "write": true, "edit": true, "bash": true,
+        "read": true, "glob": true, "grep": true, "webfetch": true
+      }
+    }
+  },
+  "mcp": {
+    "opentargets": {
+      "type": "remote",
+      "url": "https://mcp.platform.opentargets.org/mcp"
+    },
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "filesystem": {
+      "type": "local",
+      "command": [
+        "npx", "-y", "@modelcontextprotocol/server-filesystem",
+        "/Users/irenelopez/Documents"
+      ]
+    }
+  },
+  "permission": {
+    "mcp_*": "ask",
+    "opentargets_*": "deny"
+  }
+}
 ```
 
-Should print `1.17.13` or later.
+</details>
+
+This project already has an [`AGENTS.md`](../AGENTS.md) at the root — OpenCode reads it automatically on startup, so no project-level `opencode.json` is needed unless you want to override settings.
+
+### Other Installation Methods
+
+```bash
+# Install script (any platform)
+curl -fsSL https://opencode.ai/install | bash
+
+# npm
+npm install -g opencode-ai
+```
+
+### Verify
+
+```bash
+opencode --version  # should print 1.17.13 or later
+```
 
 ## Python Dependencies (Scripted Approach)
 
-For the deterministic PDF/HTML parsing stream, install via `uv` or `pip`:
+For the deterministic PDF/HTML parsing stream, install via `uv`:
 
 ```bash
-uv pip install pdfplumber requests beautifulsoup4 lxml
-```
-
-Optional for chart-style PDFs (Tier 2):
-
-```bash
-uv pip install pytesseract pdf2image
+uv add pdfplumber requests beautifulsoup4 lxml
 ```
 
 ## API Keys (Agentic Framework Approach)
