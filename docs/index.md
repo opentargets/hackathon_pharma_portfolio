@@ -27,4 +27,5 @@ Top 20 pharmas by R&D spend / revenue. Most publish a pipeline tracker for IR pu
 | **Commercial sensitivity** | Early-stage or strategically sensitive assets may be withheld from public pipelines. |
 | **Narrative-only (Tier 4)** | AbbVie and GSK do not publish structured tables — only prose descriptions per therapeutic area, making automated extraction impractical. |
 
-👉 See [`docs/sources`](sources.md) to see more about each company's pipeline.
+👉 See [`docs/sources`](sources.md) to see more about each company's pipeline.  
+👉 See [`setup.md`](setup.md) for environment setup and tool installation.
