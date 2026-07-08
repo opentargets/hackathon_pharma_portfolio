@@ -18,12 +18,12 @@ This is the **base model**; the full data model may include additional metadata 
 | `company` | `str` | Yes | Parent company name (e.g. `"Pfizer"`, `"Novartis"`) |
 | `asset_name` | `str` | Yes | Compound or candidate name (INN, code name, or brand name) |
 | `mechanism_of_action` | `str` | No | Molecular target or MoA (e.g. `"PD-1 inhibitor"`, `"EGFR TKI"`). Omitted if not disclosed. |
-| `therapeutic_area` | `str` | Yes | Broad disease area (e.g. `"Oncology"`, `"Cardiovascular"`, `"Immunology"`). Mapped to a controlled vocabulary. |
+| `therapeutic_area` | `str` | No | Broad disease area (e.g. `"Oncology"`, `"Cardiovascular"`, `"Immunology"`). Mapped to a controlled vocabulary. |
 | `indication` | `str` | Yes | Specific disease or condition (e.g. `"Metastatic non-small cell lung cancer"`) |
 | `phase` | `str` | Yes | Normalised development phase from the controlled enum below |
 | `trial_id` | `str` | No | ClinicalTrials.gov identifier (NCT number) when available from the source |
-| `source_url` | `str` | Yes | Direct URL to the pipeline page or PDF from which this record was extracted |
-| `extraction_date` | `date` | Yes | ISO 8601 date (YYYY-MM-DD) when the source was fetched and parsed |
+| `source_url` | `str` | No | Direct URL to the pipeline page or PDF from which this record was extracted |
+| `extraction_date` | `date` | No | ISO 8601 date (YYYY-MM-DD) when the source was fetched and parsed |
 | `notes` | `str` | No | Free-text annotation — e.g. "Discontinued 2026-Q1", "Partnered with X", "Combination therapy" |
 
 ## Phase Enum

@@ -1,7 +1,7 @@
 [project]
 name = "hackathon-pharma-portfolio"
 version = "0.1.0"
-description = "Add your description here"
+description = "Extract, normalize, and integrate drug/disease associations from the investigational portfolios of the top 20 global pharmaceutical companies."
 requires-python = ">=3.12"
 dependencies = [
     "openpyxl>=3.1.5",
@@ -10,3 +10,9 @@ dependencies = [
     "pydantic>=2.13.4",
     "scrapling[fetchers]>=0.4.10",
 ]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
