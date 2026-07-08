@@ -1,3 +1,8 @@
+---
+title: Data Model
+nav_order: 2
+---
+
 # Data Model — Normalised Pipeline Schema
 
 Every extracted pipeline entry is mapped to the following unified schema, regardless of the source format (PDF, JSON, HTML, narrative).
