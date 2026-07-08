@@ -26,7 +26,7 @@ PDFs exist but may be chart-style layouts, exclude Phase 1, or cover only late-s
 | Company | Pipeline Source | Notes | Status |
 |---|---|---|---|
 | Amgen | `https://www.amgenpipeline.com/-/media/Themes/Amgen/amgenpipeline-com/amgenpipeline-com/PDF/amgen-pipeline-chart.pdf` | Quarterly PDF described as a "chart" — likely vector-based, not a literal table. | TODO |
-| Merck & Co. | `https://www.msd.com/research/product-pipeline/` | PDF also available. "chart." Phase 1 candidates not shown. | TODO |
+| Merck & Co. | `https://www.msd.com/research/product-pipeline/` | PDF also available but is a "chart" (positional grid, not a table); the live pipeline page is static HTML with richer per-indication data (MoA, NCT IDs) and was used as primary source instead. Phase 1 candidates not shown. | Done — see [`src/pharmas/msd/log.md`](../src/pharmas/msd/log.md) |
 | BMS | `https://annual-report.bms.com/assets/bms-ar/documents/2025/2025-bms-development-portfolio.pdf` | Annual PDF only. Compound + indication pairs per area, not a strict table. Excludes collaborations. | TODO |
 | Bayer | `https://www.bayer.com/en/pharma/development-pipeline` | ~30 late-stage projects only (not full pipeline). | TODO |
 | GSK | `gsk.com/en-gb/innovation/pipeline` |  CSV is provided in this case | Done — see [`src/pharmas/gsk/log.md`](../src/pharmas/gsk/log.md) |

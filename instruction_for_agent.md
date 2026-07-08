@@ -49,9 +49,25 @@ was fixed by adding `[build-system]`).
 
 ### 1. Tier 1/2 (structured source already exists)
 
-1. Locate/confirm the source file (ask the user if it's not already in the
-   folder). If both a table and a PDF/chart exist, sanity-check they roughly
-   agree before trusting the table.
+1. Check **both** possible source types before deciding, regardless of what
+   the tier/notes in `docs/sources.md` say — they can be stale or incomplete
+   (MSD was listed as "PDF, chart, Phase 1 not shown" but its live pipeline
+   page turned out to have far richer per-indication data than the PDF, found
+   only by checking):
+   - A downloadable file (PDF/CSV/xlsx) — locate/confirm it (ask the user if
+     it's not already in the folder).
+   - The pipeline webpage itself — cheap `curl` it and check whether the data
+     is already there statically (embedded JSON, or in this case a fully
+     server-rendered table), even if `docs/sources.md` doesn't call this
+     company Tier 3.
+   Present what each source actually contains (fields, richness, coverage,
+   any gaps) and **ask the user which to use** before proceeding — don't
+   default to the file just because it's the deterministic-looking option.
+   If both exist and both add real information (e.g. the file covers
+   something the webpage doesn't, or vice versa, as with MSD's PDF-only
+   "Approvals" page), **use both**, cross-check them against each other for
+   agreement, and confirm the merge approach with the user before writing the
+   converter.
 2. Inspect the data: unique values per column, sample rows, obvious anomalies
    (transposed columns, ID collisions, duplicate headings, missing
    indication/MoA columns).
@@ -119,6 +135,22 @@ Before calling it done:
 - No unintended duplicate/degenerate values (e.g. `indication` accidentally
   equal to `asset_name` — happened once on Novo Nordisk from a source-side
   quirk, caught by comparing the two columns programmatically).
+- **Ask the user to send a manual copy/paste of some or all of the source**
+  (e.g. a table they copied straight off the live page) and diff it against
+  the scraped/mapped output — don't rely solely on your own re-reading of the
+  same source you scraped from, since a bug in your own selector logic
+  reproduces the same blind spot every time you re-check it yourself. This is
+  what caught MSD's two real bugs after the extraction was first reported
+  done: 12/105 indications missing a region tag that lived in an element the
+  scraper never selected, and one compound's name coming from a buggy source
+  HTML attribute instead of its (correct) visible heading — neither was
+  visible from re-reading the same raw HTML the scraper already read.
+- **Report every inconsistency this turns up in both places**: the
+  company's `log.md` (as a dated addendum if the company was already marked
+  Done) and the GitHub issue (reopen it if already closed, comment with what
+  was wrong and the fix, then close again) — don't just fix the code and move
+  on, since these are exactly the kind of source-structure surprises the next
+  company's extraction should be able to learn from.
 
 ## Git hygiene
 

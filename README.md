@@ -19,10 +19,17 @@ See [`instruction_for_agent.md`](instruction_for_agent.md) for the full workflow
 Example prompt to hand to the agent for the next company:
 
 > Let's do `<Company>` next. Check `docs/sources.md` for its tier and source
-> URL. Follow `instruction_for_agent.md`: if it's Tier 1/2, find/confirm the
-> raw source file; if it's Tier 3, scrape it first (raw, unmapped) and open a
-> GitHub issue documenting the scrape. Either way, ask me about field-mapping
-> decisions one by one before writing the conversion script — don't guess.
-> Save everything (source file, converter, `log.md`, parquet) in
-> `src/pharmas/<company>/`, importing the shared schema from `src/schema.py`
-> (don't copy it in). Then mark it Done in `docs/sources.md`.
+> URL. Open a GitHub issue documenting the process. Follow
+> `instruction_for_agent.md`: check **both** a downloadable file (PDF/CSV)
+> and whether the pipeline webpage itself is scrapeable (cheap `curl` first)
+> — don't just trust the tier label. Tell me what each source actually
+> contains and ask me to confirm which to use; if both exist and both add
+> real information, use both (confirm the merge approach with me too). Ask
+> me about field-mapping decisions one by one before writing the conversion
+> script — don't guess. Save everything (source file(s), converter, `log.md`,
+> parquet) in `src/pharmas/<company>/`, importing the shared schema from
+> `src/schema.py` (don't copy it in). Before calling it done, ask me to send
+> you a manual copy/paste of some of the source data so you can cross-check
+> it against your output — report any inconsistency this turns up in both
+> `log.md` and the issue. Then mark it Done in `docs/sources.md`. Update the
+> issue at the end.
