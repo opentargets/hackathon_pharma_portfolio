@@ -47,13 +47,6 @@ The pipeline is rendered dynamically. Data must be extracted from the network ta
 | Merck KGaA | `https://www.merckgroup.com/en/research/healthcare-pipeline.html` | Interactive filterable tracker. | TODO |
 | AbbVie | `https://www.abbvie.com/science/pipeline.html` | Cloudflare-gated (plain `curl` gets 403), but once fetched via browser the data is fully static HTML — 57 assets / 97 asset-indication rows embedded as `data-*` attributes, no click-to-reveal needed. No PDF/CSV exists. Devices (6 aesthetics assets) use a distinct phase scale (Concept/Feasibility/Development/Confirmation/Approved/Launched) mapped onto the shared Phase enum. | Done — see [`src/pharmas/abbvie/log.md`](../src/pharmas/abbvie/log.md) |
 
-### Tier 4 — Narrative Text, No Structured Table
-
-No tabular or JSON-serialised pipeline exists. Information is embedded in prose, requiring manual or NLP-based extraction.
-
-| Company | Pipeline Source | Notes | Status |
-|---|---|---|---|
-| ~~AbbVie~~ | ~~`https://www.abbvie.com/science/pipeline.html`~~ | **Reclassified — see Tier 3.** Not narrative: Cloudflare blocks plain `curl` (403), but once fetched with a real browser the page is a filterable tool with per-asset data embedded as static HTML `data-*` attributes (name, focus area, modality, target, description, indication, phase) plus a nested per-indication phase/region table. No PDF/CSV exists. | Moved |
 
 ## Strategy (High-Level)
 
@@ -62,6 +55,5 @@ Detailed strategy discussions are tracked as **GitHub Issues** in this repositor
 1. **Start with Tier 1** — build the pipeline ingestion pipeline on the cleanest sources first (Pfizer, AZ, Novartis, Roche, BI, Takeda). Validate parsing with pdfplumber / Camelot.
 2. **Tier 2** — adapt parsers for chart-style PDFs (Amgen, Merck & Co.) and semi-structured documents (BMS, Bayer). May require OCR fallback (pytesseract).
 3. **Tier 3** — inspect network-layer calls for each JS widget to find JSON endpoints; fall back to Playwright for dynamic rendering.
-4. **Tier 4** — manual curation or LLM-assisted extraction from narrative text. Lowest priority.
 
 All extracted data should map to the unified schema defined in [`data-model.md`](data-model.md).
