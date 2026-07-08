@@ -28,9 +28,8 @@ Top 20 pharmas by R&D spend / revenue. Most publish a pipeline tracker for IR pu
 | **Phase variability** | Some pipelines include preclinical; others start at Phase 1. Definition of "Phase 2" vs. "Phase 2/3" varies. |
 | **Partial disclosure** | Some companies (e.g. Merck & Co.) omit Phase 1 candidates. Others exclude partnered assets. |
 | **Temporal snapshots** | Pipelines update quarterly or annually. The extracted data is a point-in-time snapshot. |
-| **Publication vs. trial** | Extraction can come from press releases / publications or from ClinicalTrials.gov — these can conflict (e.g. trial reported as positive, publication says "partial positive"). Not yet decided which source to prioritise. |
 | **Commercial sensitivity** | Early-stage or strategically sensitive assets may be withheld from public pipelines. |
-| **Narrative-only (Tier 4)** | AbbVie and GSK do not publish structured tables — only prose descriptions per therapeutic area, making automated extraction impractical. |
+| **Narrative-only (Tier 4)** | AbbVie do not publish structured tables — only prose descriptions per therapeutic area, making automated extraction impractical. |
 
 👉 See [`docs/sources`](sources.md) to see more about each company's pipeline.  
 👉 See [`setup.md`](setup.md) for environment setup and tool installation.

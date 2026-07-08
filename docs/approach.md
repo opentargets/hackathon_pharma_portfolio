@@ -1,3 +1,8 @@
+---
+title: Extraction Strategy
+nav_order: 3
+---
+
 # Approach: Scripted vs Agentic Extraction
 
 ## Experiment Design
@@ -16,14 +21,14 @@ compare them head-to-head, then apply lessons to harder tiers.
 - Python scripts per source format (`scripts/tier1/pfizer.py`, etc.)
 - pdfplumber for PDF tables, requests for HTML
 - LLM (chat interface) writes the code; human reviews + runs it
-- Output: JSON matching `data-model.md` schema
+- Output: Parquet matching `data-model.md` schema
 - Pros: deterministic, easy to debug, no per-run cost
 - Cons: breaks on redesign, new code per source
 
 ## Agentic Approach (Open-Loop with CLI)
 
 - Use Claude Code or OpenCode as an agentic subprocess
-- Feed it a tightly-scoped task: "extract pipeline from this URL as JSON"
+- Feed it a tightly-scoped task: "extract pipeline from this URL as Parquet"
 - Harness captures trajectory, validates output, logs failures
 - Pros: adapts to layout changes, one prompt for many sources
 - Cons: stochastic, harder to debug, needs API key + per-run cost
