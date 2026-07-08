@@ -24,7 +24,7 @@ PDFs exist but may be chart-style layouts, exclude Phase 1, or cover only late-s
 | Merck & Co. | `https://www.msd.com/research/product-pipeline/` | PDF also available. "chart." Phase 1 candidates not shown. | TODO |
 | BMS | `https://annual-report.bms.com/assets/bms-ar/documents/2025/2025-bms-development-portfolio.pdf` | Annual PDF only. Compound + indication pairs per area, not a strict table. Excludes collaborations. | TODO |
 | Bayer | `https://www.bayer.com/en/pharma/development-pipeline` | ~30 late-stage projects only (not full pipeline). | TODO |
-| GSK | `gsk.com/en-gb/innovation/pipeline` |  CSV is provided in this case | TODO |
+| GSK | `gsk.com/en-gb/innovation/pipeline` |  CSV is provided in this case | Done — see [`pharmas/gsk/log.md`](../pharmas/gsk/log.md) |
 
 ### Tier 3 — Interactive JS Widget (Network-Tab / Playwright)
 
