@@ -13,19 +13,37 @@ for every remaining company in `docs/sources.md`.
   scraping for Tier 3 (JS-widget) sources.
 - Check `docs/sources.md` for the company's tier and any notes before starting.
 
-## Per-company folder layout
+## Repo layout
 
-Everything for a company lives in `pharmas/<company>/`:
+The project is a proper `src`-layout Python package (`pyproject.toml` has
+`[build-system]` + `[tool.setuptools]` pointing at `src/`, installed editable
+via `uv sync`). The shared `PipelineRecord` model + `Phase` enum live in
+**one place**, `src/schema.py` (`model_config = {"extra": "allow"}`, so
+source-specific extra fields like `others` can still be passed even though
+they're not declared on the model) — don't copy `schema.py` into each
+company's folder anymore (that was the pattern for Roche/GSK before the repo
+was restructured into a package; Novo Nordisk was migrated to match).
 
+Every company gets `src/pharmas/<company>/` with:
+
+- an `__init__.py` (empty, makes it an importable subpackage)
 - the raw source file(s) (CSV/xlsx/PDF, or a scrape script + raw JSON/CSV dump
   for Tier 3)
-- `schema.py` — copy-paste of the shared `PipelineRecord` model + `Phase` enum
-  from a prior company's folder (identical every time; kept per-folder rather
-  than centralized, by explicit user preference — no top-level `scripts/` dir)
 - `<company>_to_parquet.py` (or `<company>_csv_to_parquet.py` /
-  `<company>_xlsx_to_parquet.py`) — the converter
+  `<company>_xlsx_to_parquet.py`) — the converter, importing the schema with
+  `from schema import Phase, PipelineRecord` (resolves to `src/schema.py`
+  because of the package-dir mapping — works via `uv run python
+  src/pharmas/<company>/<script>.py`, no `sys.path` hacking needed, as long as
+  `uv sync` has been run at least once so the project installs itself
+  editable)
 - `log.md` — extraction + mapping decision log (see below)
 - the resulting `<company>_pipeline.parquet`
+
+If `from schema import ...` ever raises `ModuleNotFoundError`, check that
+`pyproject.toml` still has a `[build-system]` table and re-run `uv sync` —
+without it the project never installs itself editable and the top-level
+`schema` module isn't importable (this broke once during the restructure and
+was fixed by adding `[build-system]`).
 
 ## Workflow
 
@@ -56,7 +74,9 @@ Everything for a company lives in `pharmas/<company>/`:
      assume the same source term always maps the same way across companies.
    - Anything source-specific worth keeping but not in the base schema goes
      in `others` (array of `"Key: value"` strings) or `notes` (free text) —
-     both are explicitly allowed extras per `docs/data-model.md`.
+     `PipelineRecord` allows extra fields (`model_config = {"extra": "allow"}`
+     in `src/schema.py`), so passing `others=[...]` works even though it's
+     not a declared field on the model.
 4. Write the converter, run it, and spot-check a handful of rows against the
    original source by eye.
 5. Write `log.md` documenting every mapping decision and any data-quality
@@ -74,7 +94,7 @@ Split into two passes — don't conflate scraping with schema-mapping:
    Playwright (a scrapling dependency) rather than scrapling's own quick-path
    Fetchers, which only handle static/Cloudflare-protected pages. Expect a
    cookie-consent overlay to block clicks until dismissed first.
-   - Write `pharmas/<company>/scrape_pipeline.py`, dump every row's fields as
+   - Write `src/pharmas/<company>/scrape_pipeline.py`, dump every row's fields as
      scraped (name, area/category, phase, free-text description, whatever the
      source exposes) to `raw_pipeline.json`/`.csv` — no schema mapping yet.
    - Verify: manually list what should be on the page (or have the user
@@ -98,8 +118,14 @@ Before calling it done:
 
 ## Git hygiene
 
-- `.claude/` (skills) and `.DS_Store` are gitignored — don't commit them.
-- Commit the source file(s) + `schema.py` + converter + `log.md` + parquet
+- `.claude/` (skills), `.DS_Store`, and `*.egg-info/` are gitignored — don't
+  commit them.
+- Commit the source file(s) + `__init__.py` + converter + `log.md` + parquet
   together; mark the company `Done` in `docs/sources.md` with a link to its
-  `log.md` in the same commit.
+  `log.md` (pointing at `src/pharmas/<company>/log.md`) in the same commit.
 - Only commit/push when the user explicitly asks.
+- Before pushing, `git fetch`/check for teammates' commits — this repo has
+  more than one person extracting companies in parallel; a structural refactor
+  landed mid-project once already (moving `pharmas/` -> `src/pharmas/`), so
+  don't assume the layout in this file is still current without checking
+  `docs/sources.md` and an existing company folder first.

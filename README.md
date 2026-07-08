@@ -15,5 +15,6 @@ Example prompt to hand to the agent for the next company:
 > raw source file; if it's Tier 3, scrape it first (raw, unmapped) and open a
 > GitHub issue documenting the scrape. Either way, ask me about field-mapping
 > decisions one by one before writing the conversion script — don't guess.
-> Save everything (source file, `schema.py`, converter, `log.md`, parquet) in
-> `pharmas/<company>/`, then mark it Done in `docs/sources.md`.
+> Save everything (source file, converter, `log.md`, parquet) in
+> `src/pharmas/<company>/`, importing the shared schema from `src/schema.py`
+> (don't copy it in). Then mark it Done in `docs/sources.md`.

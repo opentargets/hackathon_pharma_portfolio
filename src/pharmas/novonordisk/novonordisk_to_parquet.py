@@ -1,8 +1,8 @@
 """Convert the Novo Nordisk raw pipeline scrape to the unified parquet schema.
 
 Source: https://www.novonordisk.com/science-and-technology/r-d-pipeline.html
-Raw data was produced by scrape_pipeline.py (pharmas/novonordisk/raw_pipeline.json).
-Field-mapping decisions are recorded in pharmas/novonordisk/log.md.
+Raw data was produced by scrape_pipeline.py (src/pharmas/novonordisk/raw_pipeline.json).
+Field-mapping decisions are recorded in src/pharmas/novonordisk/log.md.
 """
 
 import argparse
