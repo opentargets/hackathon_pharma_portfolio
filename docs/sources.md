@@ -5,49 +5,49 @@
 
 PDFs with a clear tabular layout, and full pipeline coverage (including early phase).
 
-| Company | Pipeline Source | Notes |
-|---|---|---|
-| Pfizer | `https://www.pfizer.com/science/drug-product-pipeline` | Quarterly PDF. Columns: Compound / MoA / Indication / Phase / Submission Type |
-| AstraZeneca | `https://www.astrazeneca.com/our-therapy-areas/pipeline.html` | Annual PDF. Columns: Compound / Mechanism / Area Under Investigation |
-| Novartis | `novartis.com/research-development/novartis-pipeline` → PDF | Quarterly PDF linked from pipeline page |
-| Roche | `roche.com/solutions/pipeline` | Semi-annual (H1/H2) |
-| Boehringer Ingelheim | `https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline` | Stable URL |
-| Takeda | `takeda.com/science/pipeline/` → "DOWNLOAD THE PDF" | Full pipeline PDF + oncology-specific PDF at `takedaoncology.com/science/pipeline/` |
+| Company | Pipeline Source | Notes | Status |
+|---|---|---|---|
+| Pfizer | `https://www.pfizer.com/science/drug-product-pipeline` | Quarterly PDF. Columns: Compound / MoA / Indication / Phase / Submission Type | TODO |
+| AstraZeneca | `https://www.astrazeneca.com/our-therapy-areas/pipeline.html` | Annual PDF. Columns: Compound / Mechanism / Area Under Investigation | TODO |
+| Novartis | `novartis.com/research-development/novartis-pipeline` → PDF | Quarterly PDF linked from pipeline page | TODO |
+| Roche | `roche.com/solutions/pipeline` | Semi-annual (H1/H2) | Done — see [`pharmas/roche/log.md`](../pharmas/roche/log.md) |
+| Boehringer Ingelheim | `https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline` | Stable URL | TODO |
+| Takeda | `takeda.com/science/pipeline/` → "DOWNLOAD THE PDF" | Full pipeline PDF + oncology-specific PDF at `takedaoncology.com/science/pipeline/` | TODO |
 
 ### Tier 2 — PDF Available but with Parsing Caveats
 
 PDFs exist but may be chart-style layouts, exclude Phase 1, or cover only late-stage assets.
 
-| Company | Pipeline Source | Notes |
-|---|---|---|
-| Amgen | `https://www.amgenpipeline.com/-/media/Themes/Amgen/amgenpipeline-com/amgenpipeline-com/PDF/amgen-pipeline-chart.pdf` | Quarterly PDF described as a "chart" — likely vector-based, not a literal table. |
-| Merck & Co. | `https://www.msd.com/research/product-pipeline/` | PDF also available. "chart." Phase 1 candidates not shown. |
-| BMS | `https://annual-report.bms.com/assets/bms-ar/documents/2025/2025-bms-development-portfolio.pdf` | Annual PDF only. Compound + indication pairs per area, not a strict table. Excludes collaborations. |
-| Bayer | `https://www.bayer.com/en/pharma/development-pipeline` | ~30 late-stage projects only (not full pipeline). |
-| GSK | `gsk.com/en-gb/innovation/pipeline` |  CSV is provided in this case |
+| Company | Pipeline Source | Notes | Status |
+|---|---|---|---|
+| Amgen | `https://www.amgenpipeline.com/-/media/Themes/Amgen/amgenpipeline-com/amgenpipeline-com/PDF/amgen-pipeline-chart.pdf` | Quarterly PDF described as a "chart" — likely vector-based, not a literal table. | TODO |
+| Merck & Co. | `https://www.msd.com/research/product-pipeline/` | PDF also available. "chart." Phase 1 candidates not shown. | TODO |
+| BMS | `https://annual-report.bms.com/assets/bms-ar/documents/2025/2025-bms-development-portfolio.pdf` | Annual PDF only. Compound + indication pairs per area, not a strict table. Excludes collaborations. | TODO |
+| Bayer | `https://www.bayer.com/en/pharma/development-pipeline` | ~30 late-stage projects only (not full pipeline). | TODO |
+| GSK | `gsk.com/en-gb/innovation/pipeline` |  CSV is provided in this case | TODO |
 
 ### Tier 3 — Interactive JS Widget (Network-Tab / Playwright)
 
 The pipeline is rendered dynamically. Data must be extracted from the network tab (XHR/Fetch JSON) or via headless browser.
 
-| Company | Pipeline Source | Notes |
-|---|---|---|
-| J&J | `https://investor.jnj.com/pipeline/development-pipeline/` | Fully JS-rendered widget with drug-name search. Check network tab for underlying API call. PDF available as well |
-| Eli Lilly | `https://lilly.com/science/research-development/pipeline` | Interactive — click each molecule box to expand. Check network tab for JSON. |
-| Sanofi | `https://sanofi.com/en/our-science/our-pipeline` | Interactive filterable tracker. 77 clinical-stage projects (2026). |
-| Novo Nordisk | `https://novonordisk.com/science-and-technology/r-d-pipeline.html` | Interactive, filterable by phase and therapeutic area. Small pipeline, diabetes/obesity-heavy. |
-| Gilead | `https://gilead.com/science-and-medicine/pipeline` | ~58 clinical-stage programs. DOM may be parseable without full Playwright. |
-| Teva | `https://tevapharm.com/science/pipeline/` | Interactive filterable tracker. Mix of innovative + biosimilars. |
-| CSL | `https://www.csl.com/research-and-development/product-pipeline` | You have to interact to extract the indication. |
-| Merck KGaA | `https://www.merckgroup.com/en/research/healthcare-pipeline.html` | Interactive filterable tracker. |
+| Company | Pipeline Source | Notes | Status |
+|---|---|---|---|
+| J&J | `https://investor.jnj.com/pipeline/development-pipeline/` | Fully JS-rendered widget with drug-name search. Check network tab for underlying API call. PDF available as well | TODO |
+| Eli Lilly | `https://lilly.com/science/research-development/pipeline` | Interactive — click each molecule box to expand. Check network tab for JSON. | TODO |
+| Sanofi | `https://sanofi.com/en/our-science/our-pipeline` | Interactive filterable tracker. 77 clinical-stage projects (2026). | TODO |
+| Novo Nordisk | `https://novonordisk.com/science-and-technology/r-d-pipeline.html` | Interactive, filterable by phase and therapeutic area. Small pipeline, diabetes/obesity-heavy. | TODO |
+| Gilead | `https://gilead.com/science-and-medicine/pipeline` | ~58 clinical-stage programs. DOM may be parseable without full Playwright. | TODO |
+| Teva | `https://tevapharm.com/science/pipeline/` | Interactive filterable tracker. Mix of innovative + biosimilars. | TODO |
+| CSL | `https://www.csl.com/research-and-development/product-pipeline` | You have to interact to extract the indication. | TODO |
+| Merck KGaA | `https://www.merckgroup.com/en/research/healthcare-pipeline.html` | Interactive filterable tracker. | TODO |
 
 ### Tier 4 — Narrative Text, No Structured Table
 
 No tabular or JSON-serialised pipeline exists. Information is embedded in prose, requiring manual or NLP-based extraction.
 
-| Company | Pipeline Source | Notes |
-|---|---|---|
-| AbbVie | `https://www.abbviescience.com/en/pipeline.html` | Narrative text per therapeutic area. Individual trials link out to ClinicalTrials.gov. No single structured source. |
+| Company | Pipeline Source | Notes | Status |
+|---|---|---|---|
+| AbbVie | `https://www.abbviescience.com/en/pipeline.html` | Narrative text per therapeutic area. Individual trials link out to ClinicalTrials.gov. No single structured source. | TODO |
 
 ## Strategy (High-Level)
 
