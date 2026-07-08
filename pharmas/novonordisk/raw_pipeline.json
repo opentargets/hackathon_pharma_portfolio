@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Glucose sensitive insulin",
+    "area": "diabetes",
+    "phase": "phase-1",
+    "description_text": "Type 1 and 2 diabetes\nA glucose-sensitive insulin analogue intended for once-daily treatment.",
+    "description_html": "<p><b>Type 1 and 2 diabetes</b><br>\nA glucose-sensitive insulin analogue intended for once-daily treatment.</p>"
+  },
+  {
+    "name": "Ventus NLRP3i",
+    "area": "diabetes",
+    "phase": "phase-1",
+    "description_text": "CVD\nNLRP3i: NOD-like receptor protein 3 inhibitor",
+    "description_html": "<p><b>CVD<br>\n</b>NLRP3i: NOD-like receptor protein 3 inhibitor</p>"
+  },
+  {
+    "name": "siRNA GalXC-GYS2",
+    "area": "diabetes",
+    "phase": "phase-1",
+    "description_text": "siRNA GalXC-GYS2\nA quarterly subcutaneous treatment of type 2 diabetes by siRNA knockdown of hepatic glycogen synthase GYS2.",
+    "description_html": "<p><b>siRNA GalXC-GYS2<br>\n</b>A quarterly subcutaneous treatment of type 2 diabetes by siRNA knockdown of hepatic glycogen synthase GYS2.</p>"
+  },
+  {
+    "name": "CNP",
+    "area": "diabetes",
+    "phase": "phase-1",
+    "description_text": "Heart failure\nA C-type natriuretic peptide (CNP) analogue in development for heart failure",
+    "description_html": "<p><b>Heart failure<br>\n </b>A C-type natriuretic peptide (CNP) analogue in development for heart failure</p>"
+  },
+  {
+    "name": "NNC16790001",
+    "area": "diabetes",
+    "phase": "phase-1",
+    "description_text": "Type 2 diabetes\n\nAn siRNA molecule for the treatment of type 2 diabetes.",
+    "description_html": "<p><span style=\"color: rgb(0, 25, 101);\"><strong><span lang=\"EN-GB\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif; color: rgb(0, 25, 101);\">Type 2 diabetes</span></strong></span></p><p class=\"MsoNormal\" style=\"margin: 0cm; font-size: 16px; font-family: Aptos, sans-serif; caret-color: rgb(33, 33, 33); color: rgb(33, 33, 33); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid; text-align: start;\"><span style=\"color: rgb(0, 25, 101);\"><span lang=\"EN-GB\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif; color: rgb(0, 25, 101);\">An siRNA molecule for the treatment of type 2 diabetes.</span></span></p>"
+  },
+  {
+    "name": "Amylin 355",
+    "area": "obesity",
+    "phase": "phase-1",
+    "description_text": "Obesity\nA once-weekly subcutaneous amylin analogue for the treatment of obesity",
+    "description_html": "<p><b>Obesity<br>\n </b>A once-weekly subcutaneous amylin analogue for the treatment of obesity</p>"
+  },
+  {
+    "name": "Amylin 1213",
+    "area": "obesity",
+    "phase": "phase-1",
+    "description_text": "Obesity\nA once-weekly subcutaneous amylin analogue for the treatment of obesity.",
+    "description_html": "<p><b>Obesity</b><br>\nA once-weekly subcutaneous amylin analogue for the treatment of obesity.&nbsp;</p>"
+  },
+  {
+    "name": "SLC25A5",
+    "area": "obesity",
+    "phase": "phase-1",
+    "description_text": "MASH\n\nAn siRNA molecule that targets knockdown of SLC25A5 mRNA and subsequent expression of SLC25A5 protein, also known as ANT2, in hepatocytes, as a potential once-quarterly therapy for MASH",
+    "description_html": "<p><b>MASH</b></p>\n<p>An siRNA molecule that targets knockdown of SLC25A5 mRNA and subsequent expression of SLC25A5 protein, also known as ANT2, in hepatocytes, as a potential once-quarterly therapy for MASH</p>"
+  },
+  {
+    "name": "Next-gen GLP-1",
+    "area": "obesity",
+    "phase": "phase-1",
+    "description_text": "Obesity\n\nA subcutaneous next-generation GLP-1 receptor agonist for the treatment of overweight or obesity.",
+    "description_html": "<p><span style=\"color: rgb(0, 25, 101);\"><strong><span lang=\"EN-GB\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif; color: rgb(0, 25, 101);\">Obesity</span></strong></span></p><p class=\"MsoNormal\" style=\"margin: 0cm; font-size: 16px; font-family: Aptos, sans-serif; caret-color: rgb(33, 33, 33); color: rgb(33, 33, 33); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid; text-align: start;\"><span style=\"color: rgb(0, 25, 101);\"><span lang=\"EN-GB\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif; color: rgb(0, 25, 101);\">A subcutaneous next-generation GLP-1 receptor agonist for the treatment of overweight or obesity.</span></span></p>"
+  },
+  {
+    "name": "ACSL5i",
+    "area": "obesity",
+    "phase": "phase-1",
+    "description_text": "Obesity\n\nAn oral non-incretin, small molecule ACSL5 inhibitor for the treatment of overweight or obesity.",
+    "description_html": "<p><span style=\"color: rgb(0, 25, 101);\"><strong><span lang=\"EN-GB\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif; color: rgb(0, 25, 101);\">Obesity</span></strong></span></p><p class=\"MsoNormal\" style=\"margin: 0cm; font-size: 16px; font-family: Aptos, sans-serif; caret-color: rgb(33, 33, 33); color: rgb(33, 33, 33); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid; text-align: start;\"><span style=\"color: rgb(0, 25, 101);\"><span lang=\"EN-GB\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif; color: rgb(0, 25, 101);\">An oral non-incretin, small molecule ACSL5 inhibitor for the treatment of overweight or obesity.</span></span></p>"
+  },
+  {
+    "name": "Inno8",
+    "area": "rare-blood-disorders",
+    "phase": "phase-1",
+    "description_text": "Haemophilia\nAn oral, once-daily antibody fragment for the treatment of haemophilia",
+    "description_html": "<p><b>Haemophilia<br>\n </b>An oral, once-daily antibody fragment for the treatment of haemophilia</p>"
+  },
+  {
+    "name": "Subcutaneous Zenagamtide",
+    "area": "diabetes",
+    "phase": "phase-2",
+    "description_text": "Subcutaneous Zenagamtide\n\nA long-acting co-agonist of GLP-1 and amylin intended for once weekly subcutaneous injection",
+    "description_html": "<p><b>Subcutaneous Zenagamtide</b></p><p>A long-acting co-agonist of GLP-1 and amylin intended for once weekly subcutaneous injection</p>"
+  },
+  {
+    "name": "Monlunabant in DKD",
+    "area": "diabetes",
+    "phase": "phase-2",
+    "description_text": "Diabetic Kidney Disease (DKD)\n\nAn oral small molecule CB1 receptor blocker",
+    "description_html": "<p><b>Diabetic Kidney Disease (DKD)</b></p>\n<p>An oral small molecule CB1 receptor blocker</p>\n<p>&nbsp;</p>"
+  },
+  {
+    "name": "Oral Zenagamtide",
+    "area": "diabetes",
+    "phase": "phase-2",
+    "description_text": "Diabetes\nA long-acting co-agonist of GLP-1 and amylin intended for once daily oral treatment",
+    "description_html": "<p><b>Diabetes<br></b>A long-acting co-agonist of GLP-1 and amylin intended for once daily oral treatment</p>"
+  },
+  {
+    "name": "CDR132L",
+    "area": "diabetes",
+    "phase": "phase-2",
+    "description_text": "Heart failure with reduced ejection fraction (HFrEF)\n\nAn antisense oligonucleotide (ASO) targeting the microRNA molecule miR-132 for the treatment of heart failure.",
+    "description_html": "<p><b>Heart failure with reduced ejection fraction (HFrEF)</b></p>\n<p>An antisense oligonucleotide (ASO) targeting the microRNA molecule miR-132 for the treatment of heart failure.</p>"
+  },
+  {
+    "name": "Triple",
+    "area": "diabetes",
+    "phase": "phase-2",
+    "description_text": "Type 2 diabetes\n\nA once-weekly triple-agonist of the receptors for GLP-1, GIP and Amylin for the treatment of type 2 diabetes.",
+    "description_html": "<p><span style=\"color: rgb(0, 25, 101);\"><strong><span lang=\"EN-GB\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif; color: rgb(0, 25, 101);\">Type 2 diabetes</span></strong></span></p><p class=\"MsoNormal\" style=\"margin: 0cm; font-size: 16px; font-family: Aptos, sans-serif; caret-color: rgb(33, 33, 33); color: rgb(33, 33, 33); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid; text-align: start;\"><span style=\"color: rgb(0, 25, 101);\"><span lang=\"EN-GB\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif; color: rgb(0, 25, 101);\">A once-weekly triple-agonist of the receptors for GLP-1, GIP and Amylin for the treatment of type 2 diabetes.</span></span></p>"
+  },
+  {
+    "name": "Oral Zenagamtide",
+    "area": "obesity",
+    "phase": "phase-2",
+    "description_text": "Obesity\nA long-acting co-agonist of GLP-1 and amylin intended for once daily oral treatment",
+    "description_html": "<p><b>Obesity<br></b>A long-acting co-agonist of GLP-1 and amylin intended for once daily oral treatment</p>"
+  },
+  {
+    "name": "UBT251 (GGG tri-agonist)",
+    "area": "obesity",
+    "phase": "phase-2",
+    "description_text": "A triple agonist of the receptors for GLP-1, GIP, and glucagon for the treatment of obesity, type 2 diabetes and other diseases",
+    "description_html": "<p>A triple agonist of the receptors for GLP-1, GIP, and glucagon for the treatment of obesity, type 2 diabetes and other diseases</p>\n<p>&nbsp;</p>"
+  },
+  {
+    "name": "Triple",
+    "area": "obesity",
+    "phase": "phase-2",
+    "description_text": "A once-weekly subcutaneous GLP1-GIP-Amylin tri-agonist for the treatment of obesity.",
+    "description_html": "<p>A once-weekly subcutaneous GLP1-GIP-Amylin tri-agonist for the treatment of obesity.</p>"
+  },
+  {
+    "name": "Monlunabant",
+    "area": "obesity",
+    "phase": "phase-2",
+    "description_text": "Obesity\n\nAn oral small molecule CB1 receptor blocker",
+    "description_html": "<p><b>Obesity</b></p>\n<p>An oral small molecule CB1 receptor blocker</p>"
+  },
+  {
+    "name": "NDec",
+    "area": "rare-blood-disorders",
+    "phase": "phase-2",
+    "description_text": "Sickle cell disease\nAn oral combination of decitabine and tetrahydrouridine. Project is developed in collaboration with EpiDestiny.",
+    "description_html": "<h5>Sickle cell disease<br>\n<span style=\"font-weight: normal;\">An oral combination of decitabine and tetrahydrouridine. Project is developed in collaboration with EpiDestiny.</span></h5>"
+  },
+  {
+    "name": "Zaltenibart",
+    "area": "rare-blood-disorders",
+    "phase": "phase-2",
+    "description_text": "Paroxysmal nocturnal haemoglobinuria (PNH)\n\nA MASP-3 inhibitor for the treatment of paroxysmal nocturnal haemoglobinuria (PNH).",
+    "description_html": "<p><span style=\"color: rgb(0, 25, 101);\"><strong><span lang=\"EN-GB\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif; color: rgb(0, 25, 101);\">Paroxysmal nocturnal haemoglobinuria (PNH)</span></strong></span></p><p class=\"MsoNormal\" style=\"margin: 0cm; font-size: 16px; font-family: Aptos, sans-serif; caret-color: rgb(33, 33, 33); color: rgb(33, 33, 33); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid; text-align: start;\"><span style=\"color: rgb(0, 25, 101);\"><span lang=\"EN-GB\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif; color: rgb(0, 25, 101);\">A MASP-3 inhibitor for the treatment of paroxysmal nocturnal haemoglobinuria (PNH).</span></span></p>"
+  },
+  {
+    "name": "Etavopivat",
+    "area": "rare-blood-disorders",
+    "phase": "phase-2",
+    "description_text": "Thalassemia\nA selective pyruvate kinase-R (PKR) activator intended for once daily oral treatment",
+    "description_html": "<p><b>Thalassemia</b><br>\nA selective pyruvate kinase-R (PKR) activator intended for once daily oral treatment</p>"
+  },
+  {
+    "name": "CagriSema in T2D",
+    "area": "diabetes",
+    "phase": "phase-3",
+    "description_text": "Type 2 diabetes\nA combination of amylin analogue and GLP-1 analogue semaglutide intended for once-weekly treatment.",
+    "description_html": "<p><b>Type 2 diabetes</b><br>\nA combination of amylin analogue and GLP-1 analogue semaglutide intended for once-weekly treatment.</p>"
+  },
+  {
+    "name": "Ziltivekimab ASCVD",
+    "area": "diabetes",
+    "phase": "phase-3",
+    "description_text": "Atherosclerotic cardiovascular disease (ASCVD) with chronic kidney disease (CKD) and inflammation\n\nA novel once-monthly monoclonal antibody intended for inhibition of IL-6 activity.",
+    "description_html": "<p><b>Atherosclerotic cardiovascular disease (ASCVD) with chronic kidney disease (CKD) and inflammation</b></p>\n<p><b></b>A novel once-monthly monoclonal antibody intended for inhibition of IL-6 activity.<b> <br>\n </b></p>"
+  },
+  {
+    "name": "Coramitug",
+    "area": "diabetes",
+    "phase": "phase-3",
+    "description_text": "ATTR Cardiomyopathy\n\nAn anti-amyloid immunotherapy treatment for ATTR5.",
+    "description_html": "<p><b>ATTR Cardiomyopathy</b></p>\n<p>An anti-amyloid immunotherapy treatment for ATTR5.</p>"
+  },
+  {
+    "name": "Ziltivekimabin HFpEF",
+    "area": "diabetes",
+    "phase": "phase-3",
+    "description_text": "Heart failure with preserved ejection fraction (HFpEF)\n\nA novel once-monthly monoclonal antibody intended for inhibition of IL-6 activity.",
+    "description_html": "<p><b>Heart failure with preserved ejection fraction (HFpEF)</b></p>\n<p>A novel once-monthly monoclonal antibody intended for inhibition of IL-6 activity.</p>"
+  },
+  {
+    "name": "Ziltivekimab AMI",
+    "area": "diabetes",
+    "phase": "phase-3",
+    "description_text": "Acute Myocardial infarction (AMI)\n\nA novel once-monthly monoclonal antibody intended for inhibition of IL-6 activity.",
+    "description_html": "<p><b>Acute Myocardial infarction (AMI)</b></p>\n<p>A novel once-monthly monoclonal antibody intended for inhibition of IL-6 activity.</p>"
+  },
+  {
+    "name": "Subcutaneous Zenagamtide",
+    "area": "obesity",
+    "phase": "phase-3",
+    "description_text": "Obesity\n\nA long-acting co-agonist of GLP-1 and amylin intended for once weekly subcutaneous injection",
+    "description_html": "<p><b>Obesity</b></p>\n<p>A long-acting co-agonist of GLP-1 and amylin intended for once weekly subcutaneous injection</p>"
+  },
+  {
+    "name": "Cagrilintide",
+    "area": "obesity",
+    "phase": "phase-3",
+    "description_text": "A long-acting amylin analogue for once-weekly subcutaneous administration.",
+    "description_html": "<p>A long-acting amylin analogue for once-weekly subcutaneous administration.</p>"
+  },
+  {
+    "name": "Efruxifermin in MASH",
+    "area": "obesity",
+    "phase": "phase-3",
+    "description_text": "MASH\n\nA long-acting FGF21 analogue for weekly subcutaneous administration.",
+    "description_html": "<p><strong>MASH</strong></p><p>A long-acting FGF21 analogue for weekly subcutaneous administration.</p>"
+  },
+  {
+    "name": "Etavopivat (Sickle Cell Disease)",
+    "area": "rare-blood-disorders",
+    "phase": "phase-3",
+    "description_text": "Sickle Cell Disease\n\nOral, small molecule activator of erythrocyte pyruvate kinase (PKR) in development for the treatment of sickle cell disease.",
+    "description_html": "<p><b>Sickle Cell Disease</b></p>\n<p>Oral, small molecule activator of erythrocyte pyruvate kinase (PKR) in development for the treatment of&nbsp;sickle cell disease.</p>"
+  },
+  {
+    "name": "Icosema",
+    "area": "diabetes",
+    "phase": "filed",
+    "description_text": "Type 2 diabetes\nA combination of GLP-1 analogue semaglutide and insulin icodec intended for once-weekly treatment.",
+    "description_html": "<h5>Type 2 diabetes<br>\n<span style=\"font-weight: normal;\">A combination of GLP-1 analogue semaglutide and insulin icodec intended for once-weekly treatment.</span></h5>"
+  },
+  {
+    "name": "Insulin icodec",
+    "area": "diabetes",
+    "phase": "filed",
+    "description_text": "Diabetes\n\nA long-acting basal insulin analogue intended for once weekly dosing.",
+    "description_html": "<h5>Diabetes</h5>\n<p>A long-acting basal insulin analogue intended for once weekly dosing.</p>"
+  },
+  {
+    "name": "CagriSema",
+    "area": "obesity",
+    "phase": "filed",
+    "description_text": "Obesity\nA combination of amylin analogue cagrilintide and GLP-1 analogue semaglutide intended for once-weekly subcutaneous treatment.",
+    "description_html": "<p><b>Obesity</b><br>\nA combination of amylin analogue cagrilintide and GLP-1 analogue semaglutide intended for once-weekly subcutaneous treatment.</p>"
+  },
+  {
+    "name": "Semaglutide 7.2 mg",
+    "area": "obesity",
+    "phase": "filed",
+    "description_text": "Obesity\n\nA long-acting GLP-1 analogue intended as a once-weekly treatment for obesity.",
+    "description_html": "<p><b>Obesity</b></p>\n<p>A long-acting GLP-1 analogue intended as a once-weekly treatment for obesity.</p>"
+  },
+  {
+    "name": "Denecimig",
+    "area": "rare-blood-disorders",
+    "phase": "filed",
+    "description_text": "Haemophilia A with or without inhibitors\nA next generation FVIII mimetic bispecific antibody for subcutaneous prophylaxis of haemophilia A regardless of inhibitor status.",
+    "description_html": "<h5>Haemophilia A with or without inhibitors<br>\n<span style=\"font-weight: normal;\">A next generation FVIII mimetic bispecific antibody for subcutaneous prophylaxis of haemophilia A regardless of inhibitor status.</span></h5>"
+  }
+]

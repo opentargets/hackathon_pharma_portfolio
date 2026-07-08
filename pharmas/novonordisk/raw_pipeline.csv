@@ -1,0 +1,91 @@
+name,area,phase,description_text
+Glucose sensitive insulin,diabetes,phase-1,"Type 1 and 2 diabetes
+A glucose-sensitive insulin analogue intended for once-daily treatment."
+Ventus NLRP3i,diabetes,phase-1,"CVD
+NLRP3i: NOD-like receptor protein 3 inhibitor"
+siRNA GalXC-GYS2,diabetes,phase-1,"siRNA GalXC-GYS2
+A quarterly subcutaneous treatment of type 2 diabetes by siRNA knockdown of hepatic glycogen synthase GYS2."
+CNP,diabetes,phase-1,"Heart failure
+A C-type natriuretic peptide (CNP) analogue in development for heart failure"
+NNC16790001,diabetes,phase-1,"Type 2 diabetes
+
+An siRNA molecule for the treatment of type 2 diabetes."
+Amylin 355,obesity,phase-1,"Obesity
+A once-weekly subcutaneous amylin analogue for the treatment of obesity"
+Amylin 1213,obesity,phase-1,"Obesity
+A once-weekly subcutaneous amylin analogue for the treatment of obesity."
+SLC25A5,obesity,phase-1,"MASH
+
+An siRNA molecule that targets knockdown of SLC25A5 mRNA and subsequent expression of SLC25A5 protein, also known as ANT2, in hepatocytes, as a potential once-quarterly therapy for MASH"
+Next-gen GLP-1,obesity,phase-1,"Obesity
+
+A subcutaneous next-generation GLP-1 receptor agonist for the treatment of overweight or obesity."
+ACSL5i,obesity,phase-1,"Obesity
+
+An oral non-incretin, small molecule ACSL5 inhibitor for the treatment of overweight or obesity."
+Inno8,rare-blood-disorders,phase-1,"Haemophilia
+An oral, once-daily antibody fragment for the treatment of haemophilia"
+Subcutaneous Zenagamtide,diabetes,phase-2,"Subcutaneous Zenagamtide
+
+A long-acting co-agonist of GLP-1 and amylin intended for once weekly subcutaneous injection"
+Monlunabant in DKD,diabetes,phase-2,"Diabetic Kidney Disease (DKD)
+
+An oral small molecule CB1 receptor blocker"
+Oral Zenagamtide,diabetes,phase-2,"Diabetes
+A long-acting co-agonist of GLP-1 and amylin intended for once daily oral treatment"
+CDR132L,diabetes,phase-2,"Heart failure with reduced ejection fraction (HFrEF)
+
+An antisense oligonucleotide (ASO) targeting the microRNA molecule miR-132 for the treatment of heart failure."
+Triple,diabetes,phase-2,"Type 2 diabetes
+
+A once-weekly triple-agonist of the receptors for GLP-1, GIP and Amylin for the treatment of type 2 diabetes."
+Oral Zenagamtide,obesity,phase-2,"Obesity
+A long-acting co-agonist of GLP-1 and amylin intended for once daily oral treatment"
+UBT251 (GGG tri-agonist),obesity,phase-2,"A triple agonist of the receptors for GLP-1, GIP, and glucagon for the treatment of obesity, type 2 diabetes and other diseases"
+Triple,obesity,phase-2,A once-weekly subcutaneous GLP1-GIP-Amylin tri-agonist for the treatment of obesity.
+Monlunabant,obesity,phase-2,"Obesity
+
+An oral small molecule CB1 receptor blocker"
+NDec,rare-blood-disorders,phase-2,"Sickle cell disease
+An oral combination of decitabine and tetrahydrouridine. Project is developed in collaboration with EpiDestiny."
+Zaltenibart,rare-blood-disorders,phase-2,"Paroxysmal nocturnal haemoglobinuria (PNH)
+
+A MASP-3 inhibitor for the treatment of paroxysmal nocturnal haemoglobinuria (PNH)."
+Etavopivat,rare-blood-disorders,phase-2,"Thalassemia
+A selective pyruvate kinase-R (PKR) activator intended for once daily oral treatment"
+CagriSema in T2D,diabetes,phase-3,"Type 2 diabetes
+A combination of amylin analogue and GLP-1 analogue semaglutide intended for once-weekly treatment."
+Ziltivekimab ASCVD,diabetes,phase-3,"Atherosclerotic cardiovascular disease (ASCVD) with chronic kidney disease (CKD) and inflammation
+
+A novel once-monthly monoclonal antibody intended for inhibition of IL-6 activity."
+Coramitug,diabetes,phase-3,"ATTR Cardiomyopathy
+
+An anti-amyloid immunotherapy treatment for ATTR5."
+Ziltivekimabin HFpEF,diabetes,phase-3,"Heart failure with preserved ejection fraction (HFpEF)
+
+A novel once-monthly monoclonal antibody intended for inhibition of IL-6 activity."
+Ziltivekimab AMI,diabetes,phase-3,"Acute Myocardial infarction (AMI)
+
+A novel once-monthly monoclonal antibody intended for inhibition of IL-6 activity."
+Subcutaneous Zenagamtide,obesity,phase-3,"Obesity
+
+A long-acting co-agonist of GLP-1 and amylin intended for once weekly subcutaneous injection"
+Cagrilintide,obesity,phase-3,A long-acting amylin analogue for once-weekly subcutaneous administration.
+Efruxifermin in MASH,obesity,phase-3,"MASH
+
+A long-acting FGF21 analogue for weekly subcutaneous administration."
+Etavopivat (Sickle Cell Disease),rare-blood-disorders,phase-3,"Sickle Cell Disease
+
+Oral, small molecule activator of erythrocyte pyruvate kinase (PKR) in development for the treatment of sickle cell disease."
+Icosema,diabetes,filed,"Type 2 diabetes
+A combination of GLP-1 analogue semaglutide and insulin icodec intended for once-weekly treatment."
+Insulin icodec,diabetes,filed,"Diabetes
+
+A long-acting basal insulin analogue intended for once weekly dosing."
+CagriSema,obesity,filed,"Obesity
+A combination of amylin analogue cagrilintide and GLP-1 analogue semaglutide intended for once-weekly subcutaneous treatment."
+Semaglutide 7.2 mg,obesity,filed,"Obesity
+
+A long-acting GLP-1 analogue intended as a once-weekly treatment for obesity."
+Denecimig,rare-blood-disorders,filed,"Haemophilia A with or without inhibitors
+A next generation FVIII mimetic bispecific antibody for subcutaneous prophylaxis of haemophilia A regardless of inhibitor status."
