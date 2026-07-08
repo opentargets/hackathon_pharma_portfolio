@@ -12,7 +12,7 @@ PDFs with a clear tabular layout, and full pipeline coverage (including early ph
 
 | Company | Pipeline Source | Notes | Status |
 |---|---|---|---|
-| Pfizer | `https://www.pfizer.com/science/drug-product-pipeline` | Quarterly PDF. Columns: Compound / MoA / Indication / Phase / Submission Type | TODO |
+| Pfizer | `https://www.pfizer.com/science/drug-product-pipeline` | Quarterly PDF. Columns: Compound / MoA / Indication / Phase / Submission Type | Done — see [`src/pharmas/pfizer/log.md`](../src/pharmas/pfizer/log.md) |
 | AstraZeneca | `https://www.astrazeneca.com/our-therapy-areas/pipeline.html` | Annual PDF. Columns: Compound / Mechanism / Area Under Investigation | TODO |
 | Novartis | `novartis.com/research-development/novartis-pipeline` → PDF | Quarterly PDF linked from pipeline page | TODO |
 | Roche | `roche.com/solutions/pipeline` | Semi-annual (H1/H2) | Done — see [`src/pharmas/roche/log.md`](../src/pharmas/roche/log.md) |

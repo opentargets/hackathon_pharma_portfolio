@@ -61,6 +61,10 @@ class PipelineRecord(BaseModel):
         default=None,
         description="ISO 8601 date (YYYY-MM-DD) when the source was fetched and parsed",
     )
+    modality: Optional[str] = Field(
+        default=None,
+        description="Compound or vaccine modality (e.g. 'Biologic', 'Small Molecule', 'Vaccine')",
+    )
     notes: Optional[str] = Field(
         default=None,
         description="Free-text annotation — e.g. 'Discontinued 2026-Q1', 'Partnered with X', 'Combination therapy'",
