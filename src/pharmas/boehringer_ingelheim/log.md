@@ -1,6 +1,6 @@
 # Boehringer Ingelheim — Extraction Log
 
-## Status: 🚧 Blocked by Incapsula WAF
+## Status: ✅ Done (converted from PDF via user download)
 
 ## Source
 - **Webpage:** `https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline`
@@ -43,17 +43,33 @@
 | Homepage, subdomains, PDF URL | All Incapsula-blocked |
 | Multiple EBI WiFi networks | Same block (whole 193.62.0.0/16 range?) |
 
-### Data Availability (from Google-indexed snippets)
-Substantial pipeline data is indexed by Google, including:
-- **Registration (3):** Zongertinib (BI 1810631), Nerandomilast (BI 1015550) ×2
-- **Phase 3 (11):** Tenecteplase, Vicadrostat+Empagliflozin ×2, Survodutide (BI 456906) ×2, Zongertinib, Obrixtamig (BI 764532), Nerandomilast, plus 3 more from CRM
-- **Phase 2 (13):** BI 1815368, BI 764524, BI 1584862, BI 771716, Nerandomilast, Avenciguat (BI 685509), BI 3032950, BI 3000202, Obrixtamig ×2, plus 3 more
-- **Phase 1 (24):** Multiple oncology programs including zongertinib combos, ezabenlimab, BI 770371, BI 1701963 (SOS1), BI 905677 (KRAS G12C), DLL3/CD3+SoC, B7-H6/CD3, VSV-GP, STING agonist
+### Conversion Details
 
-### Pipeline Data Structure (from Google)
-Each row: Therapeutic Area | Indication | Mechanism | Compound name. Detail pages add: NCT IDs, phase, description.
+**Source:** PDF provided by user (`2026_May_Clinical_Pipeline.pdf`) — page was WAF-blocked from EBI IP range.
 
-## Next Steps
-- Try from a non-EBI/home IP to access the live page
-- Once accessed, extract the rendered HTML (the Stencil component renders the pipeline data client-side)
-- Or, if Google-indexed snippets are sufficient, extract all ~50 pipeline entries from search results
+**Converter logic:**
+- `asset_name` = BI code number (e.g. "BI 1810631"), or compound name when no BI code
+- `synonyms` = INN name (e.g. ["Zongertinib"]) — set to `None` when no INN exists
+- `therapeutic_area` = the PDF's section label (Oncology, Respiratory, Cardiovascular-Renal-Metabolic, Eye Health, Immunology, Mental Health)
+- `indication` = specific disease/condition from the PDF card
+- `phase`: "Registration" → `Preregistration`; "Phase 1/2/3" → `Phase 1/2/3`
+- Phase 1 entries without compound names use `asset_name="Undisclosed"` with `moa` as the only identifier
+
+**Field-mapping decisions** (confirmed with user):
+- Code name as primary asset_name, INN as synonym
+- Registration → Preregistration
+- Include all Phase 1 entries (even unnamed)
+- Skip legend footnote symbols (combination, partnership, designations)
+
+**Output:**
+- 52 rows: Registration (3), Phase 3 (11), Phase 2 (14), Phase 1 (24)
+- Parquet: `boehringer_ingelheim_pipeline.parquet`
+
+### WAF Blockade Notes
+The entire `boehringer-ingelheim.com` domain is behind **Incapsula (Imperva) WAF**. The EBI IP range (193.62.0.0/16) is fully blocked. All automated access methods failed:
+- Plain curl, StealthyFetcher, DynamicFetcher, Playwright, Googlebot UA
+- Wayback Machine, Google Cache, Jina AI reader
+- Firebase REST API (even with anonymous auth tokens)
+- All subdomains and the PDF URL
+
+Page uses a Stencil.js web component (`csbep-bi-cms`) with Firebase Realtime Database backend. Pipeline data is client-side rendered, not server-rendered in the HTML.
