@@ -1,0 +1,496 @@
+[
+  {
+    "phase": "Registration",
+    "therapeutic_area": "Oncology",
+    "indication": "Non-small cell lung cancer",
+    "mechanism": "HER2 TKI",
+    "asset_name": "Zongertinib (BI 1810631)",
+    "filters": [
+      "breakthrough|fast_track"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/zongertinib-bi-1810631-her2-tyrosine-kinase-inhibitor-tki"
+  },
+  {
+    "phase": "Registration",
+    "therapeutic_area": "Respiratory",
+    "indication": "Idiopathic pulmonary fibrosis",
+    "mechanism": "PDE4B inhibitor",
+    "asset_name": "Nerandomilast (BI 1015550)",
+    "filters": [
+      "breakthrough"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/nerandomilast-bi-1015550-pde4b-inhibitor"
+  },
+  {
+    "phase": "Registration",
+    "therapeutic_area": "Respiratory",
+    "indication": "Progressive pulmonary fibrosis",
+    "mechanism": "PDE4B inhibitor",
+    "asset_name": "Nerandomilast (BI 1015550)",
+    "filters": [
+      "breakthrough"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/nerandomilast-bi-1015550-pde4b-inhibitor-0"
+  },
+  {
+    "phase": "Phase 3",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": "Cardiovascular risk reduction",
+    "mechanism": "Aldosterone synthase inhibitor / SGLT2 inhibitor",
+    "asset_name": "Vicadrostat (BI 690517) / Empagliflozin",
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/vicadrostat-bi-690517-empagliflozin-2"
+  },
+  {
+    "phase": "Phase 3",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": "Chronic kidney disease",
+    "mechanism": "Aldosterone synthase inhibitor / SGLT2 inhibitor",
+    "asset_name": "Vicadrostat (BI 690517) / Empagliflozin",
+    "filters": [
+      "fast_track"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/vicadrostat-bi-690517-empagliflozin"
+  },
+  {
+    "phase": "Phase 3",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": "Heart failure with preserved ejection fraction",
+    "mechanism": "Aldosterone synthase inhibitor / SGLT2 inhibitor",
+    "asset_name": "Vicadrostat (BI 690517) / Empagliflozin",
+    "filters": [
+      "fast_track"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/vicadrostat-bi-690517-empagliflozin-0"
+  },
+  {
+    "phase": "Phase 3",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": "Heart failure with reduced ejection fraction",
+    "mechanism": "Aldosterone synthase inhibitor / SGLT2 inhibitor",
+    "asset_name": "Vicadrostat (BI 690517) / Empagliflozin",
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/vicadrostat-bi-690517-empagliflozin-1"
+  },
+  {
+    "phase": "Phase 3",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": "Metabolic dysfunction-associated steatohepatitis",
+    "mechanism": "GLP1/GCGR agonist",
+    "asset_name": "Survodutide (BI 456906)",
+    "filters": [
+      "external_partnership|breakthrough|fast_track"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/survodutide-bi-456906-glp1-gcgr-agonist"
+  },
+  {
+    "phase": "Phase 3",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": "Obesity",
+    "mechanism": "GLP1/GCGR agonist",
+    "asset_name": "Survodutide (BI 456906)",
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/survodutide-bi-456906-glp1-gcgr-agonist-0"
+  },
+  {
+    "phase": "Phase 3",
+    "therapeutic_area": "Mental Health",
+    "indication": "Schizophrenia",
+    "mechanism": "Prescription digital therapeutic",
+    "asset_name": "CT-155 (BI 3972080)",
+    "filters": [
+      "external_partnership|breakthrough"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/ct-155-bi-3972080-prescription-digital-therapeutic"
+  },
+  {
+    "phase": "Phase 3",
+    "therapeutic_area": "Oncology",
+    "indication": "Non-small cell lung cancer",
+    "mechanism": "HER2 TKI",
+    "asset_name": "Zongertinib (BI 1810631)",
+    "filters": [
+      "breakthrough|fast_track"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/zongertinib-bi-1810631-her2-tyrosine-kinase-inhibitor-tki-0"
+  },
+  {
+    "phase": "Phase 3",
+    "therapeutic_area": "Respiratory",
+    "indication": "Bronchiectasis",
+    "mechanism": "DPP1/CatC inhibitor",
+    "asset_name": "Verducatib (BI 1291583)",
+    "filters": [
+      "external_partnership|breakthrough|fast_track"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/verducatib-bi-1291583-dpp1-catc-inhibitor"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": "Chronic kidney disease",
+    "mechanism": "Aldosterone synthase inhibitor / SGLT2 inhibitor",
+    "asset_name": "Vicadrostat (BI 690517) / Empagliflozin",
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/vicadrostat-bi-690517-empagliflozin-3"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": "Focal segmental glomerulosclerosis",
+    "mechanism": "TRPC6 inhibitor",
+    "asset_name": "BI 764198",
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/bi-764198-trpc6-inhibitor"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": "Metabolic dysfunction-associated steatohepatitis",
+    "mechanism": "SIRPa antagonist",
+    "asset_name": "BI 770371",
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/bi-770371-sirpa-antagonist"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Eye Health",
+    "indication": "Diabetic macular edema",
+    "mechanism": "Vascular modulator",
+    "asset_name": "BI 1815368",
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/bi-1815368-vascular-modulator"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Eye Health",
+    "indication": "Diabetic retinopathy",
+    "mechanism": "Sema3A antibody",
+    "asset_name": "BI 764524",
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/bi-764524-sema3a-antibody"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Eye Health",
+    "indication": "Geographic atrophy",
+    "mechanism": "Phospholipid modulator",
+    "asset_name": "BI 1584862",
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/bi-1584862-phospholipid-modulator"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Eye Health",
+    "indication": "Geographic atrophy",
+    "mechanism": "Antibody fragment",
+    "asset_name": "BI 771716",
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/bi-771716-antibody-fragment"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Immunology",
+    "indication": "Systemic sclerosis",
+    "mechanism": "PDE4B inhibitor",
+    "asset_name": "Nerandomilast (BI 1015550)",
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/nerandomilast-bi-1015550-pde4b-inhibitor-1"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Immunology",
+    "indication": "Systemic sclerosis",
+    "mechanism": "sGC activator",
+    "asset_name": "Avenciguat (BI 685509)",
+    "filters": [
+      "fast_track"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/avenciguat-bi-685509-sgc-activator"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Immunology",
+    "indication": "Ulcerative colitis",
+    "mechanism": "TREM-1 antagonist",
+    "asset_name": "BI 3032950",
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/bi-3032950-trem-1-antagonist"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Oncology",
+    "indication": "Advanced cancers with HER2 alterations",
+    "mechanism": "HER2 TKI",
+    "asset_name": "Zongertinib (BI 1810631)",
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/zongertinib-bi-1810631-her2-tyrosine-kinase-inhibitor-tki-1"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Oncology",
+    "indication": "Extra-pulmonary neuroendocrine carcinoma",
+    "mechanism": "DLL3/CD3 T-cell engager",
+    "asset_name": "Obrixtamig (BI 764532)",
+    "filters": [
+      "external_partnership|fast_track"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/obrixtamig-bi-764532-dll3-cd3-t-cell-engager"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Oncology",
+    "indication": "Small-cell lung cancer",
+    "mechanism": "DLL3/CD3 T-cell engager",
+    "asset_name": "Obrixtamig (BI 764532)",
+    "filters": [
+      "external_partnership|fast_track"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/obrixtamig-bi-764532-dll3-cd3-t-cell-engager-0"
+  },
+  {
+    "phase": "Phase 2",
+    "therapeutic_area": "Respiratory",
+    "indication": "Idiopathic/progressive pulmonary fibrosis",
+    "mechanism": "Lysophospholipase inhibitor",
+    "asset_name": "BI 1819479",
+    "filters": [
+      "fast_track"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/lysophospholipase-inhibitor-bi-1819479"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": null,
+    "mechanism": "Triple agonist peptide",
+    "asset_name": null,
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/triple-agonist-peptide"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": null,
+    "mechanism": "Anti-fibrotic agent",
+    "asset_name": null,
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/anti-fibrotic-agent-1"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Cardiovascular-Renal-Metabolic",
+    "indication": null,
+    "mechanism": "Anti-fibrotic agent",
+    "asset_name": null,
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/anti-fibrotic-agent"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Immunology",
+    "indication": null,
+    "mechanism": "PD-1 antibody",
+    "asset_name": null,
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/pd-1-antibody"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Immunology",
+    "indication": null,
+    "mechanism": "Immunomodulator",
+    "asset_name": null,
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/immunomodulator"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Mental Health",
+    "indication": null,
+    "mechanism": "Prescription digital therapeutic",
+    "asset_name": null,
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/digital-therapeutic"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Mental Health",
+    "indication": null,
+    "mechanism": "Receptor agonist",
+    "asset_name": null,
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/receptor-agonist"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Mental Health",
+    "indication": null,
+    "mechanism": "Acyltransferase inhibitor",
+    "asset_name": null,
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/acyltransferase-inhibitor"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Mental Health",
+    "indication": null,
+    "mechanism": "Glutamate receptor modulator",
+    "asset_name": null,
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/glutamate-receptor-modulator"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Oncology",
+    "indication": null,
+    "mechanism": "PD-1 antibody",
+    "asset_name": "Ezabenlimab",
+    "filters": [
+      "combo_therapy"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/ezabenlimab-pd-1-antibody"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Oncology",
+    "indication": null,
+    "mechanism": "Modified yersinia",
+    "asset_name": null,
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/modified-yersinia"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Oncology",
+    "indication": null,
+    "mechanism": "DLL3/CD3 T-cell engager",
+    "asset_name": "Obrixtamig",
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/obrixtamig-dll3-cd3-t-cell-engager"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Oncology",
+    "indication": null,
+    "mechanism": "CD137/FAP agonist",
+    "asset_name": null,
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/cd137-fap-agonist"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Oncology",
+    "indication": null,
+    "mechanism": "KISIMA\u00ae cancer vaccine",
+    "asset_name": null,
+    "filters": [
+      "external_partnership|combo_therapy"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/kisima-cancer-vaccine"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Oncology",
+    "indication": null,
+    "mechanism": "B7-H6/CD3 T-cell engager",
+    "asset_name": null,
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/b7-h6-cd3-t-cell-engager"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Oncology",
+    "indication": null,
+    "mechanism": "HER2 TKI",
+    "asset_name": "Zongertinib",
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/zongertinib-her2-tyrosine-kinase-inhibitor-tki"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Oncology",
+    "indication": null,
+    "mechanism": "VSV-GP",
+    "asset_name": null,
+    "filters": [
+      "external_partnership|combo_therapy"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/vsv-gp"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Oncology",
+    "indication": null,
+    "mechanism": "STING agonist (2nd generation)",
+    "asset_name": null,
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/second-generation-sting-agonist"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Oncology",
+    "indication": null,
+    "mechanism": "SIRPa antagonist",
+    "asset_name": null,
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/sirpa-antagonist"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Respiratory",
+    "indication": null,
+    "mechanism": "IL11 antibody",
+    "asset_name": null,
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/il11-antibody"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Respiratory",
+    "indication": null,
+    "mechanism": "Anti-fibrotic agent",
+    "asset_name": null,
+    "filters": [],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/anti-fibrotic-agent-0"
+  },
+  {
+    "phase": "Phase 1",
+    "therapeutic_area": "Respiratory",
+    "indication": null,
+    "mechanism": "Lentiviral vector-based gene therapy",
+    "asset_name": null,
+    "filters": [
+      "external_partnership"
+    ],
+    "detail_url": "https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline/lentiviral-vector-based-gene-therapy"
+  }
+]
