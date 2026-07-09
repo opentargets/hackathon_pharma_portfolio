@@ -17,7 +17,7 @@ PDFs with a clear tabular layout, and full pipeline coverage (including early ph
 | Novartis | `https://www.novartis.com/research-development/novartis-pipeline` | Server-rendered HTML (Drupal View, 6 pages, no JS needed). See [`src/pharmas/novartis/log.md`](../src/pharmas/novartis/log.md) | ✅ |
 | Roche | `roche.com/solutions/pipeline` | Semi-annual (H1/H2) | ✅ |
 | Boehringer Ingelheim | `https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline` | Stable URL | TODO |
-| Takeda | `takeda.com/science/pipeline/` → "DOWNLOAD THE PDF" | Full pipeline PDF + oncology-specific PDF at `takedaoncology.com/science/pipeline/` | TODO |
+| Takeda | `takeda.com/science/pipeline/` → "DOWNLOAD THE PDF" | Full pipeline PDF. Position-aware word extraction used — table extraction was unreliable due to merged cells. See [`src/pharmas/takeda/log.md`](../src/pharmas/takeda/log.md) | ✅ |
 
 ### Tier 2 — PDF Available but with Parsing Caveats
 
