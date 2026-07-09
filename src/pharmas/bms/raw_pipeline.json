@@ -1,0 +1,821 @@
+[
+  {
+    "compound_name": "milvexian",
+    "category": "Cardiovascular",
+    "indication": "Secondary Stroke Prevention*",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "milvexian",
+    "category": "Cardiovascular",
+    "indication": "Atrial Fibrillation*",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "MYK-224",
+    "category": "Cardiovascular",
+    "indication": "Heart Failure with Preserved Ejection Fraction",
+    "phase_label": "Phase 2",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "arlo-cel",
+    "category": "Hematology",
+    "indication": "4L+ Multiple Myeloma",
+    "phase_label": "Phase 2",
+    "research_area": "Multiple Myeloma",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "arlo-cel",
+    "category": "Hematology",
+    "indication": "2-4L Multiple Myeloma",
+    "phase_label": "Phase 3",
+    "research_area": "Multiple Myeloma",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BCL6 LDD",
+    "category": "Hematology",
+    "indication": "Lymphoma",
+    "phase_label": "Phase 1",
+    "research_area": "Lymphoma",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "CD33-GSPT1 ADC",
+    "category": "Hematology",
+    "indication": "Acute Myeloid Leukemia",
+    "phase_label": "Phase 1",
+    "research_area": "Leukemia",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "Dual Targeting BCMAxGPRC5D CAR T",
+    "category": "Hematology",
+    "indication": "Relapsed/Refractory Multiple Myeloma",
+    "phase_label": "Phase 1",
+    "research_area": "Multiple Myeloma",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "golcadomide",
+    "category": "Hematology",
+    "indication": "1L Follicular Lymphoma",
+    "phase_label": "Phase 2",
+    "research_area": "Lymphoma",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "golcadomide",
+    "category": "Hematology",
+    "indication": "High Risk 1L Large B-cell Lymphoma",
+    "phase_label": "Phase 3",
+    "research_area": "Lymphoma",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "golcadomide",
+    "category": "Hematology",
+    "indication": "2L+ Follicular Lymphoma",
+    "phase_label": "Phase 3",
+    "research_area": "Lymphoma",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "HbF Activating CELMoD",
+    "category": "Hematology",
+    "indication": "Sickle Cell Disease",
+    "phase_label": "Phase 1",
+    "research_area": "Sickle Cell Disease",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "mezigdomide +\nelranatamab",
+    "category": "Hematology",
+    "indication": "Relapsed/Refractory Multiple Myeloma",
+    "phase_label": "Phase 1",
+    "research_area": "Multiple Myeloma",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "iberdomide",
+    "category": "Hematology",
+    "indication": "Post-Autologous Stem Cell Transplant Maintenance Newly Diagnosed Multiple Myeloma",
+    "phase_label": "Phase 3",
+    "research_area": "Multiple Myeloma",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "iberdomide",
+    "category": "Hematology",
+    "indication": "2L+ Multiple Myeloma",
+    "phase_label": "Phase 3",
+    "research_area": "Multiple Myeloma",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "mezigdomide",
+    "category": "Hematology",
+    "indication": "2L+ Multiple Myeloma Vd",
+    "phase_label": "Phase 3",
+    "research_area": "Multiple Myeloma",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "mezigdomide",
+    "category": "Hematology",
+    "indication": "2L+ Multiple Myeloma Kd",
+    "phase_label": "Phase 3",
+    "research_area": "Multiple Myeloma",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "REBLOZYL\u00ae (luspatercept-aamt)",
+    "category": "Hematology",
+    "indication": "\u03b1-Thalassemia",
+    "phase_label": "Phase 2",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "REBLOZYL\u00ae (luspatercept-aamt)",
+    "category": "Hematology",
+    "indication": "1L Non-Transfusion Dependent Myelodysplastic Syndrome-Associated Anemia",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "REBLOZYL\u00ae (luspatercept-aamt)",
+    "category": "Hematology",
+    "indication": "1L Transfusion Dependent Myelofibrosis-Associated Anemia",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "iberdomide",
+    "category": "Hematology",
+    "indication": "2L+ Multiple Myeloma [MRD]",
+    "phase_label": "Registration",
+    "research_area": "Multiple Myeloma",
+    "nme_status": "NME Lead",
+    "registration_status": "Registration (US)"
+  },
+  {
+    "compound_name": "OPDIVO\u00ae (nivolumab)",
+    "category": "Hematology",
+    "indication": "1L Classical Hodgkin Lymphoma",
+    "phase_label": "Registration",
+    "research_area": "Lymphoma",
+    "nme_status": "non-NME",
+    "registration_status": "Registration (EU)"
+  },
+  {
+    "compound_name": "admilparant",
+    "category": "Immunology",
+    "indication": "Idiopathic Pulmonary Fibrosis",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "admilparant",
+    "category": "Immunology",
+    "indication": "Progressive Pulmonary Fibrosis",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BMS-986454",
+    "category": "Immunology",
+    "indication": "Rheumatoid Arthritis",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "CD19 HD Allo CAR T",
+    "category": "Immunology",
+    "indication": "Autoimmune Diseases",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "CD19 TCE (BMS-986528)",
+    "category": "Immunology",
+    "indication": "Autoimmune Diseases",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "zola-cel",
+    "category": "Immunology",
+    "indication": "Rheumatoid Arthritis",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "obexelimab",
+    "category": "Immunology",
+    "indication": "IgG4-Related Disease",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "zola-cel",
+    "category": "Immunology",
+    "indication": "Idiopathic Inflammatory Myopathies",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "zola-cel",
+    "category": "Immunology",
+    "indication": "Systemic Lupus Erythematosus",
+    "phase_label": "Phase 2",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "SOTYKTU\u00ae (deucravacitinib)",
+    "category": "Immunology",
+    "indication": "Systemic Lupus Erythematosus",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "SOTYKTU\u00ae (deucravacitinib)",
+    "category": "Immunology",
+    "indication": "Sj\u00f6gren's Disease",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "zola-cel",
+    "category": "Immunology",
+    "indication": "Systemic Sclerosis",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "SOTYKTU\u00ae (deucravacitinib)",
+    "category": "Immunology",
+    "indication": "Psoriatic Arthritis",
+    "phase_label": "Registration",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": "Registration (EU, JP)"
+  },
+  {
+    "compound_name": "irafamdastat (FAAH/MAGL Dual Inhibitor)",
+    "category": "Neuroscience",
+    "indication": "Multiple Sclerosis Spasticity",
+    "phase_label": "Phase 2",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BMS-986495",
+    "category": "Neuroscience",
+    "indication": "Neurodegenerative Diseases*",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BMS-986521",
+    "category": "Neuroscience",
+    "indication": "Neuropsychiatric Disorders",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "eIF2B Activator",
+    "category": "Neuroscience",
+    "indication": "Alzheimer's Disease",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "KarXT Long-Acting Injectable",
+    "category": "Neuroscience",
+    "indication": "Schizophrenia",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "COBENFY\u2122",
+    "category": "Neuroscience",
+    "indication": "Adjunctive Bipolar-I Mania",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "COBENFY\u2122",
+    "category": "Neuroscience",
+    "indication": "Psychosis in Alzheimer's Disease",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "COBENFY\u2122",
+    "category": "Neuroscience",
+    "indication": "Agitation in Alzheimer's Disease",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "COBENFY\u2122",
+    "category": "Neuroscience",
+    "indication": "Alzheimer's Disease Cognition",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "COBENFY\u2122",
+    "category": "Neuroscience",
+    "indication": "Pediatric Autism Irritability",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "COBENFY\u2122",
+    "category": "Neuroscience",
+    "indication": "Bipolar-I Mania",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "TRPC4/5 Inhibitor",
+    "category": "Neuroscience",
+    "indication": "Mood and Anxiety Disorders",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "irafamdastat (FAAH/MAGL Dual Inhibitor)",
+    "category": "Neuroscience",
+    "indication": "Alzheimer's Disease Agitation",
+    "phase_label": "Phase 2",
+    "research_area": "",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "moponetug (Anti-MTBR Tau)",
+    "category": "Neuroscience",
+    "indication": "Alzheimer's Disease",
+    "phase_label": "Phase 2",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "zola-cel",
+    "category": "Neuroscience",
+    "indication": "Multiple Sclerosis",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "zola-cel",
+    "category": "Neuroscience",
+    "indication": "Myasthenia Gravis",
+    "phase_label": "Phase 1",
+    "research_area": "",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BMS-986460",
+    "category": "Oncology",
+    "indication": "Prostate Cancer",
+    "phase_label": "Phase 1",
+    "research_area": "Prostate Cancer",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "AR LDD",
+    "category": "Oncology",
+    "indication": "Metastatic Castration-Resistant Prostate Cancer",
+    "phase_label": "Phase 3",
+    "research_area": "Prostate Cancer",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "atigotatug +\nnivolumab",
+    "category": "Oncology",
+    "indication": "1L Extensive-Stage Small Cell Lung Cancer",
+    "phase_label": "Phase 3",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BMS-986488",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BMS-986500",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BMS-986506",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BMS-986517",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BMS-986523",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "BMS-986525",
+    "category": "Oncology",
+    "indication": "Relapsed/Refractory Small Cell Lung Cancer",
+    "phase_label": "Phase 1",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "CEACAM5-TOPO1 ADC",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "IKZF Pan-Degrader (BMS-986482)",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "iza-bren",
+    "category": "Oncology",
+    "indication": "1L Triple-Negative Breast Cancer",
+    "phase_label": "Phase 2",
+    "research_area": "Breast Cancer",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "KRAZATI\u00ae (adagrasib)",
+    "category": "Oncology",
+    "indication": "1L Non-Small Cell Lung Cancer PD-L1\u226550%",
+    "phase_label": "Phase 3",
+    "research_area": "Lung Cancer",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "imzokitug (Anti-CCR8)",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "iza-bren",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "iza-bren",
+    "category": "Oncology",
+    "indication": "EGFR-mutated Post-TKI Non-Small Cell Lung Cancer",
+    "phase_label": "Phase 2",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "iza-bren",
+    "category": "Oncology",
+    "indication": "Post-IO Metastatic Urothelial Cancer",
+    "phase_label": "Phase 2",
+    "research_area": "Urothelial Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "navlimetostat",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 2",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "navlimetostat",
+    "category": "Oncology",
+    "indication": "2L Non-Small Cell Lung Cancer",
+    "phase_label": "Phase 2",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "pumitamig",
+    "category": "Oncology",
+    "indication": "1L Hepatocellular Carcinoma",
+    "phase_label": "Phase 1",
+    "research_area": "Hepatocellular Carcinoma",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "KRAZATI\u00ae (adagrasib)",
+    "category": "Oncology",
+    "indication": "1L Non-Small Cell Lung Cancer",
+    "phase_label": "Phase 3",
+    "research_area": "Lung Cancer",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "nivolumab +\nrelatlimab HD",
+    "category": "Oncology",
+    "indication": "1L Non-Small Cell Lung Cancer PD-L1\u22651%",
+    "phase_label": "Phase 3",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "OPDIVO\u00ae (nivolumab)",
+    "category": "Oncology",
+    "indication": "Adjuvant Hepatocellular Carcinoma",
+    "phase_label": "Phase 3",
+    "research_area": "Hepatocellular Carcinoma",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "pumitamig",
+    "category": "Oncology",
+    "indication": "1L Extensive-Stage Small Cell Lung Cancer*",
+    "phase_label": "Phase 3",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "pumitamig",
+    "category": "Oncology",
+    "indication": "1L Non-Small Cell Lung Cancer*",
+    "phase_label": "Phase 3",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "pumitamig",
+    "category": "Oncology",
+    "indication": "1L Triple-Negative Breast Cancer*",
+    "phase_label": "Phase 3",
+    "research_area": "Breast Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "navlimetostat",
+    "category": "Oncology",
+    "indication": "1L Non-Small Cell Lung Cancer",
+    "phase_label": "Phase 2",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "navlimetostat",
+    "category": "Oncology",
+    "indication": "1L Pancreatic Ductal Adenocarcinoma",
+    "phase_label": "Phase 2",
+    "research_area": "Pancreatic Cancer",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "OPDIVO QVANTIG\u2122 (nivolumab and hyaluronidase-nvhy) +\nYERVOY\u00ae (ipilimumab)",
+    "category": "Oncology",
+    "indication": "1L Non-Small Cell Lung Cancer",
+    "phase_label": "Phase 2",
+    "research_area": "Lung Cancer",
+    "nme_status": "non-NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "pumitamig",
+    "category": "Oncology",
+    "indication": "1L Non-Small Cell Lung Cancer PD-L1\u226550%",
+    "phase_label": "Phase 3",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "pumitamig",
+    "category": "Oncology",
+    "indication": "Stage III Non-Small Cell Lung Cancer",
+    "phase_label": "Phase 3",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "pumitamig",
+    "category": "Oncology",
+    "indication": "1L Renal Cell Carcinoma",
+    "phase_label": "Phase 1",
+    "research_area": "Renal Cell Carcinoma",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "pumitamig",
+    "category": "Oncology",
+    "indication": "2L Non-Small Cell Lung Cancer*",
+    "phase_label": "Phase 2",
+    "research_area": "Lung Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "pumitamig",
+    "category": "Oncology",
+    "indication": "1L Microsatellite Stable Colorectal Cancer",
+    "phase_label": "Phase 2",
+    "research_area": "Colorectal Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "pumitamig",
+    "category": "Oncology",
+    "indication": "1L Gastric Cancer",
+    "phase_label": "Phase 2",
+    "research_area": "Gastric Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "RYZ101",
+    "category": "Oncology",
+    "indication": "SSTR+ HR+/HER2- Unresectable Metastatic Breast Cancer",
+    "phase_label": "Phase 1",
+    "research_area": "Breast Cancer",
+    "nme_status": "NME",
+    "registration_status": null
+  },
+  {
+    "compound_name": "RYZ101",
+    "category": "Oncology",
+    "indication": "2L+ SSTR2+ Gastroenteropancreatic Neuroendocrine Tumors",
+    "phase_label": "Phase 3",
+    "research_area": "",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "RYZ401",
+    "category": "Oncology",
+    "indication": "SSTR+ Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "RYZ801",
+    "category": "Oncology",
+    "indication": "GPC3+ Hepatocellular Carcinoma",
+    "phase_label": "Phase 1",
+    "research_area": "Hepatocellular Carcinoma",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  },
+  {
+    "compound_name": "WEE1 CELMoD",
+    "category": "Oncology",
+    "indication": "Solid Tumors",
+    "phase_label": "Phase 1",
+    "research_area": "Solid Tumors",
+    "nme_status": "NME Lead",
+    "registration_status": null
+  }
+]
