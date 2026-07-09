@@ -1,0 +1,962 @@
+[
+  {
+    "molecule_name": "Aimovig<sup>\u00ae</sup>",
+    "molecule_code": "(erenumab-aooe)",
+    "description": "Aimovig is a monoclonal antibody that inhibits the calcitonin gene-related peptide receptor (CGRP-R). It is being investigated for the prevention of chronic and episodic migraine in pediatric patients.\n",
+    "additional_information": "Aimovig is developed in collaboration with Novartis.",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Neuroscience",
+      "Identifier": "TA7"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Pediatric Migraine",
+        "Identifier": "IN45"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "BLINCYTO<sup>&reg;</sup>",
+    "molecule_code": "(blinatumomab)",
+    "description": "BLINCYTO is an anti-CD19 x anti-CD3 BiTE (bispecific T cell engager) molecule. It is being investigated for the treatment of newly diagnosed adults and pediatric patients with B-Cell precursor Acute Lymphoblastic Leukemia (ALL).\n\n<p class=\"innerContentTitle\"><strong>ADDITIONAL CLINICAL STUDIES</strong></p>\n\n<p class=\"innterContentText\">Blinatumomab is also in Phase 2 development being investigated for subcutaneous administration for the treatment of adults, adolescents, and pediatric patients with relapsed/refractory Acute Lymphoblastic Leukemia (ALL).</p>",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Acute Lymphoblastic Leukemia",
+        "Identifier": "IN1"
+      }
+    ],
+    "modality": "BiTE<sup>&reg;</sup> Molecule"
+  },
+  {
+    "molecule_name": "BLINCYTO<sup>&reg;</sup>",
+    "molecule_code": "(blinatumomab)",
+    "description": "Blinatumomab is an anti-CD19 x anti-CD3 BiTE (bispecific T cell engager) molecule. It is being investigated as a treatment for patients with systemic lupus erythematosus with and without nephritis.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Inflammation",
+      "Identifier": "TA5"
+    },
+    "phase": {
+      "HtmlString": "2",
+      "Identifier": "PH2"
+    },
+    "indications": [
+      {
+        "HtmlString": "Systemic Lupus Erythematosus with and without Nephritis",
+        "Identifier": "IN59"
+      }
+    ],
+    "modality": "BiTE<sup>&reg;</sup> Molecule"
+  },
+  {
+    "molecule_name": "BLINCYTO<sup>&reg;</sup>",
+    "molecule_code": "(blinatumomab)",
+    "description": "Blinatumomab is an anti-CD19 x anti-CD3 BiTE (bispecific T cell engager) molecule. It is being investigated as a treatment for patients with refractory rheumatoid arthritis.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Inflammation",
+      "Identifier": "TA5"
+    },
+    "phase": {
+      "HtmlString": "2",
+      "Identifier": "PH2"
+    },
+    "indications": [
+      {
+        "HtmlString": "Refractory Rheumatoid Arthritis",
+        "Identifier": "IN52"
+      }
+    ],
+    "modality": "BiTE<sup>&reg;</sup> Molecule"
+  },
+  {
+    "molecule_name": "DAZODALIBEP",
+    "molecule_code": "",
+    "description": "Dazodalibep is a fusion protein binding CD40L on T cells, blocking their interaction with CD40-expressing B cells. It is being investigated for the treatment of Sj\u00f6gren\u2019s disease.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Rare Disease",
+      "Identifier": "TA8"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Sj\u00f6gren\u2019s Disease",
+        "Identifier": "IN55"
+      }
+    ],
+    "modality": "Fusion Protein"
+  },
+  {
+    "molecule_name": "EVENITY<sup>\u00ae</sup>\n\n",
+    "molecule_code": "(romosozumab-aqqg)",
+    "description": "EVENITY is a monoclonal antibody that inhibits the action of sclerostin. It is being investigated for the treatment of osteogenesis imperfecta in pediatric patients.",
+    "additional_information": "EVENITY is being developed in collaboration with UCB.",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Bone",
+      "Identifier": "TA1"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Pediatric Osteogenesis Imperfecta",
+        "Identifier": "IN46"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "IMDELLTRA<sup>&reg;</sup><br /><span style=\"text-transform: lowercase !important;\">(tarlatamab-dlle)</span>",
+    "molecule_code": "",
+    "description": "IMDELLTRA is an anti-delta-like ligand 3 (DLL3) x anti-CD3 bispecific T cell engager (BiTE) molecule. It is being investigated for the treatment of small cell lung cancer in limited-stage and extensive-stage settings.\n\n\n<p class=\"innerContentTitle\"><strong>ADDITIONAL CLINICAL STUDIES</strong></p>\n\n<p class=\"innterContentText\">IMDELLTRA is also being investigated in combination with other therapies. Tarlatamab is also being investigated in Phase 1 for subcutaneous administration and in Phase 2 for alternate dosing regimens for the treatment of small cell lung cancer.</p>",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Small Cell Lung Cancer",
+        "Identifier": "IN56"
+      },
+      {
+        "HtmlString": "Solid Tumors",
+        "Identifier": "IN57"
+      }
+    ],
+    "modality": "BiTE<sup>\u00ae</sup> Molecule"
+  },
+  {
+    "molecule_name": "KRYSTEXXA<sup>&reg;</sup><br /><span style=\"text-transform: lowercase !important;\">(pegloticase)</span>",
+    "molecule_code": "",
+    "description": "Pegloticase is a PEGylated uricase approved for the treatment of uncontrolled gout by intravenous administration. It is being investigated for subcutaneous administration when co-administered with methotrexate.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Rare Disease",
+      "Identifier": "TA8"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Uncontrolled Gout",
+        "Identifier": "IN64"
+      }
+    ],
+    "modality": "PEGylated Uricase"
+  },
+  {
+    "molecule_name": "LUMAKRAS<sup>&reg;</sup><br /><span style=\"text-transform: lowercase !important;\">(sotorasib)</span>",
+    "molecule_code": "",
+    "description": "LUMAKRAS is a KRAS G12C small molecule inhibitor. It is being investigated in combination with other therapies as first line treatment for KRAS G12C-mutated metastatic colorectal cancer (CRC).\n\n",
+    "additional_information": "\n\n",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Metastatic Colorectal Cancer",
+        "Identifier": "IN33"
+      }
+    ],
+    "modality": "Small Molecule"
+  },
+  {
+    "molecule_name": "LUMAKRAS<sup>&reg;</sup><br /><span style=\"text-transform: lowercase !important;\">(sotorasib)</span>",
+    "molecule_code": "",
+    "description": "LUMAKRAS is a KRAS G12C small molecule inhibitor.  It is under investigation for the treatment of previously treated advanced KRAS G12C-mutated non-small cell lung cancer.\n\n<p class=\"innerContentTitle\"><strong>ADDITIONAL CLINICAL STUDIES</strong></p>\n<p class=\"innterContentText\">LUMAKRAS is also being investigated in newly diagnosed advanced KRAS G12C-mutated NSCLC in combination with other therapies.</p>",
+    "additional_information": "\n\n\n",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Non-Small Cell Lung Cancer",
+        "Identifier": "IN36"
+      }
+    ],
+    "modality": "Small Molecule"
+  },
+  {
+    "molecule_name": "MARIDEBART CAFRAGLUTIDE<br /><span style=\"text-transform: uppercase !important;\">(M</span><span style=\"text-transform: lowercase !important;\">ari</span><span style=\"text-transform: uppercase !important;\">T</span><span style=\"text-transform: lowercase !important;\">ide, formerly </span><span style=\"text-transform: uppercase !important;\">AMG 133</span><span style=\"text-transform: lowercase !important;\">)</span></span>",
+    "molecule_code": "",
+    "description": "Maridebart cafraglutide (MariTide, formerly AMG 133) is an antibody-peptide conjugate that activates the glucagon-like peptide 1 (GLP-1) receptor and antagonizes the glucose-dependent insulinotropic polypeptide receptor (GIPR). It is being investigated for the treatment of obesity.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Cardiometabolic",
+      "Identifier": "TA2"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Obesity",
+        "Identifier": "IN37"
+      }
+    ],
+    "modality": "Antibody-Peptide Conjugate"
+  },
+  {
+    "molecule_name": "MARIDEBART CAFRAGLUTIDE<br /><span style=\"text-transform: uppercase !important;\">(M</span><span style=\"text-transform: lowercase !important;\">ari</span><span style=\"text-transform: uppercase !important;\">T</span><span style=\"text-transform: lowercase !important;\">ide, formerly </span><span style=\"text-transform: uppercase !important;\">AMG 133</span><span style=\"text-transform: lowercase !important;\">)</span></span>",
+    "molecule_code": "",
+    "description": "Maridebart cafraglutide (MariTide, formerly AMG 133) is an antibody-peptide conjugate that activates the glucagon-like peptide 1 (GLP-1) receptor and antagonizes the glucose-dependent insulinotropic polypeptide receptor (GIPR). It is being investigated as a treatment for the reduction in cardiovascular risk in adults with established atherosclerotic cardiovascular disease and obesity or overweight.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Cardiometabolic",
+      "Identifier": "TA2"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Cardiovascular Disease",
+        "Identifier": "IN8"
+      }
+    ],
+    "modality": "Antibody-Peptide Conjugate"
+  },
+  {
+    "molecule_name": "MARIDEBART CAFRAGLUTIDE<br /><span style=\"text-transform: uppercase !important;\">(M</span><span style=\"text-transform: lowercase !important;\">ari</span><span style=\"text-transform: uppercase !important;\">T</span><span style=\"text-transform: lowercase !important;\">ide, formerly </span><span style=\"text-transform: uppercase !important;\">AMG 133</span><span style=\"text-transform: lowercase !important;\">)</span></span>",
+    "molecule_code": "",
+    "description": "Maridebart cafraglutide (MariTide, formerly AMG 133) is an antibody-peptide conjugate that activates the glucagon-like peptide 1 (GLP-1) receptor and antagonizes the glucose-dependent insulinotropic polypeptide receptor (GIPR). It is being investigated as a treatment for the reduction of heart failure events and cardiovascular risk in adults with heart failure with preserved or mildly reduced ejection fraction and obesity.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Cardiometabolic",
+      "Identifier": "TA2"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Heart Failure",
+        "Identifier": "IN23"
+      }
+    ],
+    "modality": "Antibody-Peptide Conjugate"
+  },
+  {
+    "molecule_name": "MARIDEBART CAFRAGLUTIDE<br /><span style=\"text-transform: uppercase !important;\">(M</span><span style=\"text-transform: lowercase !important;\">ari</span><span style=\"text-transform: uppercase !important;\">T</span><span style=\"text-transform: lowercase !important;\">ide, formerly </span><span style=\"text-transform: uppercase !important;\">AMG 133</span><span style=\"text-transform: lowercase !important;\">)</span></span>",
+    "molecule_code": "",
+    "description": "Maridebart cafraglutide (MariTide, formerly AMG 133) is an antibody-peptide conjugate that activates the glucagon-like peptide 1 (GLP-1) receptor and antagonizes the glucose-dependent insulinotropic polypeptide receptor (GIPR). It is being investigated for the treatment of obstructive sleep apnea.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Cardiometabolic",
+      "Identifier": "TA2"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Obstructive Sleep Apnea",
+        "Identifier": "IN38"
+      }
+    ],
+    "modality": "Antibody-Peptide Conjugate"
+  },
+  {
+    "molecule_name": "MARIDEBART CAFRAGLUTIDE<br /><span style=\"text-transform: uppercase !important;\">(M</span><span style=\"text-transform: lowercase !important;\">ari</span><span style=\"text-transform: uppercase !important;\">T</span><span style=\"text-transform: lowercase !important;\">ide, formerly </span><span style=\"text-transform: uppercase !important;\">AMG 133</span><span style=\"text-transform: lowercase !important;\">)</span></span>",
+    "molecule_code": "",
+    "description": "Maridebart cafraglutide (MariTide, formerly AMG 133) is an antibody-peptide conjugate that activates the glucagon-like peptide 1 (GLP-1) receptor and antagonizes the glucose-dependent insulinotropic polypeptide receptor (GIPR). It is being investigated for the treatment of liver fat reduction and weight loss in adults living with obesity or overweight with elevated liver fat.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Cardiometabolic",
+      "Identifier": "TA2"
+    },
+    "phase": {
+      "HtmlString": "2",
+      "Identifier": "PH2"
+    },
+    "indications": [
+      {
+        "HtmlString": "Elevated Liver Fat",
+        "Identifier": "IN18"
+      }
+    ],
+    "modality": "Antibody-Peptide Conjugate"
+  },
+  {
+    "molecule_name": "MARIDEBART CAFRAGLUTIDE<br /><span style=\"text-transform: uppercase !important;\">(M</span><span style=\"text-transform: lowercase !important;\">ari</span><span style=\"text-transform: uppercase !important;\">T</span><span style=\"text-transform: lowercase !important;\">ide, formerly </span><span style=\"text-transform: uppercase !important;\">AMG 133</span><span style=\"text-transform: lowercase !important;\">)</span></span>",
+    "molecule_code": "",
+    "description": "Maridebart cafraglutide (MariTide, formerly AMG 133) is an antibody-peptide conjugate that activates the glucagon-like peptide 1 (GLP-1) receptor and antagonizes the glucose-dependent insulinotropic polypeptide receptor (GIPR). It is being investigated for the treatment of Type 2 diabetes.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Diabetes",
+      "Identifier": "TA3"
+    },
+    "phase": {
+      "HtmlString": "2",
+      "Identifier": "PH2"
+    },
+    "indications": [
+      {
+        "HtmlString": "Type 2 Diabetes",
+        "Identifier": "IN62"
+      }
+    ],
+    "modality": "Antibody-Peptide Conjugate"
+  },
+  {
+    "molecule_name": "Nplate<sup>\u00ae</sup>",
+    "molecule_code": "(romiplostim)",
+    "description": "Nplate<sup>&nbsp;</sup>is a thrombopoietin receptor agonist (TPO-RA).  It is being investigated for the treatment of chemotherapy-induced thrombocytopenia (CIT).",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Chemotherapy-Induced Thrombocytopenia",
+        "Identifier": "IN10"
+      },
+      {
+        "HtmlString": "Hematology",
+        "Identifier": "IN24"
+      }
+    ],
+    "modality": "Peptibody"
+  },
+  {
+    "molecule_name": "OLPASIRAN<br>\n<span style=\"text-transform: lowercase !important;\">(formerly <span style=\"text-transform: uppercase !important;\">AMG</span> 890)</span>",
+    "molecule_code": "",
+    "description": "Olpasiran (formerly AMG 890)  is a small interfering RNA (siRNA) that lowers lipoprotein(a), also known as Lp(a). It is being investigated for the treatment of atherosclerotic cardiovascular disease.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Cardiometabolic",
+      "Identifier": "TA2"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Cardiovascular Disease",
+        "Identifier": "IN8"
+      }
+    ],
+    "modality": "siRNA"
+  },
+  {
+    "molecule_name": "Otezla<sup>\u00ae</sup>",
+    "molecule_code": "(apremilast)",
+    "description": "Otezla is a small molecule that inhibits phosphodiesterase 4 (PDE4). It is being investigated for the treatment of juvenile psoriatic arthritis in pediatric patients.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Inflammation",
+      "Identifier": "TA5"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Juvenile Psoriatic Arthritis",
+        "Identifier": "IN31"
+      },
+      {
+        "HtmlString": "Inflammatory Disease",
+        "Identifier": "IN28"
+      }
+    ],
+    "modality": "Small Molecule"
+  },
+  {
+    "molecule_name": "Otezla<sup>\u00ae</sup>",
+    "molecule_code": "(apremilast)",
+    "description": "Otezla is a small molecule that inhibits phosphodiesterase 4 (PDE4). It is being investigated for the treatment of Behcet\u2019s disease in pediatric patients.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Inflammation",
+      "Identifier": "TA5"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Pediatric Behcet\u2019s Disease",
+        "Identifier": "IN43"
+      },
+      {
+        "HtmlString": "Inflammatory Disease",
+        "Identifier": "IN28"
+      }
+    ],
+    "modality": "Small Molecule"
+  },
+  {
+    "molecule_name": "Parsabiv<sup>\u00ae</sup>",
+    "molecule_code": "(etelcalcetide)",
+    "description": "Parsabiv is a calcium-sensing receptor agonist.  It is being investigated for the treatment of secondary hyperparathyroidism (HPT) in pediatric patients with chronic kidney disease (CKD) receiving hemodialysis.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Nephrology",
+      "Identifier": "TA6"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Pediatric Secondary Hyperparathyroidism",
+        "Identifier": "IN47"
+      },
+      {
+        "HtmlString": "Chronic Kidney Disease",
+        "Identifier": "IN11"
+      }
+    ],
+    "modality": "Peptide"
+  },
+  {
+    "molecule_name": "Repatha<sup>\u00ae</sup>",
+    "molecule_code": "(evolocumab)",
+    "description": "Repatha is a monoclonal antibody that inhibits proprotein convertase subtilisin/kexin type 9 (PCSK9). It is being investigated in patients at high cardiovascular risk without a prior myocardial infarction or stroke.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Cardiometabolic",
+      "Identifier": "TA2"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Hypercholesterolemia",
+        "Identifier": "IN25"
+      },
+      {
+        "HtmlString": "Cardiovascular Disease",
+        "Identifier": "IN8"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "TAVNEOS<sup>\u00ae</sup> <br /><span style=\"text-transform: lowercase !important;\">(avacopan)</span>",
+    "molecule_code": "",
+    "description": "TAVNEOS is a complement 5a receptor 1 (C5aR1) antagonist that inhibits the effects of C5a.  It is being investigated for the treatment of anti-neutrophil cytoplasmic antibody (ANCA)-associated vasculitis (granulomatosis with polyangiitis (GPA) and microscopic polyangiitis (MPA)) in pediatric patients.\n",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Rare Disease",
+      "Identifier": "TA8"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Pediatric Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis",
+        "Identifier": "IN42"
+      }
+    ],
+    "modality": "Small Molecule"
+  },
+  {
+    "molecule_name": "TEPEZZA<sup>&reg;</sup><br /><span style=\"text-transform: lowercase !important;\">(teprotumumab-trbw)</span>",
+    "molecule_code": "",
+    "description": "Teprotumumab is a monoclonal antibody against insulin-like growth factor-1 receptor (IGF-1R). It is being investigated for subcutaneous administration for the treatment of thyroid eye disease.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Rare Disease",
+      "Identifier": "TA8"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Thyroid Eye Disease",
+        "Identifier": "IN61"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "TEZSPIRE<sup>&reg;</sup> <br /><span style=\"text-transform: lowercase !important;\">(tezepelumab-ekko)</span>",
+    "molecule_code": "",
+    "description": "TEZSPIRE is a monoclonal antibody that inhibits the action of the thymic stromal lymphopoietin (TSLP). It is being investigated for the treatment of chronic obstructive pulmonary disease (COPD).",
+    "additional_information": "TEZSPIRE is being developed in collaboration with AstraZeneca plc.<br>\nIn July 2024, Amgen announced that the U.S. Food and Drug Administration (FDA) granted Breakthrough Therapy Designation to TEZSPIRE.",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Inflammation",
+      "Identifier": "TA5"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Chronic Obstructive Pulmonary Disease",
+        "Identifier": "IN12"
+      },
+      {
+        "HtmlString": "Respiratory Disease",
+        "Identifier": "IN53"
+      },
+      {
+        "HtmlString": "Inflammatory Disease",
+        "Identifier": "IN28"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "TEZSPIRE<sup>&reg;</sup> <br /><span style=\"text-transform: lowercase !important;\">(tezepelumab-ekko)</span>",
+    "molecule_code": "",
+    "description": "TEZSPIRE is a monoclonal antibody that inhibits the action of the thymic stromal lymphopoietin (TSLP). It is being investigated for the treatment of eosinophilic esophagitis (EoE).",
+    "additional_information": "TEZSPIRE is being developed in collaboration with AstraZeneca plc.\n",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Inflammation",
+      "Identifier": "TA5"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Eosinophilic Esophagitis",
+        "Identifier": "IN19"
+      },
+      {
+        "HtmlString": "Inflammatory Disease",
+        "Identifier": "IN28"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "XALURITAMIG <br /><span style=\"text-transform: lowercase !important;\">(formerly <span style=\"text-transform: uppercase !important;\">AMG</span> 509)</span>",
+    "molecule_code": "",
+    "description": "Xaluritamig is an anti-six transmembrane epithelial antigen of the prostate 1 (STEAP1) x anti-CD3 XmAb<sup>&reg;</sup> bispecific T cell engager molecule. It is being investigated for the treatment of prostate cancer.<p />\n\n<label class=\"innerContentTitle\">ADDITIONAL CLINICAL STUDIES</label>\n<p class=\"innterContentText\">Xaluritamig is also being investigated in combination with other therapies.</p>",
+    "additional_information": "XmAb is a registered trademark of Xencor, Inc.",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Prostate Cancer",
+        "Identifier": "IN49"
+      }
+    ],
+    "modality": "XmAb<sup>\u00ae</sup> Antibody"
+  },
+  {
+    "molecule_name": "XALURITAMIG <br /><span style=\"text-transform: lowercase !important;\">(formerly <span style=\"text-transform: uppercase !important;\">AMG</span> 509)</span>",
+    "molecule_code": "",
+    "description": "Xaluritamig is an anti-six transmembrane epithelial antigen of the prostate 1 (STEAP1) x anti-CD3 XmAb<sup>&reg;</sup> bispecific T cell engager molecule. It is being investigated for the treatment of Ewing Sarcoma.",
+    "additional_information": "XmAb is a registered trademark of Xencor, Inc.",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "1",
+      "Identifier": "PH1"
+    },
+    "indications": [
+      {
+        "HtmlString": "Ewing Sarcoma",
+        "Identifier": "IN20"
+      }
+    ],
+    "modality": "XmAb<sup>\u00ae</sup> Antibody"
+  },
+  {
+    "molecule_name": "ABP 206",
+    "molecule_code": "<span style=\"text-transform: none\">(Investigational biosimilar to OPDIVO<sup>&reg;</sup> (nivolumab))</span>",
+    "description": "ABP 206 is an investigational biosimilar to OPDIVO (nivolumab), which is a monoclonal antibody that binds to the receptor protein called programmed death protein 1 (PD-1).",
+    "additional_information": "OPDIVO is a registered trademark of Bristol-Myers Squibb Company.",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Investigational Biosimilar",
+        "Identifier": "IN30"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "ABP 234",
+    "molecule_code": "<span style=\"text-transform: none\">(Investigational biosimilar to KEYTRUDA\u00ae (pembrolizumab))</span>",
+    "description": "ABP 234 is an investigational biosimilar to KEYTRUDA (pembrolizumab), which is a monoclonal antibody that binds to the receptor protein called programmed death protein 1 (PD-1).",
+    "additional_information": "KEYTRUDA is a registered trademark of Merck & Co.",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Investigational Biosimilar",
+        "Identifier": "IN30"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "ABP 692",
+    "molecule_code": "<span style=\"text-transform: none\">(Investigational biosimilar to OCREVUS\u00ae (ocrelizumab))</span>",
+    "description": "ABP 692 is an investigational biosimilar to OCREVUS (ocrelizumab), which is a monoclonal antibody that binds to CD20, which is a protein found on the surface of B-cells.",
+    "additional_information": "OCREVUS is a registered trademark of Genentech.",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Inflammation",
+      "Identifier": "TA5"
+    },
+    "phase": {
+      "HtmlString": "3",
+      "Identifier": "PH3"
+    },
+    "indications": [
+      {
+        "HtmlString": "Investigational Biosimilar",
+        "Identifier": "IN30"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "DAXDILIMAB",
+    "molecule_code": "",
+    "description": "Daxdilimab is a fully human monoclonal antibody against ILT7 that depletes certain dendritic cells. It is being investigated for the treatment of dermatomyositis and anti-synthetase inflammatory myositis.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Rare Disease",
+      "Identifier": "TA8"
+    },
+    "phase": {
+      "HtmlString": "2",
+      "Identifier": "PH2"
+    },
+    "indications": [
+      {
+        "HtmlString": "Dermatomyositis and Anti-Synthetase Inflammatory Myositis",
+        "Identifier": "IN15"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "DAXDILIMAB",
+    "molecule_code": "",
+    "description": "Daxdilimab is a fully human monoclonal antibody against ILT7 that depletes certain dendritic cells. It is being investigated for the treatment of discoid lupus erythematosus.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Rare Disease",
+      "Identifier": "TA8"
+    },
+    "phase": {
+      "HtmlString": "2",
+      "Identifier": "PH2"
+    },
+    "indications": [
+      {
+        "HtmlString": "Discoid Lupus Erythematosus",
+        "Identifier": "IN17"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "INEBILIZUMAB",
+    "molecule_code": "",
+    "description": "Inebilizumab is a humanized, affinity-optimized, afucosylated IgG1 kappa (IgG1\u03ba) monoclonal antibody that binds to the B cell-specific surface antigen CD19. It is being investigated as a treatment for patients with systemic lupus erythematosus with nephritis.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Inflammation",
+      "Identifier": "TA5"
+    },
+    "phase": {
+      "HtmlString": "2",
+      "Identifier": "PH2"
+    },
+    "indications": [
+      {
+        "HtmlString": "Systemic Lupus Erythematosus with Nephritis",
+        "Identifier": "IN60"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "KYPROLIS<sup>\u00ae</sup>",
+    "molecule_code": "(carfilzomib)",
+    "description": "KYPROLIS is a small molecule proteasome inhibitor (PI). It is being investigated for the treatment of acute lymphoblastic leukemia (ALL) in pediatric patients.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "2",
+      "Identifier": "PH2"
+    },
+    "indications": [
+      {
+        "HtmlString": "Pediatric Acute Lymphoblastic Leukemia",
+        "Identifier": "IN41"
+      }
+    ],
+    "modality": "Small Molecule"
+  },
+  {
+    "molecule_name": "AMG 104",
+    "molecule_code": "",
+    "description": "AMG 104 is a human anti-TSLP Fab. It is being investigated for the treatment of asthma.",
+    "additional_information": "AMG 104 is being developed in collaboration with AstraZeneca plc.",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Inflammation",
+      "Identifier": "TA5"
+    },
+    "phase": {
+      "HtmlString": "2",
+      "Identifier": "PH2"
+    },
+    "indications": [
+      {
+        "HtmlString": "Asthma",
+        "Identifier": "IN2"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "AMG 732<br /><span style=\"text-transform: lowercase !important;\">(formerly <span style=\"text-transform: uppercase !important;\">HZN-280</span>)</span>",
+    "molecule_code": "",
+    "description": "AMG 732 is a monoclonal antibody against insulin-like growth factor-1 receptor (IGF-1R). It is being investigated for the treatment of thyroid eye disease.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Rare Disease",
+      "Identifier": "TA8"
+    },
+    "phase": {
+      "HtmlString": "2",
+      "Identifier": "PH2"
+    },
+    "indications": [
+      {
+        "HtmlString": "Thyroid Eye Disease",
+        "Identifier": "IN61"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "AMG 355",
+    "molecule_code": "",
+    "description": "AMG 355 is an anti-CCR8 monoclonal antibody. It is being investigated for the treatment of advanced solid tumor malignancies.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "1",
+      "Identifier": "PH1"
+    },
+    "indications": [
+      {
+        "HtmlString": "Solid Tumors",
+        "Identifier": "IN57"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  },
+  {
+    "molecule_name": "AMG 410",
+    "molecule_code": "",
+    "description": "AMG 410 is a small molecule being investigated for the treatment of solid tumors.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "1",
+      "Identifier": "PH1"
+    },
+    "indications": [
+      {
+        "HtmlString": "Solid Tumors",
+        "Identifier": "IN57"
+      }
+    ],
+    "modality": "Small Molecule"
+  },
+  {
+    "molecule_name": "AMG 436",
+    "molecule_code": "",
+    "description": "AMG 436 is a small molecule being investigated for the treatment of advanced solid tumor malignancies.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Hematology / Oncology",
+      "Identifier": "TA4"
+    },
+    "phase": {
+      "HtmlString": "1",
+      "Identifier": "PH1"
+    },
+    "indications": [
+      {
+        "HtmlString": "Solid Tumors",
+        "Identifier": "IN57"
+      }
+    ],
+    "modality": "Small Molecule"
+  },
+  {
+    "molecule_name": "AMG 513",
+    "molecule_code": "",
+    "description": "AMG 513 is a molecule being investigated for the treatment of obesity.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Cardiometabolic",
+      "Identifier": "TA2"
+    },
+    "phase": {
+      "HtmlString": "1",
+      "Identifier": "PH1"
+    },
+    "indications": [
+      {
+        "HtmlString": "Obesity",
+        "Identifier": "IN37"
+      }
+    ],
+    "modality": ""
+  },
+  {
+    "molecule_name": "AMG 691",
+    "molecule_code": "",
+    "description": "AMG 691 is a monoclonal antibody being investigated for the treatment of asthma.",
+    "additional_information": "",
+    "therapeutic_area": {
+      "Indications": null,
+      "HtmlString": "Inflammation",
+      "Identifier": "TA5"
+    },
+    "phase": {
+      "HtmlString": "1",
+      "Identifier": "PH1"
+    },
+    "indications": [
+      {
+        "HtmlString": "Asthma",
+        "Identifier": "IN2"
+      }
+    ],
+    "modality": "Monoclonal Antibody"
+  }
+]
