@@ -43,7 +43,7 @@ The pipeline is rendered dynamically. Data must be extracted from the network ta
 | Eli Lilly | `https://lilly.com/science/research-development/pipeline` | AEM Edge Delivery site with protected internal API (`/v1/cdp-data`). Playwright network interception captures the JSON. 76 molecules (Phase 2+). See [`src/pharmas/lilly/log.md`](../src/pharmas/lilly/log.md) | ✅ |
 | Sanofi | `https://sanofi.com/en/our-science/our-pipeline` | Interactive filterable tracker. 77 clinical-stage projects (2026). | ✅ |
 | Novo Nordisk | `https://novonordisk.com/science-and-technology/r-d-pipeline.html` | Interactive, filterable by phase and therapeutic area. Small pipeline, diabetes/obesity-heavy. | ✅ |
-| CSL | `https://www.csl.com/research-and-development/product-pipeline` | You have to interact to extract the indication. | TODO |
+| CSL | `https://www.csl.com/research-and-development/product-pipeline` | **Downgraded from Tier 3.** Fully static HTML — "you have to interact" note was stale; `curl` returns all 34 pipeline items including the popup content. No PDF/CSV exists. See [`src/pharmas/csl/log.md`](../src/pharmas/csl/log.md) | Done |
 | Merck KGaA | `https://www.merckgroup.com/en/research/healthcare-pipeline.html` | Interactive filterable tracker. | TODO |
 | AbbVie | `https://www.abbvie.com/science/pipeline.html` | Cloudflare-gated (plain `curl` gets 403), but once fetched via browser the data is fully static HTML — 57 assets / 97 asset-indication rows embedded as `data-*` attributes, no click-to-reveal needed. No PDF/CSV exists. Devices (6 aesthetics assets) use a distinct phase scale (Concept/Feasibility/Development/Confirmation/Approved/Launched) mapped onto the shared Phase enum. | Done — see [`src/pharmas/abbvie/log.md`](../src/pharmas/abbvie/log.md) |
 

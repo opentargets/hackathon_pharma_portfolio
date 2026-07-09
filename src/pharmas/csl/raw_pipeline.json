@@ -1,0 +1,280 @@
+{
+  "rows": [
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "1",
+      "phase_label": "Phase I",
+      "name": "CSL040 Complement Activation Inhibitor",
+      "content": "A recombinant glycoprotein which inhibits the classical, lectin and alternative Complement pathways for the potential treatment of Transplant-related ischemia-reperfusion injury (IRI) [eg. primary graft dysfunction (PGD) in lung and delayed graft function (DGF) in kidney]",
+      "therapeutic_area": "Transplant & Immunology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "2",
+      "phase_label": "Phase II",
+      "name": "CSL787 Nebulised Ig",
+      "content": "Human plasma-derived immunoglobulin for administration via a nebulizer for the potential prevention of chronic respiratory tract infections and progression of chronic lung disease such as Non-Cystic Fibrosis Bronchiectasis (NCFB).",
+      "therapeutic_area": "Immunoglobulins"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "2",
+      "phase_label": "Phase II",
+      "name": "Anumigilimab Anti-G-CSFR mAb (SCD prophylaxis)",
+      "content": "An anti-G-CSFR recombinant monoclonal antibody for prophylactic use in Sickle Cell Disease to reduce the incidence of vaso-occlusive crises",
+      "therapeutic_area": "Hematology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "2",
+      "phase_label": "Phase II",
+      "name": "Hemopexin (VOC in SCD)",
+      "content": "Plasma-derived hemopexin for potential treatment of acute Vascular Occlusive Crisis (VOC) in Sickle Cell Disease (SCD) patients.",
+      "therapeutic_area": "Hematology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "2",
+      "phase_label": "Phase II",
+      "name": "Vamifeport Ferroportin Inhibitor (HH)",
+      "content": "Oral Ferroportin Inhibitor (small molecule) for treatment of iron overload in hereditary hemochromatosis",
+      "therapeutic_area": "Hematology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "2",
+      "phase_label": "Phase II",
+      "name": "VMX-C001 rFX (FXa Inhibitor Bypass)*",
+      "content": "Recombinant, modified, human coagulation Factor X, insensitive to inhibition by Factor Xa inhibitors, to restore coagulation in patients requiring urgent surgery/procedures while taking FXa inhibitors",
+      "therapeutic_area": "Hematology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "2",
+      "phase_label": "Phase II",
+      "name": "TS23 Anti-\u03b12AP mAb (sPE)*",
+      "content": "Anti-\u03b12-antiplasmin monoclonal antibody, which is being developed to dissolve thrombi that cause serious conditions such as submassive pulmonary embolism (sPE) and acute ischemic stroke (AIS).",
+      "therapeutic_area": "Cardiovascular & Renal"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "2",
+      "phase_label": "Phase II",
+      "name": "CSL404 Cell-based Pandemic Influenza (H5N8) Vaccine",
+      "content": "For protection against pandemic influenza A (H5N8) virus strain",
+      "therapeutic_area": "Vaccines"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "3",
+      "phase_label": "Phase III",
+      "name": "HIZENTRA\u00ae (SCIg) 20% Liquid (SID)",
+      "content": "Subcutaneous 20% Immune Globulin (SCIg)(Plasma) to treat Secondary Immunodeficiency (SID)",
+      "therapeutic_area": "Immunoglobulins"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "3",
+      "phase_label": "Phase III",
+      "name": "HIZENTRA\u00ae (SCIg) 20% Liquid (PID Na\u00efve)",
+      "content": "Subcutaneous 20% Immune Globulin (SCIg)(Plasma) to treat Primary Immunodeficiency (PID) for patients without prior IVIg treatments",
+      "therapeutic_area": "Immunoglobulins"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "3",
+      "phase_label": "Phase III",
+      "name": "Horizon 2 Ig Yield",
+      "content": "Using novel technologies to optimise processes for increased Ig yield",
+      "therapeutic_area": "Immunoglobulins"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "3",
+      "phase_label": "Phase III",
+      "name": "KCENTRA\u00ae PCC (Surgical Bleeding)",
+      "content": "Prothrombin complex concentrate (PCC) for the potential use in surgical settings with high risk of major bleeding.",
+      "therapeutic_area": "Hematology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "3",
+      "phase_label": "Phase III",
+      "name": "Clazakizumab Anti-IL-6 mAb (MACE in ESKD)",
+      "content": "Clazakizumab (an anti-IL6 antibody) for the prevention of cardiovascular morbidity and mortality in patients with end-stage kidney disease",
+      "therapeutic_area": "Cardiovascular & Renal"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "3",
+      "phase_label": "Phase III",
+      "name": "CSL964 Alpha 1 Antitrypsin (Treatment of aGvHD)",
+      "content": "Treatment of steroid refractory, acute Graft-versus-Host Disease (aGvHD) in high-risk patients receiving an allogenic hematopoietic stem cell transplant (HSCT) using Alpha-1 Antitrypsin (AAT).",
+      "therapeutic_area": "Transplant & Immunology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "HIZENTRA\u00ae (SCIg) 20% Liquid",
+      "content": "Subcutaneous 20% Immune Globulin (SCIg)(Plasma) to treat Primary Immunodeficiency (PID), Chronic Inflammatory Demyelinating Polyneuropathy (CIDP), Secondary Immunodeficiency (SID)",
+      "therapeutic_area": "Immunoglobulins"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "PRIVIGEN\u00ae (IVIg) 10% Liquid",
+      "content": "Intravenous 10% Immune Globulin (IVIg)(Plasma) for the treatment of Primary Immunodeficiency (PID), Chronic Inflammatory Demyelinating Polyneuropathy (CIDP), Secondary Immunodeficiency (SID), Chronic Immune Thrombocytopenia (ITP)",
+      "therapeutic_area": "Immunoglobulins"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "ZEMAIRA\u00ae/RESPREEZA\u00ae Alpha 1 Antitrypsin (AAT Deficiency)",
+      "content": "Human Alpha 1 Antitrypsin (AAT) (Plasma) for chronic augmentation and maintenance therapy in adults with A1-PI deficiency and emphysema",
+      "therapeutic_area": "Immunoglobulins"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "AFSTYLA\u00ae rFVIII (Hem A)",
+      "content": "Recombinant factor VIII product for the treatment of adults and children with hemophilia A.",
+      "therapeutic_area": "Hematology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "HEMGENIX\u00ae (Hem B)",
+      "content": "Adeno-associated virus vector-based gene therapy indicated for treatment of adults with Hemophilia B (congenital Factor IX deficiency).",
+      "therapeutic_area": "Hematology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "IDELVION\u00ae rFIX-FP (Hem B)",
+      "content": "Long-acting recombinant factor IX product for the treatment of hemophilia B.",
+      "therapeutic_area": "Hematology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "RiaSTAP\u00ae Fibrinogen Concentrate (AFD)",
+      "content": "Lyophilised fibrinogen for treatment of Acquired Fibrinogen Disease (AFD)",
+      "therapeutic_area": "Hematology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "FILSPARI\u00ae(Sparsentan) Dual ETA & AT1 antagonist (IgAN)",
+      "content": "Oral, non-immunosuppressive, single-molecule, dual endothelin angiotensin receptor antagonist (DEARA) with high selectivity for the ETAR and AT1R for treatment of immunoglobulin A nephropathy (IgAN).",
+      "therapeutic_area": "Cardiovascular & Renal"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "KORSUVA\u00ae/KAPRUVIA\u00ae KOR. agonist (CKD-aP)",
+      "content": "Difelikefalin - a kappa-opioid receptor (KOR) agonist for treatment of moderate-to-severe pruritus associated with CKD in adult patients on hemodialysis.",
+      "therapeutic_area": "Cardiovascular & Renal"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "RAYALDEE\u00ae Oral ext. release calcifediol (SHPT)",
+      "content": "Orally administered, prolonged-release formulation of calcifediol for the treatment of secondary hyperparathyroidism (SHPT) in adults with stage 3 or 4 chronic kidney disease (CKD) and vitamin D insufficiency or deficiency.",
+      "therapeutic_area": "Cardiovascular & Renal"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "TAVNEOS\u00ae Oral C5a receptor inhibitor (AAV)",
+      "content": "Orally administered, highly potent and selective inhibitor of C5aR1 (complement C5a receptor 1) for the treatment of anti-neutrophil cytoplasmic auto-antibody-associated vasculitis (ANCA)-associated vasculitis (AAV).",
+      "therapeutic_area": "Cardiovascular & Renal"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "VELPHORO\u00ae Sucroferric oxyhydroxide (Serum P control in CKD)",
+      "content": "A non-calcium, iron-based phosphate binder used for the control of serum phosphorus levels in patients with chronic kidney disease (CKD) on hemodialysis or peritoneal dialysis.",
+      "therapeutic_area": "Cardiovascular & Renal"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "VELTASSA\u00ae Oral potassium binder (HK)",
+      "content": "A non-absorbed, oral potassium binder for the treatment of hyperkalemia.",
+      "therapeutic_area": "Cardiovascular & Renal"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "ANDEMBRY\u00ae Anti-FXIIa mAb (HAE)",
+      "content": "Subcutaneous humanised anti-factor XIIa monoclonal antibody for the treatment of Hereditary Angioedema (HAE).",
+      "therapeutic_area": "Transplant & Immunology"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "AUDENZ\u00ae/CELLDEMIC\u00ae Adjuvanted Cell-based Monovalent Influenza A (H5N1) Vaccine",
+      "content": "For protection against Pandemic Influenza A (H5N1)",
+      "therapeutic_area": "Vaccines"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "FLUAD\u00ae Trivalent Adjuvanted Egg-based Influenza Vaccine",
+      "content": "Egg-based vaccine combined with CSL Seqirus' proprietary adjuvant, MF59\u00ae (an additive that acts to strengthen the immune response to vaccination) for protection against influenza A (H5N1) - the 'bird-flu' strain.",
+      "therapeutic_area": "Vaccines"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "FLUCELVAX\u00ae Trivalent Cell-based Influenza Vaccine",
+      "content": "For protection against seasonal influenza viruses in adults and children 6 months of age and older.",
+      "therapeutic_area": "Vaccines"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "FOCLIVIA\u00ae/AFLUNOV\u00ae Adjuvanted Egg-based Influenza A (H5N1) Vaccine",
+      "content": "Pre-pandemic, egg-based vaccine combined with CSL Seqirus' proprietary adjuvant, MF59\u00ae (an additive that acts to strengthen the immune response to vaccination), for protection against influenza A (H5N1) - the 'bird-flu' strain.",
+      "therapeutic_area": "Vaccines"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "KOSTAIVE\u00ae sa-mRNA Vaccine (COVID)",
+      "content": "Novel seasonal COVID-19 booster vaccine using self-amplifying platform offering higher efficacy and longer duration and breadth of protection at lower doses of mRNA.",
+      "therapeutic_area": "Vaccines"
+    },
+    {
+      "category": "CSL R&D Portfolio \u2013 FY25",
+      "phase_num": "4",
+      "phase_label": "Registration / Post Registration",
+      "name": "CSL403 (aTIVc) Adjuvanted Cell-based Trivalent Influenza Vaccine",
+      "content": "Trivalent Seasonal Influenza Vaccine (Adjuvanted; Cell-based). High dose vaccine offering protection against different influenza virus strains.",
+      "therapeutic_area": "Vaccines"
+    }
+  ],
+  "footnotes": [
+    "*Co\u2011development project; partner owned asset with exclusive option rights held by CSL",
+    "This pipeline is current as at 26th May 2026"
+  ]
+}
