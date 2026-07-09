@@ -30,6 +30,8 @@ PDFs exist but may be chart-style layouts, exclude Phase 1, or cover only late-s
 | BMS | `https://www.bms.com/research-and-development/pipeline.html` | Live HTML pipeline page. Compound + indication pairs per area, not a strict table. Excludes collaborations. No pipeline PDF/CSV exists — data is embedded static JSON in a hidden `<div id="pipeline-data">`, no browser needed. See [`src/pharmas/bms/log.md`](../src/pharmas/bms/log.md) | Done |
 | Bayer | `https://www.bayer.com/en/pharma/development-pipeline` | ~30 late-stage projects only (not full pipeline). | TODO |
 | GSK | `gsk.com/en-gb/innovation/pipeline` |  CSV is provided in this case | ✅ |
+| Gilead | `https://gilead.com/science-and-medicine/pipeline` | **Downgraded from Tier 3.** The underlying Sitecore SXA search API (`/sxa/search/results/` with page-specific query params) returns JSON via plain curl — no browser needed. 50 clinical-stage programs. See [`src/pharmas/gilead/log.md`](../src/pharmas/gilead/log.md) | ✅ |
+| Teva | `https://tevapharm.com/science/pipeline/` | **Downgraded from Tier 3.** Static server-rendered HTML (JS filtering is cosmetic CSS show/hide). 24 pipeline rows (biosimilars + innovative). See [`src/pharmas/teva/log.md`](../src/pharmas/teva/log.md) | ✅ |
 
 ### Tier 3 — Interactive JS Widget (Network-Tab / Playwright)
 
@@ -37,12 +39,10 @@ The pipeline is rendered dynamically. Data must be extracted from the network ta
 
 | Company | Pipeline Source | Notes | Status |
 |---|---|---|---|
-| J&J | `https://investor.jnj.com/pipeline/development-pipeline/` | Fully JS-rendered widget with drug-name search. Check network tab for underlying API call. PDF available as well | TODO |
-| Eli Lilly | `https://lilly.com/science/research-development/pipeline` | Interactive — click each molecule box to expand. Check network tab for JSON. | TODO |
+| J&J | `https://investor.jnj.com/pipeline/development-pipeline/` | Cloudflare-gated Q4 Web Platform widget. Playwright bypasses Cloudflare and renders all 100 indications. See [`src/pharmas/johnson_johnson/log.md`](../src/pharmas/johnson_johnson/log.md) | ✅ |
+| Eli Lilly | `https://lilly.com/science/research-development/pipeline` | AEM Edge Delivery site with protected internal API (`/v1/cdp-data`). Playwright network interception captures the JSON. 76 molecules (Phase 2+). See [`src/pharmas/lilly/log.md`](../src/pharmas/lilly/log.md) | ✅ |
 | Sanofi | `https://sanofi.com/en/our-science/our-pipeline` | Interactive filterable tracker. 77 clinical-stage projects (2026). | ✅ |
 | Novo Nordisk | `https://novonordisk.com/science-and-technology/r-d-pipeline.html` | Interactive, filterable by phase and therapeutic area. Small pipeline, diabetes/obesity-heavy. | ✅ |
-| Gilead | `https://gilead.com/science-and-medicine/pipeline` | ~58 clinical-stage programs. DOM may be parseable without full Playwright. | TODO |
-| Teva | `https://tevapharm.com/science/pipeline/` | Interactive filterable tracker. Mix of innovative + biosimilars. | TODO |
 | CSL | `https://www.csl.com/research-and-development/product-pipeline` | You have to interact to extract the indication. | TODO |
 | Merck KGaA | `https://www.merckgroup.com/en/research/healthcare-pipeline.html` | Interactive filterable tracker. | TODO |
 | AbbVie | `https://www.abbvie.com/science/pipeline.html` | Cloudflare-gated (plain `curl` gets 403), but once fetched via browser the data is fully static HTML — 57 assets / 97 asset-indication rows embedded as `data-*` attributes, no click-to-reveal needed. No PDF/CSV exists. Devices (6 aesthetics assets) use a distinct phase scale (Concept/Feasibility/Development/Confirmation/Approved/Launched) mapped onto the shared Phase enum. | Done — see [`src/pharmas/abbvie/log.md`](../src/pharmas/abbvie/log.md) |
