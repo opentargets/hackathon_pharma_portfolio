@@ -9,9 +9,11 @@ description = "Extract, normalize, and integrate drug/disease associations from 
 requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.15.0",
+    "langgraph>=1.2.8",
     "openpyxl>=3.1.5",
     "pandas>=3.0.3",
     "pdfplumber>=0.11.10",
+    "polars>=1.42.1",
     "pyarrow>=24.0.0",
     "pydantic>=2.13.4",
     "requests>=2.34.2",
