@@ -131,6 +131,88 @@ Split into two passes — don't conflate scraping with schema-mapping:
    treating the raw JSON as the source. Update the same GitHub issue with the
    mapping decisions and close it once verified.
 
+## Pagination
+
+Pipeline pages distribute records across more than one fetchable unit in five known shapes. Missing any one of them silently drops molecules.
+
+1. **URL pagination** — `?page=N`, `?p=N`, `?offset=&limit=`, etc. (e.g. Novartis).
+2. **"Load more" / next-page button** — explicit click-to-paginate.
+3. **Infinite scroll** — records mount as the user scrolls.
+4. **Filter combinations** — union of every filter set = the full pipeline
+   (Gilead, Teva, CSL, Merck KGaA and similar filterable trackers).
+5. **SPA shell, data-only-after-JS, no embedded JSON** — the server-rendered
+   HTML shows the filter chrome and may even render the first 10–20 rows of
+   the default filter combination, but the bulk of the data lives in an
+   XHR fetched by a JS bundle. Pfizer's `pfizer.com/science/drug-product-pipeline`
+   is the textbook example (Drupal 10 + `pfizer_pipeline_immersive` widget:
+   static HTML serves 10 / 96 rows, the rest mount after JS).
+
+`src/pharmas/agent/pagination.py` exposes one helper per shape:
+
+| Helper | Use when … |
+|---|---|
+| `fetch_all_pages(fetch_fn, *, url, page_param=...)` | URL pagination; `fetch_fn` is `requests`- or Playwright-shaped. |
+| `loop_until_idle(page, *, item_selector, more_button_selector, ...)` | "Load more" / "Next" button. |
+| `infinite_scroll(page, *, item_selector, ...)` | Records appear on scroll. |
+| `exhaust_filters(page, *, filter_clicks, item_selector, dedup_key, ...)` | Filterable tracker — iterate cartesian product of filter groups. |
+| `discover_spa_endpoints_html(html, base_url)` | Cheapest probe: static scan for hints (`data-src`, `drupalSettings`, `<link rel=preload as=fetch>`) to a JSON endpoint. |
+| `discover_spa_endpoints_playwright(page, *, listen_seconds=8)` | Run inside a `scrape_pipeline.py`: open the widget in Playwright and capture every JSON response for N seconds — the network tab, automated. |
+| `summarize(pages, *, dedup_key=...)` | Compute `PaginationSummary` → `raw_pipeline_meta.json`. |
+| `detect_url_pagination(fetch_fn, *, url, max_probes=3)` | Cheap probe: does this URL have iterated `?page=N`? |
+
+### When to use them
+
+- **`agent.probe_webpage`** (in `src/pharmas/agent/probe.py`) auto-fills
+  `has_pagination`, `pagination_mechanism`, `detected_total_pages`,
+  `first_page_url`, `next_page_selector_hint`, `load_more_selector_hint`,
+  plus `spa_signature`, `spa_candidate_endpoints`, `requires_interaction`.
+  The SPA path is **multi-signal**: page-size `<select>`, multiple `<canvas>`,
+  many `data-attr-filter=` markers, `data-product-count` mismatch vs the
+  static row count, and Drupal-without-JSON:API hint at each other. Read
+  these before deciding the scrape shape.
+- **`agent.ingest_webpage`** (in `src/pharmas/agent/ingest.py`) does three
+  things automatically:
+  1. If `probe_results["webpage"]["requires_interaction"]` is `True` → SPA
+     branch: cheap-try the static-scan candidate URLs; on miss, write a
+     structured `raw_pipeline_meta.json` (`mechanism="spa"`, the SPA
+     signature, the candidate endpoints, the next-action message) and
+     return `[]`.
+  2. URL pagination detected in the saved HTML → loop via
+     `fetch_all_pages`. Override with `pagination={"skip_auto_loop": True}`.
+  3. Static HTML or `__NEXT_DATA__` JSON parsed, otherwise a scrapling
+     fallback runs.
+- **For Tier 3 widgets** (`Load more`, infinite scroll, filter combinations,
+  SPAs), any auto-detection in `ingest_webpage` is just a hint. The real
+  extraction belongs in `src/pharmas/<company>/scrape_pipeline.py`, which
+  should call the relevant helper instead of hand-rolling a loop. For SPAs,
+  the rough pattern is:
+    1. `discover_spa_endpoints_playwright` while the widget boots, to find
+       the XHR that fetches the dataset.
+    2. Either: hit that XHR directly with `requests` (skip the widget) for
+       cleanly paginated APIs, or: drive the widget with `loop_until_idle`
+       / `exhaust_filters` and read the rendered DOM, depending on whether
+       the server endpoint is replayable.
+- **`agent.finalize.write_log_md`** renders a `## 5. Pagination` section in
+  the company's `log.md` whenever `has_pagination` or `requires_interaction`
+  is `True`. For SPAs it adds the SPA signature + candidate endpoints +
+  the next-action verbatim from the sidecar.
+
+### Completion check
+
+After scraping, the human cross-check must include:
+
+- `PaginationSummary.total_items` matches any "Showing N of M" / "Total
+  records: N" counter visible on the live page. If no such counter exists,
+  rely on the user's manual copy/paste (see "Verification" below) — same as
+  for any other extraction. If the page shows "122 programs" but
+  `total_items == 119`, the scrape is **incomplete** — reopen and re-run
+  rather than ship a partial dataset.
+- `duplicate_count` should be `0` for URL-paginated sources. Non-zero means
+  the dedup selector picked a non-unique key — fix the key, re-scrape.
+- For SPA-detected sources, the sidecar's `next_action` MUST be acted on
+  before the company is marked Done. A SPA extraction that only ships the
+  rows visible in the static HTML is a partial extraction — don't accept it.
+
 ## Verification (every company)
 
 Before calling it done:

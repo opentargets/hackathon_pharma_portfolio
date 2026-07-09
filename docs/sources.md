@@ -12,10 +12,10 @@ PDFs with a clear tabular layout, and full pipeline coverage (including early ph
 
 | Company | Pipeline Source | Notes | Status |
 |---|---|---|---|
-| Pfizer | `https://www.pfizer.com/science/drug-product-pipeline` | Quarterly PDF. Columns: Compound / MoA / Indication / Phase / Submission Type See [`log.md`](src/pharmas/pfizer/log_20260709_144746.md) | Done — see [`src/pharmas/pfizer/log.md`](src/pharmas/pfizer/log_20260709_145421.md) |
+| Pfizer | `https://www.pfizer.com/science/drug-product-pipeline` | Quarterly PDF. Columns: Compound / MoA / Indication / Phase / Submission Type See [`log.md`](src/pharmas/pfizer/log_20260709_144746.md) | Done — see [`src/pharmas/pfizer/log.md`](src/pharmas/pfizer/log_20260709_160133.md) |
 | AstraZeneca | `https://www.astrazeneca.com/our-therapy-areas/pipeline.html` | Server-rendered HTML (no JS needed). Fields: Name, Mechanism, Area under investigation, Phase, Molecule size. PDF also exists but is older (Feb vs Apr 2026) and less rich. See [`src/pharmas/astrazeneca/log.md`](../src/pharmas/astrazeneca/log.md) | ✅ |
 | Novartis | `https://www.novartis.com/research-development/novartis-pipeline` | Server-rendered HTML (Drupal View, 6 pages, no JS needed). See [`src/pharmas/novartis/log.md`](../src/pharmas/novartis/log.md) | ✅ |
-| Roche | `roche.com/solutions/pipeline` | Semi-annual (H1/H2) | ✅ |
+| Roche | `roche.com/solutions/pipeline` | Semi-annual (H1/H2) See [`log.md`](src/pharmas/roche/log_20260709_153913.md) | Done — see [`src/pharmas/roche/log.md`](src/pharmas/roche/log_20260709_153913.md) |
 | Boehringer Ingelheim | `https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline` | Stable URL | TODO |
 | Takeda | `takeda.com/science/pipeline/` → "DOWNLOAD THE PDF" | Full pipeline PDF. Position-aware word extraction used — table extraction was unreliable due to merged cells. See [`src/pharmas/takeda/log.md`](../src/pharmas/takeda/log.md) | ✅ |
 

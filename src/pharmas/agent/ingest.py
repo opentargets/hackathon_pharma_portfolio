@@ -47,11 +47,90 @@ def ingest_file(file_path: str, company_dir: Path) -> list[dict[str, Any]]:
 
 
 def ingest_webpage(html_path: str, company_dir: Path,
-                   source_url: str | None = None) -> list[dict[str, Any]]:
+                   source_url: str | None = None,
+                   pagination: dict[str, Any] | None = None,
+                   probe_results: dict[str, Any] | None = None,
+                   ) -> list[dict[str, Any]]:
     """Parse a saved HTML page into a list of row dicts. Falls back to
-    scrapling when the static parse yields nothing (JS-widget case)."""
+    scrapling when the static parse yields nothing (JS-widget case).
+
+    Auto-detects URL pagination: if the saved HTML / source_url mentions a
+    `?page=` (or `?p=`, `?offset=`) shape, the relevant pages are fetched
+    and parsed in a loop via `agent.pagination.fetch_all_pages`.
+
+    When `probe_results` carries `webpage.requires_interaction=True` (SPA
+    shell, data-only-after-JS, no embedded JSON), the static-parse path is
+    bypassed: the agent first tries the cheap `spa_candidate_endpoints`
+    URLs from the probe; on miss it writes a `raw_pipeline_meta.json` and
+    returns `[]`, telling the caller to drive the widget via Playwright
+    + `agent.pagination.discover_spa_endpoints_playwright`.
+
+    For JS widgets with `Load more` / infinite scroll / filter combinations,
+    auto-detection is intentionally a no-op here -- those need a real
+    Playwright driver in the per-company `scrape_pipeline.py` (the helper
+    `agent.pagination.loop_until_idle` / `infinite_scroll` / `exhaust_filters`
+    handles them). Passing `pagination={"skip_auto_loop": True}` disables the
+    URL-paginated auto-detect path entirely.
+    """
     text = Path(html_path).read_text(errors="ignore")
 
+    # ---- SPA-aware early branch ------------------------------------------
+    spa_block = (probe_results or {}).get("webpage", {}) or {}
+    if spa_block.get("requires_interaction"):
+        rows = _try_spa_candidates(spa_block.get("spa_candidate_endpoints") or [])
+        if rows:
+            _write_pagination_meta(company_dir, mechanism="spa_endpoint",
+                                   total_items=len(rows),
+                                   sample=str(spa_block.get("spa_signature")))
+            return rows
+        # No candidate endpoint worked -- stop and ask for a Playwright driver.
+        print(
+            f"[agent.ingest_webpage] SPA detected (requires_interaction=True) "
+            f"for {source_url or html_path}: no cheap JSON endpoint recovered. "
+            f"Write src/pharmas/<company>/scrape_pipeline.py using "
+            f"agent.pagination.discover_spa_endpoints_playwright + "
+            f"loop_until_idle/exhaust_filters."
+        )
+        _write_spa_stop_meta(company_dir, spa_block, source_url)
+        return []
+
+    if pagination is None:
+        pagination = _auto_detect_pagination(text, source_url)
+    elif pagination.get("skip_auto_loop"):
+        pagination = None
+
+    # ---- URL-paginated Tier 1/2 path -------------------------------------
+    if pagination and pagination.get("mechanism") == "url" and source_url:
+        try:
+            import requests as _requests
+            from . import pagination as _pg
+
+            urls = pagination.get("page_urls")
+            if not urls:
+                urls = [source_url] + [
+                    _pg._set_query(source_url,
+                                   **{pagination["page_param"]: i})
+                    for i in range(1, pagination.get("max_pages", 50))
+                ]
+            rows: list[dict[str, Any]] = []
+            for u in urls:
+                try:
+                    body = _requests.get(u, timeout=30,
+                                         headers={"User-Agent": _USER_AGENT}).text
+                except Exception:
+                    continue
+                page_rows = _parse_static_tables(body) or _flatten_json(_try_next_data(body))
+                if page_rows:
+                    rows.extend(page_rows)
+            if rows:
+                _write_pagination_meta(company_dir, mechanism="url",
+                                      page_count=len(urls),
+                                      total_items=len(rows))
+                return rows
+        except Exception:
+            pass
+
+    # ---- single-page paths (unchanged) -----------------------------------
     if "__NEXT_DATA__" in text:
         m = re.search(r'<script[^>]+id="__NEXT_DATA__"[^>]*>(.*?)</script>',
                       text, re.DOTALL)
@@ -84,6 +163,111 @@ def ingest_webpage(html_path: str, company_dir: Path,
         return rows
     except Exception:
         return []
+
+
+_USER_AGENT = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+
+
+def _try_spa_candidates(candidate_urls: list[str]) -> list[dict[str, Any]]:
+    """For each candidate URL, GET it (cheap, 5s timeout) and try to flatten
+    any JSON list-of-dicts the body contains. Returns the first non-empty
+    flattened result, or []."""
+    if not candidate_urls:
+        return []
+    import requests as _requests
+    for url in candidate_urls:
+        try:
+            r = _requests.get(url, timeout=5,
+                              headers={"User-Agent": _USER_AGENT,
+                                       "Accept": "application/json,text/plain,*/*"})
+        except Exception:
+            continue
+        ctype = r.headers.get("Content-Type", "").lower()
+        if "json" in ctype or r.text.lstrip().startswith(("{", "[")):
+            try:
+                blob = r.json()
+            except Exception:
+                try:
+                    blob = json.loads(r.text)
+                except Exception:
+                    continue
+            rows = _flatten_json(blob)
+            if rows:
+                return rows
+    return []
+
+
+def _write_spa_stop_meta(company_dir: Path, spa_block: dict[str, Any],
+                          source_url: str | None) -> None:
+    """Write the structured 'needs a Playwright driver' sidecar so finalize
+    can render it and downstream users see the next-action message."""
+    try:
+        import json as _json
+        out = company_dir / "raw_pipeline_meta.json"
+        payload = {
+            "mechanism": "spa",
+            "requires_interaction": True,
+            "source_url": source_url,
+            "spa_signature": spa_block.get("spa_signature"),
+            "candidate_endpoints": spa_block.get("spa_candidate_endpoints") or [],
+            "next_action": (
+                "Write src/pharmas/<company>/scrape_pipeline.py using "
+                "agent.pagination.discover_spa_endpoints_playwright + "
+                "loop_until_idle / exhaust_filters to drive the widget."
+            ),
+        }
+        out.write_text(_json.dumps(payload, indent=2, default=str))
+    except Exception:
+        pass
+
+
+def _auto_detect_pagination(text: str, source_url: str | None
+                             ) -> dict[str, Any] | None:
+    """Cheap signal sweep for URL pagination. Returns a pagination dict if
+    it looks paginated and the caller has a source_url to iterate, else None.
+    Load-more / infinite-scroll / filter signals are ignored here -- those
+    are routed through a real scrape_pipeline.py."""
+    if not source_url:
+        return None
+    # `?page=2` or `?p=2` link inside the HTML
+    m = re.search(
+        r"<a[^>]+href=[\"']([^\"']*(?:\?|&)(?:page|p|paged|offset|start)=2[^\"']*)[\"']",
+        text,
+        re.IGNORECASE,
+    )
+    if not m:
+        return None
+    sample = m.group(1)
+    # figure out which param is used
+    pm = re.search(r"(?:[\?&])(page|p|paged|offset|start)=2", sample, re.IGNORECASE)
+    if not pm:
+        return None
+    return {"mechanism": "url", "page_param": pm.group(1).lower(),
+            "page_urls": None, "max_pages": 50}
+
+
+def _try_next_data(text: str) -> dict[str, Any] | None:
+    m = re.search(r'<script[^>]+id="__NEXT_DATA__"[^>]*>(.*?)</script>',
+                  text, re.DOTALL)
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except Exception:
+        return None
+
+
+def _write_pagination_meta(company_dir: Path, **fields: Any) -> None:
+    """Best-effort sidecar JSON so finalize can render a Pagination section."""
+    try:
+        import json as _json
+        out = company_dir / "raw_pipeline_meta.json"
+        out.write_text(_json.dumps(fields, indent=2, default=str))
+    except Exception:
+        pass
 
 
 def merge_sources(*sources: list[dict[str, Any]]) -> list[dict[str, Any]]:

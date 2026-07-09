@@ -11,6 +11,7 @@ from __future__ import annotations
 import re
 from datetime import date
 from pathlib import Path
+from typing import Any
 
 
 _PROJECT_ROOT = Path(__file__).resolve().parents[3]
@@ -30,7 +31,13 @@ def write_log_md(company: str, *, source_url: str, tier_label: str,
     """Render a structured log.md mirroring the AbbVie/AstraZeneca style
     used in this repo (per AGENTS.md). Refuses to clobber an existing log
     unless overwrite=True — this is a safety rail so a re-run cannot
-    silently destroy a manual extraction."""
+    silently destroy a manual extraction.
+
+    If the probe detected pagination (URL / Load more / infinite scroll /
+    filter combinations), a "## 5. Pagination" section is appended using the
+    pagination hints from `probe.webpage` plus any `raw_pipeline_meta.json`
+    sidecar written by `agent.ingest_webpage`.
+    """
     out = company_dir(company) / "log.md"
     out.parent.mkdir(parents=True, exist_ok=True)
 
@@ -99,8 +106,78 @@ def write_log_md(company: str, *, source_url: str, tier_label: str,
         md.append(extra_notes)
         md.append("")
 
+    pagination_section = _render_pagination_section(probe_results, company)
+    if pagination_section:
+        md.append("## 5. Pagination")
+        md.append("")
+        md.extend(pagination_section)
+        md.append("")
+
     out.write_text("\n".join(md) + "\n")
     return out
+
+
+def _render_pagination_section(probe_results: dict, company: str) -> list[str]:
+    """Render a Pagination summary from probe hints + raw_pipeline_meta.json.
+    Returns [] when no pagination was detected (single-page source).
+
+    Special-cases SPAs: when `requires_interaction=True`, renders an
+    "interaction required" verdict pointing to the candidate endpoints and
+    the next-action message from the sidecar.
+    """
+    web_info = probe_results.get("webpage", {}) or {}
+    if not (web_info.get("has_pagination") or web_info.get("requires_interaction")):
+        return []
+
+    sidecar = company_dir(company) / "raw_pipeline_meta.json"
+    sidecar_meta: dict[str, Any] = {}
+    if sidecar.exists():
+        try:
+            import json as _json
+            sidecar_meta = _json.loads(sidecar.read_text())
+        except Exception:
+            pass
+
+    md: list[str] = []
+    md.append("| Field | Value |")
+    md.append("|---|---|")
+    mechanism = sidecar_meta.get("mechanism") or web_info.get("pagination_mechanism") or "unknown"
+    md.append(f"| Mechanism | `{mechanism}` |")
+    if web_info.get("detected_total_pages"):
+        md.append(f"| Detected total pages | {web_info['detected_total_pages']} |")
+    if web_info.get("first_page_url"):
+        md.append(f"| First page URL | `{web_info['first_page_url']}` |")
+    if web_info.get("next_page_selector_hint"):
+        md.append(f"| Next-page selector | `{web_info['next_page_selector_hint']}` |")
+    if web_info.get("load_more_selector_hint"):
+        md.append(f"| Load-more selector | `{web_info['load_more_selector_hint']}` |")
+
+    if web_info.get("requires_interaction"):
+        sig = web_info.get("spa_signature") or {}
+        if sig:
+            md.append(f"| SPA signature | "
+                      f"canvases={sig.get('canvas_count', 0)}, "
+                      f"filters={sig.get('filter_marker_count', 0)}, "
+                      f"drupal={sig.get('drupal_generator')}, "
+                      f"jsonapi_script={sig.get('jsonapi_script')}, "
+                      f"data_results_count={sig.get('data_results_count')} |")
+        cands = sidecar_meta.get("candidate_endpoints") or []
+        if cands:
+            md.append(f"| Candidate endpoints (static scan) | "
+                      f"{', '.join(f'`{u}`' for u in cands[:3])} |")
+
+    if sidecar_meta:
+        for k in ("page_count", "total_items", "duplicate_count", "stopped_reason"):
+            if k in sidecar_meta and k not in {"candidate_endpoints", "spa_signature",
+                                              "mechanism", "next_action"}:
+                md.append(f"| {k.replace('_', ' ').capitalize()} | "
+                          f"`{sidecar_meta[k]}` |")
+
+    if sidecar_meta.get("next_action"):
+        md.append("")
+        md.append(f"> **Next action:** {sidecar_meta['next_action']}")
+
+    return md
 
 
 def mark_done(company: str, log_md_relpath: str) -> Path | None:
