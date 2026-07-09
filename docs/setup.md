@@ -49,6 +49,9 @@ Here is the actual global config used on this project. It shows the model setup,
 {
   "$schema": "https://opencode.ai/config.json",
   "model": "opencode/deepseek-v4-flash-free",
+  "plugin": [
+    "oh-my-openagent@latest"
+  ],
   "agent": {
     "build": {
       "description": "Primary coding and writing agent",
@@ -103,6 +106,30 @@ npm install -g opencode-ai
 ```bash
 opencode --version  # should print 1.17.13 or later
 ```
+
+### oh-my-openagent Plugin (Concurrent Extraction)
+
+[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) is a plugin that enables multi-agent orchestration for concurrent portfolio extraction. Install it after OpenCode:
+
+```bash
+# Install Bun (if not present)
+curl -fsSL https://bun.sh/install | bash
+
+# Install oh-my-openagent
+bunx oh-my-openagent install --no-tui --platform=opencode --opencode-zen=yes
+```
+
+This registers the plugin in `~/.config/opencode/opencode.json` and generates agent configuration in `~/.config/opencode/oh-my-openagent.json`.
+
+Key feature: including the word `ultrawork` (or `ulw`) in any prompt activates the full multi-agent orchestration — useful for running multiple pharma extractions in parallel.
+
+#### Verify the plugin
+
+```bash
+bunx oh-my-openagent doctor
+```
+
+Expected: no errors (the `ast-grep` warning is benign and doesn't affect extraction).
 
 ## Python Dependencies (Scripted Approach)
 
