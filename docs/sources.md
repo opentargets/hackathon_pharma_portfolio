@@ -25,7 +25,7 @@ PDFs exist but may be chart-style layouts, exclude Phase 1, or cover only late-s
 
 | Company | Pipeline Source | Notes | Status |
 |---|---|---|---|
-| Amgen | `https://www.amgenpipeline.com/-/media/Themes/Amgen/amgenpipeline-com/amgenpipeline-com/PDF/amgen-pipeline-chart.pdf` | Quarterly PDF described as a "chart" — likely vector-based, not a literal table. | TODO |
+| Amgen | `https://www.amgenpipeline.com/` | Interactive JS-rendered widget — static HTML has no data ("Showing 0 results" placeholder). Separate quarterly PDF ("Download Pipeline Chart" link) described as a "chart" — likely vector-based, not a literal table. | TODO |
 | Merck & Co. | `https://www.msd.com/research/product-pipeline/` | PDF also available but is a "chart" (positional grid, not a table); the live pipeline page is static HTML with richer per-indication data (MoA, NCT IDs) and was used as primary source instead. Phase 1 candidates not shown. | ✅ |
 | BMS | `https://www.bms.com/research-and-development/pipeline.html` | Live HTML pipeline page. Compound + indication pairs per area, not a strict table. Excludes collaborations. No pipeline PDF/CSV exists — data is embedded static JSON in a hidden `<div id="pipeline-data">`, no browser needed. See [`src/pharmas/bms/log.md`](../src/pharmas/bms/log.md) | Done |
 | Bayer | `https://www.bayer.com/en/pharma/development-pipeline` | ~30 late-stage projects only (not full pipeline). | TODO |
