@@ -14,6 +14,7 @@ dependencies = [
     "pdfplumber>=0.11.10",
     "pyarrow>=24.0.0",
     "pydantic>=2.13.4",
+    "requests>=2.34.2",
     "scrapling[fetchers]>=0.4.10",
 ]
 

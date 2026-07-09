@@ -14,7 +14,7 @@ PDFs with a clear tabular layout, and full pipeline coverage (including early ph
 |---|---|---|---|
 | Pfizer | `https://www.pfizer.com/science/drug-product-pipeline` | Quarterly PDF. Columns: Compound / MoA / Indication / Phase / Submission Type | ✅ |
 | AstraZeneca | `https://www.astrazeneca.com/our-therapy-areas/pipeline.html` | Server-rendered HTML (no JS needed). Fields: Name, Mechanism, Area under investigation, Phase, Molecule size. PDF also exists but is older (Feb vs Apr 2026) and less rich. See [`src/pharmas/astrazeneca/log.md`](../src/pharmas/astrazeneca/log.md) | ✅ |
-| Novartis | `novartis.com/research-development/novartis-pipeline` → PDF | Quarterly PDF linked from pipeline page | TODO |
+| Novartis | `https://www.novartis.com/research-development/novartis-pipeline` | Server-rendered HTML (Drupal View, 6 pages, no JS needed). See [`src/pharmas/novartis/log.md`](../src/pharmas/novartis/log.md) | ✅ |
 | Roche | `roche.com/solutions/pipeline` | Semi-annual (H1/H2) | ✅ |
 | Boehringer Ingelheim | `https://www.boehringer-ingelheim.com/science-innovation/human-health-innovation/clinical-pipeline` | Stable URL | TODO |
 | Takeda | `takeda.com/science/pipeline/` → "DOWNLOAD THE PDF" | Full pipeline PDF + oncology-specific PDF at `takedaoncology.com/science/pipeline/` | TODO |

@@ -1,0 +1,1062 @@
+[
+  {
+    "compound_name": "AAA601",
+    "generic_name": "Lutathera®",
+    "indication_name": "Gastroenteropancreatic neuroendocrine tumors",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 3",
+    "filing_date": "2028",
+    "mechanism_of_action": "Radioligand therapy target SSTR",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "AAA601",
+    "generic_name": "Lutathera®",
+    "indication_name": "GEPNET, pediatrics",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "Radioligand therapy target SSTR",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "AAA603",
+    "generic_name": "177Lu-NeoB",
+    "indication_name": "Breast cancer",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "Radioligand therapy target GRPR",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "AAA603",
+    "generic_name": "177Lu-NeoB",
+    "indication_name": "Multiple solid tumors",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "Radioligand therapy target GRPR",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "AAA614",
+    "generic_name": "AAA614",
+    "indication_name": "Solid tumors",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "Radioligand therapy target FAP",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "AAA617",
+    "generic_name": "Pluvicto®",
+    "indication_name": "Oligometastatic prostate cancer",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 3",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "Radioligand therapy target PSMA",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "AAA617",
+    "generic_name": "Pluvicto®",
+    "indication_name": "Metastatic hormone sensitive prostate cancer (mHSPC)",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Registration",
+    "filing_date": "",
+    "mechanism_of_action": "Radioligand therapy target PSMA",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "AAA817",
+    "generic_name": "225Ac-PSMA-617",
+    "indication_name": "Metastatic castration-resistant prostate cancer (mCRPC)",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 3",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "Radioligand therapy target PSMA",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "AAA817",
+    "generic_name": "225Ac-PSMA-617",
+    "indication_name": "post Lu Metastatic castration-resistant prostate cancer (mCRPC)",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 3",
+    "filing_date": "2028",
+    "mechanism_of_action": "Radioligand therapy target PSMA",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "ABL001",
+    "generic_name": "Scemblix®",
+    "indication_name": "Chronic myeloid leukemia, pediatrics",
+    "therapeutic_area": "Oncology: Hematology",
+    "phase": "Phase 2",
+    "filing_date": "2027",
+    "mechanism_of_action": "BCR-ABL inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "AIN457",
+    "generic_name": "Cosentyx®",
+    "indication_name": "Polymyalgia rheumatica",
+    "therapeutic_area": "Immunology",
+    "phase": "Registration",
+    "filing_date": "2026",
+    "mechanism_of_action": "IL17A inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "AMG334",
+    "generic_name": "Aimovig®",
+    "indication_name": "Migraine, pediatrics",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 3",
+    "filing_date": "2028",
+    "mechanism_of_action": "CGRPR antagonist",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "AMO959",
+    "generic_name": "AMO959",
+    "indication_name": "Prostate cancer",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "DNA PK inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "BAF312",
+    "generic_name": "Mayzent®",
+    "indication_name": "Multiple sclerosis, pediatrics",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "S1P1,5 receptor modulator",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "BYL719",
+    "generic_name": "Vijoyce®",
+    "indication_name": "Lymphatic malformations",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 3",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "PI3K-alpha inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "CYX082",
+    "generic_name": "farabursen",
+    "indication_name": "Autosomal dominant polycystic kidney disease",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "MIR17 inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "DAK539",
+    "generic_name": "pelabresib",
+    "indication_name": "Myelofibrosis",
+    "therapeutic_area": "Oncology: Hematology",
+    "phase": "Phase 3",
+    "filing_date": "2026",
+    "mechanism_of_action": "BET inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "DFT383",
+    "generic_name": "DFT383",
+    "indication_name": "Cystinosis",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "CTNS gene delivery",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "DII235",
+    "generic_name": "DII235",
+    "indication_name": "CVRR-Lp(a)",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "siRNA targeting Lp(a) MRNA",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "DWH213",
+    "generic_name": "del-brax",
+    "indication_name": "Facioscapulohumeral muscular dystrophy",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 3",
+    "filing_date": "2028",
+    "mechanism_of_action": "siRNA DUX4 knockdown",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "DZR123",
+    "generic_name": "tulmimetostat",
+    "indication_name": "Metastatic prostate cancer",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "EZH1, EZH2 inhibitor",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "DZR123",
+    "generic_name": "tulmimetostat",
+    "indication_name": "Solid tumors & lymphomas",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "EZH1, EZH2 inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "ECI830",
+    "generic_name": "ECI830",
+    "indication_name": "Breast cancer",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "CDK2 inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "EDI048",
+    "generic_name": "EDI048",
+    "indication_name": "Cryptosporidiosis",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "CpPI(4)K inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "EDK060",
+    "generic_name": "EDK060",
+    "indication_name": "Charcot-Marie-Tooth disease",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "ESP359",
+    "generic_name": "ESP359",
+    "indication_name": "Solid tumors",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "Radioligand therapy target DLL3",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "EWF980",
+    "generic_name": "del-desiran",
+    "indication_name": "Myotonic dystrophy type 1",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "siRNA DMPK knockdown",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "EYU688",
+    "generic_name": "EYU688",
+    "indication_name": "Dengue fever",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "NS4B inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "FUB523",
+    "generic_name": "zigakibart",
+    "indication_name": "IgA nephropathy",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "Anti-APRIL",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "FXX489",
+    "generic_name": "177Lu-NNS309",
+    "indication_name": "Solid tumors",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "Radioligand therapy target FAP",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "GCJ904",
+    "generic_name": "GCJ904",
+    "indication_name": "Solid tumors",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "GHZ339",
+    "generic_name": "GHZ339",
+    "indication_name": "Atopic dermatitis",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "GIA632",
+    "generic_name": "GIA632",
+    "indication_name": "Atopic dermatitis",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "IL-15 mAb",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "GIA632",
+    "generic_name": "GIA632",
+    "indication_name": "Vitiligo",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "IL-15 mAb",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "GXV813",
+    "generic_name": "GXV813",
+    "indication_name": "Schizophrenia",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "M4 agonist",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "HJB647",
+    "generic_name": "HJB647",
+    "indication_name": "Heart failure",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "HTT227",
+    "generic_name": "votoplam",
+    "indication_name": "Huntington’s disease",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 3",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "Huntingtin modulator",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "INE963",
+    "generic_name": "INE963",
+    "indication_name": "Malaria",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "Plasmodium falciparum inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "IPX643",
+    "generic_name": "IPX643",
+    "indication_name": "Inflammation-driven diseases",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "ITU512",
+    "generic_name": "ITU512",
+    "indication_name": "Sickle cell disease",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "HbF inducing agent",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "JSB462",
+    "generic_name": "luxdegalutamide",
+    "indication_name": "Metastatic hormonal sensitive prostate cancer",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "Androgen receptor protein degrader",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "JSB462",
+    "generic_name": "luxdegalutamide",
+    "indication_name": "Metastatic castration resistant prostate cancer",
+    "therapeutic_area": "Oncology: Solid Tumors",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "Androgen receptor protein degrader",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "KAE609",
+    "generic_name": "cipargamin",
+    "indication_name": "Malaria, uncomplicated",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "PfATP4 inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "KAE609",
+    "generic_name": "cipargamin",
+    "indication_name": "Malaria severe",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "PfATP4 inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "KJX839",
+    "generic_name": "Leqvio®",
+    "indication_name": "CVRR (primary prevention)",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 3",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "siRNA (regulation of LDL-C)",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "KJX839",
+    "generic_name": "Leqvio®",
+    "indication_name": "CVRR (secondary prevention)",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "siRNA (regulation of LDL-C)",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "KLU156",
+    "generic_name": "Ganaplacide + lumefantrine",
+    "indication_name": "Malaria, uncomplicated",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 3",
+    "filing_date": "2026",
+    "mechanism_of_action": "Non-artemisinin plasmodium falciparum inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "KPE179",
+    "generic_name": "del-zota",
+    "indication_name": "Duchenne muscular dystrophy",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 2",
+    "filing_date": "2026",
+    "mechanism_of_action": "PMO mediated exon 44 skipping",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "LNP023",
+    "generic_name": "Fabhalta®",
+    "indication_name": "Generalized myasthenia gravis",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "CFB inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "LNP023",
+    "generic_name": "Fabhalta®",
+    "indication_name": "C3 glomerulopathy, pediatrics",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 3",
+    "filing_date": "",
+    "mechanism_of_action": "CFB inhibitor",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "LNP023",
+    "generic_name": "Fabhalta®",
+    "indication_name": "IgAN, pediatrics",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 3",
+    "filing_date": "",
+    "mechanism_of_action": "CFB inhibitor",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "LNP023",
+    "generic_name": "Fabhalta®",
+    "indication_name": "IC-MPGN",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 3",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "CFB inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "LNP023",
+    "generic_name": "Fabhalta®",
+    "indication_name": "Lupus Nephritis",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "CFB inhibitor",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "LNP023",
+    "generic_name": "Fabhalta®",
+    "indication_name": "ANCA associated vasculitis",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "CFB inhibitor",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "LNP023",
+    "generic_name": "Fabhalta®",
+    "indication_name": "PNH, pediatrics",
+    "therapeutic_area": "Oncology: Hematology",
+    "phase": "Phase 3",
+    "filing_date": "",
+    "mechanism_of_action": "CFB inhibitor",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "LNP023",
+    "generic_name": "Fabhalta®",
+    "indication_name": "Atypical Hemolytic Uremic Syndrome (aHUS)",
+    "therapeutic_area": "Oncology: Hematology",
+    "phase": "Phase 3",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "CFB inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "LNP023",
+    "generic_name": "Fabhalta®",
+    "indication_name": "iAMD",
+    "therapeutic_area": "Others",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "CFB inhibitor",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "LOU064",
+    "generic_name": "Rhapsido®",
+    "indication_name": "Chronic spontaneous urticaria, pediatrics",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 3",
+    "filing_date": "",
+    "mechanism_of_action": "BTK inhibitor",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "LOU064",
+    "generic_name": "Rhapsido®",
+    "indication_name": "Hidradenitis suppurativa",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "BTK inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "LOU064",
+    "generic_name": "Rhapsido®",
+    "indication_name": "Chronic inducible urticaria (CINDU)",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 3",
+    "filing_date": "2026",
+    "mechanism_of_action": "BTK inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "LOU064",
+    "generic_name": "Rhapsido®",
+    "indication_name": "Food allergy",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "BTK inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "LOU064",
+    "generic_name": "remibrutinib",
+    "indication_name": "Multiple sclerosis, secondary progressive",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 3",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "BTK inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "LOU064",
+    "generic_name": "remibrutinib",
+    "indication_name": "Myasthenia gravis",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 3",
+    "filing_date": "2028",
+    "mechanism_of_action": "BTK inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "LOU064",
+    "generic_name": "remibrutinib",
+    "indication_name": "Multiple sclerosis, relapsing remitting",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "BTK inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "LTP001",
+    "generic_name": "LTP001",
+    "indication_name": "Idiopathic pulmonary fibrosis",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "SMURF1 inhibitor",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "LTP001",
+    "generic_name": "LTP001",
+    "indication_name": "Pulmonary arterial hypertension",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "SMURF1 inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "LXE408",
+    "generic_name": "LXE408",
+    "indication_name": "Chagas",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "Proteasome inhibitor",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "LXE408",
+    "generic_name": "LXE408",
+    "indication_name": "Visceral leishmaniosis",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "Proteasome inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "MAA868",
+    "generic_name": "abelacimab",
+    "indication_name": "Atrial fibrillation",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 3",
+    "filing_date": "2028",
+    "mechanism_of_action": "FXI inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "MAS825",
+    "generic_name": "MAS825",
+    "indication_name": "Still’s disease",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "IL18 Inhibitor, IL1B",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "NIO752",
+    "generic_name": "NIO752",
+    "indication_name": "Progressive supranuclear palsy",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "Tau antisense oligonucleotide",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "NIO752",
+    "generic_name": "NIO752",
+    "indication_name": "Alzheimer’s disease",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "Tau antisense oligonucleotide",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "OJR520",
+    "generic_name": "OJR520",
+    "indication_name": "CKD",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "OMB157",
+    "generic_name": "Kesimpta®",
+    "indication_name": "Multiple sclerosis, new dosing regimen",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "CD20 antagonist",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "OMB157",
+    "generic_name": "Kesimpta®",
+    "indication_name": "Multiple sclerosis, pediatrics",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 3",
+    "filing_date": "2026",
+    "mechanism_of_action": "CD20 antagonist",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "PAC001",
+    "generic_name": "PAC001",
+    "indication_name": "ASCVD",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "Anti-IL-6 mAb",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "PAC001",
+    "generic_name": "PAC001",
+    "indication_name": "Thyroid eye disease (TED)",
+    "therapeutic_area": "Others",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "Anti-IL-6 mAb",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "PIT565",
+    "generic_name": "PIT565",
+    "indication_name": "Systemic lupus erythematosus",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "Anti-CD19, Anti-CD2, Anti-CD3",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "PIT565",
+    "generic_name": "PIT565",
+    "indication_name": "Rheumatoid arthritis",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "Anti-CD19, Anti-CD2, Anti-CD3",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "PKC412",
+    "generic_name": "Rydapt®",
+    "indication_name": "Acute myeloid leukemia, pediatrics",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 2",
+    "filing_date": "2027",
+    "mechanism_of_action": "Multi-targeted kinase inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "PKN605",
+    "generic_name": "PKN605",
+    "indication_name": "Atrial Fibrillation",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "HDAC6 Inhibitor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "QCZ484",
+    "generic_name": "QCZ484",
+    "indication_name": "Hypertension",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "QMF149",
+    "generic_name": "Atectura®",
+    "indication_name": "Asthma, pediatrics",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 3",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "LABA + ICS",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "SEG101",
+    "generic_name": "Adakveo®",
+    "indication_name": "Sickle cell disease, pediatrics",
+    "therapeutic_area": "In-market Brands and Global Health",
+    "phase": "Phase 3",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "P-selectin inhibitor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "TIN816",
+    "generic_name": "TIN816",
+    "indication_name": "Acute kidney injury",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 2",
+    "filing_date": "",
+    "mechanism_of_action": "ATP modulator",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "TQJ230",
+    "generic_name": "pelacarsen",
+    "indication_name": "CVRR (secondary prevention) in patients with elevated Lp(a)",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 3",
+    "filing_date": "2026",
+    "mechanism_of_action": "ASO targeting Lp(a)",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "VAY736",
+    "generic_name": "ianalumab",
+    "indication_name": "Systemic lupus erythematosus (SLE)",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 3",
+    "filing_date": "2028",
+    "mechanism_of_action": "BAFF-R inhibitor, ADCC-mediated B-cell depletor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "VAY736",
+    "generic_name": "ianalumab",
+    "indication_name": "Lupus Nephritis",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 3",
+    "filing_date": "2028",
+    "mechanism_of_action": "BAFF-R inhibitor, ADCC-mediated B-cell depletor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "VAY736",
+    "generic_name": "ianalumab",
+    "indication_name": "Systemic sclerosis",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "2028",
+    "mechanism_of_action": "BAFF-R inhibitor, ADCC-mediated B-cell depletor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "VAY736",
+    "generic_name": "ianalumab",
+    "indication_name": "Sjögren’s disease",
+    "therapeutic_area": "Immunology",
+    "phase": "Registration",
+    "filing_date": "2026",
+    "mechanism_of_action": "BAFF-R inhibitor, ADCC-mediated B-cell depletor",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "VAY736",
+    "generic_name": "ianalumab",
+    "indication_name": "1L Immune Thrombocytopenia",
+    "therapeutic_area": "Oncology: Hematology",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "BAFF-R inhibitor, ADCC-mediated B-cell depletor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "VAY736",
+    "generic_name": "ianalumab",
+    "indication_name": "2L Immune Thrombocytopenia",
+    "therapeutic_area": "Oncology: Hematology",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "BAFF-R inhibitor, ADCC-mediated B-cell depletor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "VAY736",
+    "generic_name": "ianalumab",
+    "indication_name": "warm Autoimmune Hemolytic Anemia",
+    "therapeutic_area": "Oncology: Hematology",
+    "phase": "Phase 3",
+    "filing_date": "2027",
+    "mechanism_of_action": "BAFF-R inhibitor, ADCC-mediated B-cell depletor",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "VHB937",
+    "generic_name": "VHB937",
+    "indication_name": "Amyotrophic lateral sclerosis",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "TREM2 stabilizer and activator",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "VHB937",
+    "generic_name": "VHB937",
+    "indication_name": "Alzheimer's disease",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "TREM2 stabilizer and activator",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "YMI024",
+    "generic_name": "YMI024",
+    "indication_name": "CVRR",
+    "therapeutic_area": "Cardiovascular, Renal and Metabolic",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "YTB323",
+    "generic_name": "rapcabtagene autoleucel",
+    "indication_name": "Rheumatoid arthritis and severe, refractory Sjögren’s disease",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "CD19 CAR-T",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "YTB323",
+    "generic_name": "rapcabtagene autoleucel",
+    "indication_name": "Systemic sclerosis",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "CD19 CAR-T",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "YTB323",
+    "generic_name": "rapcabtagene autoleucel",
+    "indication_name": "ANCA associated vasculitis",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "CD19 CAR-T",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "YTB323",
+    "generic_name": "rapcabtagene autoleucel",
+    "indication_name": "Myositis",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "CD19 CAR-T",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "YTB323",
+    "generic_name": "rapcabtagene autoleucel",
+    "indication_name": "Active refractory lupus nephritis",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "2028",
+    "mechanism_of_action": "CD19 CAR-T",
+    "indication_type": "Lead Indication"
+  },
+  {
+    "compound_name": "YTB323",
+    "generic_name": "rapcabtagene autoleucel",
+    "indication_name": "Active refractory systemic lupus erythematosus",
+    "therapeutic_area": "Immunology",
+    "phase": "Phase 2",
+    "filing_date": "2028",
+    "mechanism_of_action": "CD19 CAR-T",
+    "indication_type": "Supplementary Indication"
+  },
+  {
+    "compound_name": "YTB323",
+    "generic_name": "rapcabtagene autoleucel",
+    "indication_name": "Relapsing multiple sclerosis",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "CD19 CAR-T",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "YTB323",
+    "generic_name": "rapcabtagene autoleucel",
+    "indication_name": "Primary progressive multiple sclerosis",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "CD19 CAR-T",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "YTB323",
+    "generic_name": "rapcabtagene autoleucel",
+    "indication_name": "Generalized Myasthenia Gravis",
+    "therapeutic_area": "Neuroscience",
+    "phase": "Phase 1",
+    "filing_date": "",
+    "mechanism_of_action": "CD19 CAR-T",
+    "indication_type": ""
+  },
+  {
+    "compound_name": "YTB323",
+    "generic_name": "rapcabtagene autoleucel",
+    "indication_name": "1L high-risk large B-cell lymphoma",
+    "therapeutic_area": "Oncology: Hematology",
+    "phase": "Phase 2",
+    "filing_date": "≥ 2029",
+    "mechanism_of_action": "CD19 CAR-T",
+    "indication_type": "Supplementary Indication"
+  }
+]

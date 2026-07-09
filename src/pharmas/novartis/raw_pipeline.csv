@@ -1,0 +1,107 @@
+compound_name,generic_name,indication_name,therapeutic_area,phase,filing_date,mechanism_of_action,indication_type
+AAA601,Lutathera®,Gastroenteropancreatic neuroendocrine tumors,Oncology: Solid Tumors,Phase 3,2028,Radioligand therapy target SSTR,Supplementary Indication
+AAA601,Lutathera®,"GEPNET, pediatrics",Oncology: Solid Tumors,Phase 2,,Radioligand therapy target SSTR,
+AAA603,177Lu-NeoB,Breast cancer,Oncology: Solid Tumors,Phase 1,,Radioligand therapy target GRPR,
+AAA603,177Lu-NeoB,Multiple solid tumors,Oncology: Solid Tumors,Phase 2,≥ 2029,Radioligand therapy target GRPR,Lead Indication
+AAA614,AAA614,Solid tumors,Oncology: Solid Tumors,Phase 2,,Radioligand therapy target FAP,Lead Indication
+AAA617,Pluvicto®,Oligometastatic prostate cancer,Oncology: Solid Tumors,Phase 3,≥ 2029,Radioligand therapy target PSMA,Supplementary Indication
+AAA617,Pluvicto®,Metastatic hormone sensitive prostate cancer (mHSPC),Oncology: Solid Tumors,Registration,,Radioligand therapy target PSMA,Supplementary Indication
+AAA817,225Ac-PSMA-617,Metastatic castration-resistant prostate cancer (mCRPC),Oncology: Solid Tumors,Phase 3,≥ 2029,Radioligand therapy target PSMA,Supplementary Indication
+AAA817,225Ac-PSMA-617,post Lu Metastatic castration-resistant prostate cancer (mCRPC),Oncology: Solid Tumors,Phase 3,2028,Radioligand therapy target PSMA,Lead Indication
+ABL001,Scemblix®,"Chronic myeloid leukemia, pediatrics",Oncology: Hematology,Phase 2,2027,BCR-ABL inhibitor,Supplementary Indication
+AIN457,Cosentyx®,Polymyalgia rheumatica,Immunology,Registration,2026,IL17A inhibitor,Supplementary Indication
+AMG334,Aimovig®,"Migraine, pediatrics",In-market Brands and Global Health,Phase 3,2028,CGRPR antagonist,Supplementary Indication
+AMO959,AMO959,Prostate cancer,Oncology: Solid Tumors,Phase 1,,DNA PK inhibitor,Lead Indication
+BAF312,Mayzent®,"Multiple sclerosis, pediatrics",Neuroscience,Phase 3,2027,"S1P1,5 receptor modulator",Supplementary Indication
+BYL719,Vijoyce®,Lymphatic malformations,Oncology: Solid Tumors,Phase 3,≥ 2029,PI3K-alpha inhibitor,Supplementary Indication
+CYX082,farabursen,Autosomal dominant polycystic kidney disease,"Cardiovascular, Renal and Metabolic",Phase 1,,MIR17 inhibitor,Lead Indication
+DAK539,pelabresib,Myelofibrosis,Oncology: Hematology,Phase 3,2026,BET inhibitor,Lead Indication
+DFT383,DFT383,Cystinosis,Neuroscience,Phase 1,,CTNS gene delivery,Lead Indication
+DII235,DII235,CVRR-Lp(a),"Cardiovascular, Renal and Metabolic",Phase 2,≥ 2029,siRNA targeting Lp(a) MRNA,Lead Indication
+DWH213,del-brax,Facioscapulohumeral muscular dystrophy,Neuroscience,Phase 3,2028,siRNA DUX4 knockdown,Lead Indication
+DZR123,tulmimetostat,Metastatic prostate cancer,Oncology: Solid Tumors,Phase 1,,"EZH1, EZH2 inhibitor",
+DZR123,tulmimetostat,Solid tumors & lymphomas,Oncology: Solid Tumors,Phase 2,,"EZH1, EZH2 inhibitor",Lead Indication
+ECI830,ECI830,Breast cancer,Oncology: Solid Tumors,Phase 1,,CDK2 inhibitor,Lead Indication
+EDI048,EDI048,Cryptosporidiosis,In-market Brands and Global Health,Phase 2,,CpPI(4)K inhibitor,Lead Indication
+EDK060,EDK060,Charcot-Marie-Tooth disease,Neuroscience,Phase 1,,,Lead Indication
+ESP359,ESP359,Solid tumors,Oncology: Solid Tumors,Phase 1,,Radioligand therapy target DLL3,Lead Indication
+EWF980,del-desiran,Myotonic dystrophy type 1,Neuroscience,Phase 3,2027,siRNA DMPK knockdown,Lead Indication
+EYU688,EYU688,Dengue fever,In-market Brands and Global Health,Phase 2,,NS4B inhibitor,Lead Indication
+FUB523,zigakibart,IgA nephropathy,"Cardiovascular, Renal and Metabolic",Phase 3,2027,Anti-APRIL,Lead Indication
+FXX489,177Lu-NNS309,Solid tumors,Oncology: Solid Tumors,Phase 1,,Radioligand therapy target FAP,Lead Indication
+GCJ904,GCJ904,Solid tumors,Oncology: Solid Tumors,Phase 1,,,Lead Indication
+GHZ339,GHZ339,Atopic dermatitis,Immunology,Phase 2,≥ 2029,,Lead Indication
+GIA632,GIA632,Atopic dermatitis,Immunology,Phase 2,≥ 2029,IL-15 mAb,Lead Indication
+GIA632,GIA632,Vitiligo,Immunology,Phase 2,≥ 2029,IL-15 mAb,Supplementary Indication
+GXV813,GXV813,Schizophrenia,Neuroscience,Phase 2,,M4 agonist,Lead Indication
+HJB647,HJB647,Heart failure,"Cardiovascular, Renal and Metabolic",Phase 1,,,Lead Indication
+HTT227,votoplam,Huntington’s disease,Neuroscience,Phase 3,≥ 2029,Huntingtin modulator,Lead Indication
+INE963,INE963,Malaria,In-market Brands and Global Health,Phase 2,,Plasmodium falciparum inhibitor,Lead Indication
+IPX643,IPX643,Inflammation-driven diseases,Immunology,Phase 1,,,Lead Indication
+ITU512,ITU512,Sickle cell disease,In-market Brands and Global Health,Phase 1,,HbF inducing agent,Lead Indication
+JSB462,luxdegalutamide,Metastatic hormonal sensitive prostate cancer,Oncology: Solid Tumors,Phase 2,,Androgen receptor protein degrader,
+JSB462,luxdegalutamide,Metastatic castration resistant prostate cancer,Oncology: Solid Tumors,Phase 2,≥ 2029,Androgen receptor protein degrader,Lead Indication
+KAE609,cipargamin,"Malaria, uncomplicated",In-market Brands and Global Health,Phase 2,≥ 2029,PfATP4 inhibitor,Supplementary Indication
+KAE609,cipargamin,Malaria severe,In-market Brands and Global Health,Phase 2,≥ 2029,PfATP4 inhibitor,Lead Indication
+KJX839,Leqvio®,CVRR (primary prevention),"Cardiovascular, Renal and Metabolic",Phase 3,≥ 2029,siRNA (regulation of LDL-C),Supplementary Indication
+KJX839,Leqvio®,CVRR (secondary prevention),"Cardiovascular, Renal and Metabolic",Phase 3,2027,siRNA (regulation of LDL-C),Supplementary Indication
+KLU156,Ganaplacide + lumefantrine,"Malaria, uncomplicated",In-market Brands and Global Health,Phase 3,2026,Non-artemisinin plasmodium falciparum inhibitor,Lead Indication
+KPE179,del-zota,Duchenne muscular dystrophy,Neuroscience,Phase 2,2026,PMO mediated exon 44 skipping,Lead Indication
+LNP023,Fabhalta®,Generalized myasthenia gravis,Neuroscience,Phase 3,2027,CFB inhibitor,Supplementary Indication
+LNP023,Fabhalta®,"C3 glomerulopathy, pediatrics","Cardiovascular, Renal and Metabolic",Phase 3,,CFB inhibitor,
+LNP023,Fabhalta®,"IgAN, pediatrics","Cardiovascular, Renal and Metabolic",Phase 3,,CFB inhibitor,
+LNP023,Fabhalta®,IC-MPGN,"Cardiovascular, Renal and Metabolic",Phase 3,≥ 2029,CFB inhibitor,Supplementary Indication
+LNP023,Fabhalta®,Lupus Nephritis,"Cardiovascular, Renal and Metabolic",Phase 2,,CFB inhibitor,
+LNP023,Fabhalta®,ANCA associated vasculitis,"Cardiovascular, Renal and Metabolic",Phase 2,,CFB inhibitor,
+LNP023,Fabhalta®,"PNH, pediatrics",Oncology: Hematology,Phase 3,,CFB inhibitor,
+LNP023,Fabhalta®,Atypical Hemolytic Uremic Syndrome (aHUS),Oncology: Hematology,Phase 3,≥ 2029,CFB inhibitor,Supplementary Indication
+LNP023,Fabhalta®,iAMD,Others,Phase 2,,CFB inhibitor,
+LOU064,Rhapsido®,"Chronic spontaneous urticaria, pediatrics",Immunology,Phase 3,,BTK inhibitor,
+LOU064,Rhapsido®,Hidradenitis suppurativa,Immunology,Phase 3,2027,BTK inhibitor,Supplementary Indication
+LOU064,Rhapsido®,Chronic inducible urticaria (CINDU),Immunology,Phase 3,2026,BTK inhibitor,Supplementary Indication
+LOU064,Rhapsido®,Food allergy,Immunology,Phase 2,≥ 2029,BTK inhibitor,Supplementary Indication
+LOU064,remibrutinib,"Multiple sclerosis, secondary progressive",Neuroscience,Phase 3,≥ 2029,BTK inhibitor,Supplementary Indication
+LOU064,remibrutinib,Myasthenia gravis,Neuroscience,Phase 3,2028,BTK inhibitor,Supplementary Indication
+LOU064,remibrutinib,"Multiple sclerosis, relapsing remitting",Neuroscience,Phase 3,2027,BTK inhibitor,Supplementary Indication
+LTP001,LTP001,Idiopathic pulmonary fibrosis,"Cardiovascular, Renal and Metabolic",Phase 2,,SMURF1 inhibitor,
+LTP001,LTP001,Pulmonary arterial hypertension,"Cardiovascular, Renal and Metabolic",Phase 2,≥ 2029,SMURF1 inhibitor,Lead Indication
+LXE408,LXE408,Chagas,In-market Brands and Global Health,Phase 2,,Proteasome inhibitor,
+LXE408,LXE408,Visceral leishmaniosis,In-market Brands and Global Health,Phase 2,≥ 2029,Proteasome inhibitor,Lead Indication
+MAA868,abelacimab,Atrial fibrillation,"Cardiovascular, Renal and Metabolic",Phase 3,2028,FXI inhibitor,Lead Indication
+MAS825,MAS825,Still’s disease,Immunology,Phase 2,,"IL18 Inhibitor, IL1B",Lead Indication
+NIO752,NIO752,Progressive supranuclear palsy,Neuroscience,Phase 1,,Tau antisense oligonucleotide,Lead Indication
+NIO752,NIO752,Alzheimer’s disease,Neuroscience,Phase 1,,Tau antisense oligonucleotide,
+OJR520,OJR520,CKD,"Cardiovascular, Renal and Metabolic",Phase 1,,,Lead Indication
+OMB157,Kesimpta®,"Multiple sclerosis, new dosing regimen",Neuroscience,Phase 3,2027,CD20 antagonist,Supplementary Indication
+OMB157,Kesimpta®,"Multiple sclerosis, pediatrics",Neuroscience,Phase 3,2026,CD20 antagonist,Supplementary Indication
+PAC001,PAC001,ASCVD,"Cardiovascular, Renal and Metabolic",Phase 2,≥ 2029,Anti-IL-6 mAb,Lead Indication
+PAC001,PAC001,Thyroid eye disease (TED),Others,Phase 2,,Anti-IL-6 mAb,
+PIT565,PIT565,Systemic lupus erythematosus,Immunology,Phase 1,,"Anti-CD19, Anti-CD2, Anti-CD3",
+PIT565,PIT565,Rheumatoid arthritis,Immunology,Phase 1,,"Anti-CD19, Anti-CD2, Anti-CD3",
+PKC412,Rydapt®,"Acute myeloid leukemia, pediatrics",In-market Brands and Global Health,Phase 2,2027,Multi-targeted kinase inhibitor,Supplementary Indication
+PKN605,PKN605,Atrial Fibrillation,"Cardiovascular, Renal and Metabolic",Phase 2,,HDAC6 Inhibitor,Lead Indication
+QCZ484,QCZ484,Hypertension,"Cardiovascular, Renal and Metabolic",Phase 2,≥ 2029,,Lead Indication
+QMF149,Atectura®,"Asthma, pediatrics",In-market Brands and Global Health,Phase 3,≥ 2029,LABA + ICS,Supplementary Indication
+SEG101,Adakveo®,"Sickle cell disease, pediatrics",In-market Brands and Global Health,Phase 3,≥ 2029,P-selectin inhibitor,Supplementary Indication
+TIN816,TIN816,Acute kidney injury,"Cardiovascular, Renal and Metabolic",Phase 2,,ATP modulator,Lead Indication
+TQJ230,pelacarsen,CVRR (secondary prevention) in patients with elevated Lp(a),"Cardiovascular, Renal and Metabolic",Phase 3,2026,ASO targeting Lp(a),Lead Indication
+VAY736,ianalumab,Systemic lupus erythematosus (SLE),Immunology,Phase 3,2028,"BAFF-R inhibitor, ADCC-mediated B-cell depletor",Supplementary Indication
+VAY736,ianalumab,Lupus Nephritis,Immunology,Phase 3,2028,"BAFF-R inhibitor, ADCC-mediated B-cell depletor",Supplementary Indication
+VAY736,ianalumab,Systemic sclerosis,Immunology,Phase 2,2028,"BAFF-R inhibitor, ADCC-mediated B-cell depletor",Supplementary Indication
+VAY736,ianalumab,Sjögren’s disease,Immunology,Registration,2026,"BAFF-R inhibitor, ADCC-mediated B-cell depletor",Lead Indication
+VAY736,ianalumab,1L Immune Thrombocytopenia,Oncology: Hematology,Phase 3,2027,"BAFF-R inhibitor, ADCC-mediated B-cell depletor",Supplementary Indication
+VAY736,ianalumab,2L Immune Thrombocytopenia,Oncology: Hematology,Phase 3,2027,"BAFF-R inhibitor, ADCC-mediated B-cell depletor",Supplementary Indication
+VAY736,ianalumab,warm Autoimmune Hemolytic Anemia,Oncology: Hematology,Phase 3,2027,"BAFF-R inhibitor, ADCC-mediated B-cell depletor",Supplementary Indication
+VHB937,VHB937,Amyotrophic lateral sclerosis,Neuroscience,Phase 2,≥ 2029,TREM2 stabilizer and activator,Lead Indication
+VHB937,VHB937,Alzheimer's disease,Neuroscience,Phase 2,≥ 2029,TREM2 stabilizer and activator,Supplementary Indication
+YMI024,YMI024,CVRR,"Cardiovascular, Renal and Metabolic",Phase 1,,,Lead Indication
+YTB323,rapcabtagene autoleucel,"Rheumatoid arthritis and severe, refractory Sjögren’s disease",Immunology,Phase 1,,CD19 CAR-T,
+YTB323,rapcabtagene autoleucel,Systemic sclerosis,Immunology,Phase 2,≥ 2029,CD19 CAR-T,Supplementary Indication
+YTB323,rapcabtagene autoleucel,ANCA associated vasculitis,Immunology,Phase 2,≥ 2029,CD19 CAR-T,Supplementary Indication
+YTB323,rapcabtagene autoleucel,Myositis,Immunology,Phase 2,≥ 2029,CD19 CAR-T,Supplementary Indication
+YTB323,rapcabtagene autoleucel,Active refractory lupus nephritis,Immunology,Phase 2,2028,CD19 CAR-T,Lead Indication
+YTB323,rapcabtagene autoleucel,Active refractory systemic lupus erythematosus,Immunology,Phase 2,2028,CD19 CAR-T,Supplementary Indication
+YTB323,rapcabtagene autoleucel,Relapsing multiple sclerosis,Neuroscience,Phase 1,,CD19 CAR-T,
+YTB323,rapcabtagene autoleucel,Primary progressive multiple sclerosis,Neuroscience,Phase 1,,CD19 CAR-T,
+YTB323,rapcabtagene autoleucel,Generalized Myasthenia Gravis,Neuroscience,Phase 1,,CD19 CAR-T,
+YTB323,rapcabtagene autoleucel,1L high-risk large B-cell lymphoma,Oncology: Hematology,Phase 2,≥ 2029,CD19 CAR-T,Supplementary Indication
