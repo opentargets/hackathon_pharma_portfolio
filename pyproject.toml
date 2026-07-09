@@ -23,3 +23,9 @@ where = ["src"]
 
 [tool.setuptools.package-dir]
 "" = "src"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "nbconvert>=7.17.1",
+]
